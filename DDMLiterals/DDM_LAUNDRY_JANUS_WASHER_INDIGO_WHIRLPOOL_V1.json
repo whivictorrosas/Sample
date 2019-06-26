@@ -1,0 +1,1120 @@
+{
+    "DDMLiterals": {
+        "WashCavity_OpStatusBulkDispense1Level.Label": "Load & Go™ Dispenser 1 Level",
+        "WashCavity_OpStatusBulkDispense1Level.SmartTip": "Low level indicates that the contents of the dispenser should be refilled soon.",
+        "WashCavity_OpStatusBulkDispense1Level.EnumValues.BulkDispenseLevelDisabled.Label": "Disabled",
+        "WashCavity_OpStatusBulkDispense1Level.EnumValues.BulkDispenseLevelLow.Label": "Low",
+        "WashCavity_OpStatusBulkDispense1Level.EnumValues.BulkDispenseLevelFull.Label": "Good",
+        "WashCavity_OpStatusBulkDispense2Level.EnumValues.BulkDispenseLevelDisabled.Label": "Disabled",
+        "WashCavity_OpStatusBulkDispense2Level.EnumValues.BulkDispenseLevelLow.Label": "Low",
+        "WashCavity_OpStatusBulkDispense2Level.EnumValues.BulkDispenseLevelFull.Label": "Good",
+        "WashCavity_OpStatusBulkDispense2Level.Label": "Load & Go™ Dispenser 2 Level",
+        "WashCavity_OpStatusBulkDispense2Level.SmartTip": "Low level indicates that the contents of the dispenser should be refilled soon.",
+        "WashCavity_OpStatusBulkDispense2Level.WashCavity_OpSetBulkDispense2Selection.EnumValues.BulkDispenseSelectDetergent.Label": "Load & Go™ Dispenser 2 Level",
+        "WashCavity_OpStatusBulkDispense2Level.WashCavity_OpSetBulkDispense2Selection.EnumValues.BulkDispenseSelectSoftener.Label": "Load & Go™ Dispenser 2 Level",
+        "WashCavity_CycleStatusCleanReminder.Label": "Clean Washer Status",
+        "WashCavity_CycleStatusCleanReminder.EnumValues.0.Label": "Good",
+        "WashCavity_CycleStatusCleanReminder.EnumValues.1.Label": "Wash Cycle Needed",
+        "WashCavity_OpStatusBulkDispense1Level.EnumValues.BulkDispenseLevelLow.Description": "Load & Go™ Dispenser 1 is running low. Refill it soon or disable it to add detergent to the drum directly",
+        "WashCavity_OpStatusBulkDispense1Level.EnumValues.BulkDispenseLevelFull.Description": "Your Load & Go™ Dispenser 1 level is currently good. When your dispenser has run out, you will need to refill it or disable it to add detergent to the drum directly.",
+        "WashCavity_OpStatusBulkDispense2Level.EnumValues.BulkDispenseLevelLow.Description": "Load & Go™ Dispenser 2 is running low. Refill it soon or disable it to add detergent to the drum directly",
+        "WashCavity_OpStatusBulkDispense2Level.EnumValues.BulkDispenseLevelFull.Description": "Your Load & Go™ Dispenser 2 level is currently good. When your dispenser has run out, you will need to refill it or disable it to add detergent to the drum directly.",
+        "WashCavity_CycleStatusCleanReminder.Description": "Clean periodically to prevent odors. Select \"Clean Washer\" cycle below.",
+        "WashCavity_CycleStatusCleanReminder.SmartTip": "Indicates when it's time to run a Clean Washer with affresh® cycle.",
+        "XCat_RemoteSetRemoteControlEnable.Label": "Remote Control",
+        "WashCavity_CycleSetFresheningSelect.Label": "FanFresh®",
+        "Sys_OpSetControlLock.Label": "Control Lock",
+        "Sys_OpSetControlLock.SmartTip": "Prevents the machine from accidentally being turned on.",
+        "WashCavity_CycleSetCycleSelect.WhatTo.Label": "What to Wash",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleNormal.Label": "Regular",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleQuickWash.Label": "Regular",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleHeavyDuty.Label": "Regular",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleSanitize.Label": "Regular",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleColdWash.Label": "Regular",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleColorsBrights.Label": "Colors",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhites.Label": "Whites",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleTowels.Label": "Towels",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleBulky.Label": "Bulky Items",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleDelicates.Label": "Delicates",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToColorsBrightsHowToColdWash.Label": "Colors",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToColorsBrightsHowToQuick.Label": "Colors",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToBulkyHowToHeavyDuty.Label": "Bulky Items",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToBulkyHowToQuick.Label": "Bulky Items",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToBulkyHowToWrinkleControl.Label": "Bulky Items",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToDelicatesHowToColdWash.Label": "Delicates",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToDelicatesHowToQuick.Label": "Delicates",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToTowelsHowToHeavyDuty.Label": "Towels",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToTowelsHowToQuick.Label": "Towels",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToTowelsHowToSanitize.Label": "Towels",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToWhitesHowToHeavyDuty.Label": "Whites",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToWhitesHowToQuick.Label": "Whites",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToWhitesHowToSanitize.Label": "Whites",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToColorsBrightsHowToSanitize.Label": "Colors",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToColorsBrightsHowToHeavyDuty.Label": "Colors",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToColorsBrightsHowToWrinkleControl.Label": "Colors",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToDelicatesHowToHeavyDuty.Label": "Delicates",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToDelicatesHowToWrinkleControl.Label": "Delicates",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToWhitesHowToColdWash.Label": "Whites",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToWhitesHowToWrinkleControl.Label": "Whites",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToTowelsHowToWrinkleControl.Label": "Towels",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToTowelsHowToColdWash.Label": "Towels",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToDelicatesHowToSanitize.Label": "Delicates",
+        "WashCavity_CycleSetCycleSelect.WhatTo.EnumValues.WashCycleWhatToBulkyHowToColdWash.Label": "Bulky Items",
+        "WashCavity_CycleSetCycleSelect.HowTo.Label": "How to Wash",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleNormal.Label": "Normal",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleColorsBrights.Label": "Normal",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhites.Label": "Normal",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleTowels.Label": "Normal",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleBulky.Label": "Normal",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleDelicates.Label": "Normal",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleQuickWash.Label": "Quick",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleHeavyDuty.Label": "Heavy Duty",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleSanitize.Label": "Sanitize",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleColdWash.Label": "Cold Wash",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToColorsBrightsHowToColdWash.Label": "Cold Wash",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToColorsBrightsHowToQuick.Label": "Quick",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToBulkyHowToHeavyDuty.Label": "Heavy Duty",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToBulkyHowToQuick.Label": "Quick",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToBulkyHowToWrinkleControl.Label": "Wrinkle Control",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToDelicatesHowToColdWash.Label": "Cold Wash",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToDelicatesHowToQuick.Label": "Quick",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToTowelsHowToHeavyDuty.Label": "Heavy Duty",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToTowelsHowToQuick.Label": "Quick",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToTowelsHowToSanitize.Label": "Sanitize",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToWhitesHowToHeavyDuty.Label": "Heavy Duty",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToWhitesHowToQuick.Label": "Quick",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToWhitesHowToSanitize.Label": "Sanitize",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToColorsBrightsHowToSanitize.Label": "Sanitize",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToColorsBrightsHowToHeavyDuty.Label": "Heavy Duty",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToColorsBrightsHowToWrinkleControl.Label": "Wrinkle Control",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToDelicatesHowToHeavyDuty.Label": "Heavy Duty",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToDelicatesHowToWrinkleControl.Label": "Wrinkle Control",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToWhitesHowToColdWash.Label": "Cold Wash",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToWhitesHowToWrinkleControl.Label": "Wrinkle Control",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToTowelsHowToWrinkleControl.Label": "Wrinkle Control",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToTowelsHowToColdWash.Label": "Cold Wash",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToDelicatesHowToSanitize.Label": "Sanitize",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWhatToBulkyHowToColdWash.Label": "Cold Wash",
+        "WashCavity_CycleSetCycleSelect.HowTo.EnumValues.WashCycleWrinkleControl.Label": "Wrinkle Control",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToColorsBrightsHowToColdWash.Label": "Colors & Cold Wash",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToColorsBrightsHowToQuick.Label": "Colors & Quick",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToBulkyHowToHeavyDuty.Label": "Bulky Items & Heavy Duty",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToBulkyHowToQuick.Label": "Bulky Items & Quick",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToBulkyHowToWrinkleControl.Label": "Bulky Items & Wrinkle Control",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToDelicatesHowToColdWash.Label": "Delicates & Cold Wash",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToDelicatesHowToQuick.Label": "Delicates & Quick",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToTowelsHowToHeavyDuty.Label": "Towels & Heavy Duty",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToTowelsHowToQuick.Label": "Towels & Quick",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToTowelsHowToSanitize.Label": "Towels & Sanitize",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToWhitesHowToHeavyDuty.Label": "Whites & Heavy Duty",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToWhitesHowToQuick.Label": "Whites & Quick",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToWhitesHowToSanitize.Label": "Whites & Sanitize",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToColorsBrightsHowToSanitize.Label": "Colors & Sanitize",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToColorsBrightsHowToHeavyDuty.Label": "Colors & Heavy Duty",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToColorsBrightsHowToWrinkleControl.Label": "Colors & Wrinkle Control",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToDelicatesHowToHeavyDuty.Label": "Delicate & Heavy Duty",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToDelicatesHowToWrinkleControl.Label": "Delicate & Wrinkle Control",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToWhitesHowToColdWash.Label": "Whites & Cold Wash",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToWhitesHowToWrinkleControl.Label": "Whites & Wrinkle Control",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToTowelsHowToWrinkleControl.Label": "Towels & Wrinkle Control",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToTowelsHowToColdWash.Label": "Towels & Cold Wash",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToDelicatesHowToSanitize.Label": "Delicates & Sanitize",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhatToBulkyHowToColdWash.Label": "Bulky Items & Cold Wash",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleCleanWasher.Label": "Clean Washer with affresh®",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWrinkleControl.Label": "Wrinkle Control",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleDrainSpin.Label": "Drain & Spin",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleNormal.Label": "Normal",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleQuickWash.Label": "Quick",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleHeavyDuty.Label": "Heavy Duty",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleSanitize.Label": "Sanitize",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleColdWash.Label": "Cold Wash",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleColorsBrights.Label": "Colors",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleWhites.Label": "Whites",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleTowels.Label": "Towels",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleBulky.Label": "Bulky Items",
+        "WashCavity_CycleSetCycleSelect.EnumValues.WashCycleDelicates.Label": "Delicates",
+        "Cavity_TimeSetDelayTime.Label": "Schedule Delay",
+        "WashCavity_CycleSetSpinSpeed.Label": "Spin Speed",
+        "WashCavity_CycleSetSpinSpeed.EnumValues.SpinSpeedOff.Label": "Off",
+        "WashCavity_CycleSetSpinSpeed.EnumValues.SpinSpeedLow.Label": "Slow",
+        "WashCavity_CycleSetSpinSpeed.EnumValues.SpinSpeedMedium.Label": "Medium",
+        "WashCavity_CycleSetSpinSpeed.EnumValues.SpinSpeedHigh.Label": "Fast",
+        "WashCavity_CycleSetSpinSpeed.EnumValues.SpinSpeedExtraHigh.Label": "Extra Fast",
+        "WashCavity_CycleSetExtraRinseSelect.Label": "Extra Rinse",
+        "WashCavity_CycleSetTemperature.Label": "Temperature",
+        "WashCavity_CycleSetTemperature.EnumValues.WashTempCold.Label": "Cold",
+        "WashCavity_CycleSetTemperature.EnumValues.WashTempCool.Label": "Cool",
+        "WashCavity_CycleSetTemperature.EnumValues.WashTempWarm.Label": "Warm",
+        "WashCavity_CycleSetTemperature.EnumValues.WashTempHot.Label": "Hot",
+        "WashCavity_CycleSetTemperature.EnumValues.WashTempExtraHot.Label": "Extra Hot",
+        "WashCavity_CycleSetSoilLevel.Label": "Soil Level",
+        "WashCavity_CycleSetSoilLevel.EnumValues.SoilLevelLight.Label": "Light",
+        "WashCavity_CycleSetSoilLevel.EnumValues.SoilLevelNormal.Label": "Normal",
+        "WashCavity_CycleSetSoilLevel.EnumValues.SoilLevelHeavy.Label": "Heavy",
+        "WashCavity_CycleSetPresoakNotTimedEnable.Label": "Presoak",
+        "WashCavity_OpSetBulkDispense1Concentration.Label": "Detergent Concentration",
+        "WashCavity_OpSetBulkDispense2Concentration.Label": "Detergent Concentration",
+        "WashCavity_CycleSetBulkDispense1Enable.Label": "Load & Go™ Dispenser 1",
+        "WashCavity_CycleSetBulkDispense1Enable.EnumValues.BulkDispenseEnablePermanentlyDisabled.Label": "Off (Permanently)",
+        "WashCavity_CycleSetBulkDispense1Enable.EnumValues.BulkDispenseEnablePermanentlyEnabled.Label": "Active",
+        "WashCavity_CycleSetBulkDispense1Enable.EnumValues.BulkDispenseEnableNextCycleDisabled.Label": "Disabled (1 Cycle)",
+        "WashCavity_CycleSetBulkDispense2Enable.Label": "Load & Go™ Dispenser 2",
+        "WashCavity_CycleSetBulkDispense2Enable.EnumValues.BulkDispenseEnablePermanentlyDisabled.Label": "Off (Permanently)",
+        "WashCavity_CycleSetBulkDispense2Enable.EnumValues.BulkDispenseEnablePermanentlyEnabled.Label": "Active",
+        "WashCavity_CycleSetBulkDispense2Enable.EnumValues.BulkDispenseEnableNextCycleDisabled.Label": "Disabled (1 Cycle)",
+        "WashCavity_OpSetBulkDispense2Selection.Label": "Content",
+        "WashCavity_OpSetBulkDispense2Selection.EnumValues.BulkDispenseSelectDisabled.Label": "Disabled",
+        "WashCavity_OpSetBulkDispense2Selection.EnumValues.BulkDispenseSelectSoftener.Label": "Softener",
+        "WashCavity_OpSetBulkDispense2Selection.EnumValues.BulkDispenseSelectDetergent.Label": "Detergent",
+        "Generic_EnergyProfileSetting.Label": "Energy Settings",
+        "Generic_UtilityID.Label": "Utility Cycles",
+        "WashCavity_CycleStatusAddGarment.Label": "Add Garment",
+        "WashCavity_CycleStatusDraining.Label": "Draining",
+        "WashCavity_CycleStatusDrying.Label": "Drying",
+        "WashCavity_CycleStatusFilling.Label": "Filling",
+        "WashCavity_CycleStatusRinsing.Label": "Rinsing",
+        "WashCavity_CycleStatusSensing.Label": "Sensing",
+        "WashCavity_CycleStatusSoaking.Label": "Soaking",
+        "WashCavity_CycleStatusSpinning.Label": "Spinning",
+        "WashCavity_CycleStatusWashing.Label": "Washing",
+        "Generic_Drying.Label": "Drying",
+        "Cavity_CycleSetSteamEnable.Label": "Steam Clean",
+        "Generic_WashOptions.Label": "Wash Options",
+        "Generic_DryOptions.Label": "Dry Options",
+        "Generic_Dryonly.Label": "Dry Only",
+        "Generic_Dryonly.Description": "Allows you to skip the wash cycle",
+        "Generic_QuietMode.Label": "Quiet Mode",
+        "Generic_QuietMode.SmartTip": "Turns off button sounds and end of cycle notifications.",
+		"WashCavity.Label": "Washer",
+		"XCat_ApplianceInfoSetModelNumber.Label": "Appliance Info Set Model Number",
+        "XCat_ApplianceInfoSetSerialNumber.Label": "Appliance Info Set Serial Number",
+        "XCat_DateTimeMode.Label": "Date Time Mode",
+        "XCat_DstOffset.Label": "DST Offset",
+        "XCat_InServiceDate.Label": "In Service Date",
+        "XCat_OdometerStatusRunningHours.Label": "Odometer Status Running Hours",
+        "XCat_OdometerStatusTotalHours.Label": "Odometer Status Total Hours",
+        "XCat_online.Label": "Online",
+        "XCat_PersistentInfoMacAddress.Label": "Persistent Info Mac Address",
+        "XCat_PersistentInfoSaid.Label": "Persistent Info Said",
+        "XCat_PersistentInfoVersion.Label": "Persistent Info Version",
+        "XCat_PowerStatusEnergyConsumption.Label": "Power Status Energy Consumption",
+        "XCat_PowerStatusPowerOutage.Label": "Power Status Power Outage",
+        "XCat_SmartGridSetSmartGridEnable.Label": "Smart Grid Set Smart Grid Enable",
+        "XCat_SmartGridSetSmartGridMode.Label": "Smart Grid Set Smart Grid Mode",
+        "XCat_SmartGridStatusSmartGridCompliant.Label": "Smart Grid Status Smart Grid Compliant",
+        "XCat_SmartGridStatusSmartGridCompliant.EnumValues.None.Label": "None",
+        "XCat_SmartGridStatusSmartGridCompliant.EnumValues.UserOverride.Label": "User Override",
+        "XCat_SmartGridStatusSmartGridCompliant.EnumValues.ApplianceOverride.Label": "Appliance Override",
+        "XCat_TimeZoneId.Label": "Time Zone ID",
+        "XCat_trid.Label": "Trid",
+        "XCat_trid_result.Label": "Trid Result",
+        "XCat_UtcOffset.Label": "UTC Offset",
+        "XCat_WifiSetPublishApplianceState.Label": "WiFi Set Publish Appliance State",
+        "XCat_WifiStatusRssiAntennaDiversity.Label": "WiFi Status RSSI Antenna Diversity",
+        "XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display"
+    },
+    "AFCSelfHelpPack": {
+        "F0,E1": {
+            "ErrorCode": "F0,E1",
+            "Type": "General Fault",
+            "Name": "Load detected",
+            "Description": "Load detected inside washer. Clean washer cannot be run with a load.",
+            "StepsToRepair": [
+                "Please remove load and restart cycle.",
+                "If problem persists call for service. Service code: F0E1"
+            ],
+            "HelpPath": "http://www.kaltura.com/tiny/rrwk0"
+        },
+        "F0,E2": {
+            "ErrorCode": "F0,E2",
+            "Type": "General Fault",
+            "Name": "Over suds detected",
+            "Description": "Looks like there are too many suds in the washer. You may experience longer cycle times as the washer tries to clear the soap.",
+            "StepsToRepair": [
+                "Suds reduction routine running. Allow washer to continue. Use only HE detergent.",
+                "If problem persists call for service. Service code: F0E2"
+            ],
+            "HelpPath": "http://www.kaltura.com/tiny/nqlm1"
+        },
+        "F0,E5": {
+            "ErrorCode": "F0,E5",
+            "Type": "General Fault",
+            "Name": "Off balance load detected",
+            "Description": "Looks like there's an unbalanced load in the washer. You may experience longer cycle times as the washer tries to correct for this.",
+            "StepsToRepair": [
+                "Load unbalanced or too large. See “Cycle Guide” and “Using Your Washer”.",
+                "If problem persists call for service. Service code: F0E5."
+            ],
+            "HelpPath": "http://www.kaltura.com/tiny/u4ob1"
+        },
+        "F1,E1": {
+            "ErrorCode": "F1,E1",
+            "Type": "General Fault",
+            "Name": "ACU Memory corruption or Hardware failure",
+            "Description": "Looks like there's an error that requires a washer reboot.",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                "If problem persists for service. Service code: F1E1. ACU failure."
+            ],
+            "HelpPath": "http://www.kaltura.com/tiny/n1a7l"
+        },
+        "F1,E2": {
+            "ErrorCode": "F1,E2",
+            "Type": "General Fault",
+            "Name": "MCU Memory corruption or Hardware failure",
+            "Description": "Looks like there's an error that requires a washer reboot.",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                "If problem persists for service. Service code: F1E2. ACU (MCU) failure."
+            ],
+            "HelpPath": "http://www.kaltura.com/tiny/n1a7l"
+        },
+        "F3,E1": {
+            "ErrorCode": "F3,E1",
+            "Type": "General Fault",
+            "Name": "APS out of range, unplugged or shoted",
+            "Description": "Looks like there's an error that requires a washer reboot.",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet. ",
+                "If problem persists call for service. Service code: F3E1 Analog Pressure Failure"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F3,E2": {
+            "ErrorCode": "F3,E2",
+            "Type": "General Fault",
+            "Name": "Wash NTC short Circuit fault",
+            "Description": "Looks like there's an error that requires a washer reboot.",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet. ",
+                "If problem persists call for service. Service code: F3E2 Wash NTC Failure"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F3,E5": {
+            "ErrorCode": "F3,E5",
+            "Type": "General Fault",
+            "Name": "Dry NTC open circuit fault",
+            "Description": "Looks like there's an error that requires a washer reboot. ",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet. ",
+                "If problem persists call for service. Service code: F3E5 Dry NTC Failure"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F3,E6": {
+            "ErrorCode": "F3,E6",
+            "Type": "General Fault",
+            "Name": "Accelerometer failed self test",
+            "Description": "Looks like there's an error that requires a washer reboot.",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                "If problem persists call for service. Service code: F3E6 Accelerometer Failure"
+            ],
+            "HelpPath": "http://www.kaltura.com/tiny/n1a7l"
+        },
+        "F4,E1": {
+            "ErrorCode": "F4,E1",
+            "Type": "General Fault",
+            "Name": "Wash heater relay short error",
+            "Description": " Looks like there's an error that requires a washer reboot. ",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                "If problem persists call for service. Service code: F4E1 Heater Relay Failure"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F4,E4": {
+            "ErrorCode": "F4,E4",
+            "Type": "General Fault",
+            "Name": "Dry Fan Triac Open Circuit Fault",
+            "Description": "Looks like there's an error that requires a washer reboot. ",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                "If problem persists call for service. Service code: F4E4 Fan Failure"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F5,E1": {
+            "ErrorCode": "F5,E1",
+            "Type": "General Fault",
+            "Name": "Door switch open when locked",
+            "Description": "Looks like there's an error that requires a washer reboot. ",
+            "StepsToRepair": [
+                "Problem detected with door lock. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                " If problem persists, call for service. Service code: F5E1 Door Switch failure"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F5,E2": {
+            "ErrorCode": "F5,E2",
+            "Type": "General Fault",
+            "Name": "Door cannot be locked",
+            "Description": "Looks like there's an error that requires a washer reboot. ",
+            "StepsToRepair": [
+                "Problem detected with door lock. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                " If problem persists, call for service. Service code: F5E2 Door cannnot be locked"
+            ],
+            "HelpPath": "http://www.kaltura.com/tiny/tramx"
+        },
+        "F5,E3": {
+            "ErrorCode": "F5,E3",
+            "Type": "General Fault",
+            "Name": "Door cannot unlocked",
+            "Description": " Looks like there's an error that requires a washer reboot. ",
+            "StepsToRepair": [
+                "Problem detected with door lock. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                " If problem persists, call for service. Service code: F5E3 Door Lock cannot be unlocked"
+            ],
+            "HelpPath": "http://www.kaltura.com/tiny/tramx"
+        },
+        "F5,E4": {
+            "ErrorCode": "F5,E4",
+            "Type": "General Fault",
+            "Name": "Door not open during consecutive cycles",
+            "Description": " Looks like there's an error that requires a washer reboot.",
+            "StepsToRepair": [
+                "Door not open between cycles, please open and close the door before re-starting the cycle.",
+                "If problem persists, call for service.  Service Code F5E4 Door not open between consecutive cycles"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F6,E1": {
+            "ErrorCode": "F6,E1",
+            "Type": "General Fault",
+            "Name": "Communications problem between ACU and MCU",
+            "Description": " Looks like there's an error that requires a washer reboot.",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet. ",
+                "If problem persists call for service. Service code: F6E1 Communication lost with MCU"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F6,E2": {
+            "ErrorCode": "F6,E2",
+            "Type": "General Fault",
+            "Name": "Communication missing from ACU to HMI",
+            "Description": "  Looks like there's an error that requires a washer reboot.",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                "If problem persists call for service. Service code: F6E2 Communication lost with ACU"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F6,E3": {
+            "ErrorCode": "F6,E3",
+            "Type": "General Fault",
+            "Name": "Communication missing from HMI to ACU",
+            "Description": "Looks like there's an error that requires a washer reboot.",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                "If problem persists call for service. Service code: F6E3 Communication lost with HMI"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F7,E2": {
+            "ErrorCode": "F7,E2",
+            "Type": "General Fault",
+            "Name": "Motor control over temperature",
+            "Description": " Looks like there's an error that requires a washer reboot. ",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                "If problem persists call for service. Service code: F7E2 Motor Control Over Temperature"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F7,E8": {
+            "ErrorCode": "F5,E2",
+            "Type": "General Fault",
+            "Name": "Motor over temperature detected",
+            "Description": " Looks like there's an error that requires a washer reboot. ",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                "If problem persists call for service. Service code: F7E8 Motor Temperature Max"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F7,E9": {
+            "ErrorCode": "F7,E9",
+            "Type": "General Fault",
+            "Name": "Locked Rotor",
+            "Description": "  Looks like there's an error that requires a washer reboot.",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                "If problem persists call for service. Verify there is no object obstructing basket movement. Service code: F7E9 Locked Rotor"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F7,EA": {
+            "ErrorCode": "F7,EA",
+            "Type": "General Fault",
+            "Name": "Lost phase",
+            "Description": " Looks like there's an error that requires a washer reboot.",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                "If problem persists call for service.. Service code: F7EA Lost Phase"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F7,EC": {
+            "ErrorCode": "F7,EC",
+            "Type": "General Fault",
+            "Name": "Overload",
+            "Description": "Looks like there's an error that requires a washer reboot. ",
+            "StepsToRepair": [
+                "Problem detected with washer. If power cord accessible try resetting machine by unplugging and replugging machine power to wall outlet.",
+                "Verify there is no object obstructing basket movement or load is too large. ",
+                "If problem persists call for service. Service code: F7EC Overload"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F8,E1": {
+            "ErrorCode": "F8,E1",
+            "Type": "General Fault",
+            "Name": "Long Fill",
+            "Description": "Looks like the washer is taking too long to fill or will not fill and has cancelled the cycle. ",
+            "StepsToRepair": [
+                "No water detected. Be sure home water supply is turned on.",
+                "Check for kinks in water supply hose.",
+                "If problem persists, call for service. Service code: F8E1."
+            ],
+            "HelpPath": "TBD"
+        },
+        "F8,E3": {
+            "ErrorCode": "F8,E3",
+            "Type": "General Fault",
+            "Name": "Overflow detection",
+            "Description": "Water inlet valve leaking internally. Schedule service. Service code: F8E3",
+            "StepsToRepair": [
+                "Water inlet valve leaking internally. Schedule service. Service code: F8E3"
+            ],
+            "HelpPath": "TBD"
+        },
+        "F9,E1": {
+            "ErrorCode": "F9,E1",
+            "Type": "General Fault",
+            "Name": "Cannot take water out of the system when Drain Pump is on",
+            "Description": " Make sure bellow drain holes and standpipe are clear. If problem persists, call for service. Service code: F9E1.",
+            "StepsToRepair": [
+                "Long drain time. Check drain pump filter.",
+                "Make sure bellow drain holes and standpipe are clear. ",
+                "If problem persists, call for service. Service code: F9E1."
+            ],
+            "HelpPath": "TBD"
+        }
+    },
+    "MobileLiterals": {
+        "Manuals": {
+            "UseCareGuide": {
+                "Title": "Use and Care Guide",
+                "FilePath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_V1/DOCS/ENG/W11339488A.pdf"
+            },
+            "InstallationInstructions": {
+                "Title": "Installation Instructions",
+                "FilePath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_V1/DOCS/ENG/W11156977A.pdf"
+            },
+            "QuickReferenceGuide": {
+                "Title": "Quick Reference Guide",
+                "FilePath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_V1/DOCS/ENG/W11339711A.pdf"
+            }
+        },
+        "NestSettings": {
+            "NestHome.Name": "Nest™ Home 1",
+            "HomeCombo.Name": "Home Washer",
+            "FanFresh.Name": "Fresh While Away",
+            "FanFresh.Description": "If your washer is running while Nest® detects you are Away the FanFresh® option will start after the wash cycle is complete.  Nest Away signal may take up to two hours.",
+            "SmartEnergy.Name": "Smart Energy",
+            "SmartEnergy.Description": "If enabled by your energy provider, the Washer will set an automatic delay start so that your appliance will not run during peak energy hours. "
+        },
+        "SpecialtyCycles": {
+            "Activewear.Name": "Activewear",
+            "Activewear.Description": "A cycle designed for activewear that uses warm temperatures and extra fast spin speeds.",
+            "Activewear.LongDescription": "A cycle designed for activewear that uses warm temperatures and extra fast spin speeds.",
+            "Activewear.IconPath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_COMBO_INDIGO_WHIRLPOOL_V1/DOCS/ENG/activewear.png",
+            "Jeans.Name": "Jeans",
+            "Jeans.Description": "A cycle designed for jeans that uses warm temperatures and extra fast spin speeds.",
+            "Jeans.LongDescription": "A cycle designed for jeans that uses warm temperatures and extra fast spin speeds.",
+            "Jeans.IconPath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_COMBO_INDIGO_WHIRLPOOL_V1/DOCS/ENG/jeans.png",
+            "Swimwear.Name": "Swimwear",
+            "Swimwear.Description": "A cycle designed for swimwear that uses cold temperatures and medium spin speeds.",
+            "Swimwear.LongDescription": "A cycle designed for swimwear that uses cold temperatures and medium spin speeds.",
+            "Swimwear.IconPath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_COMBO_INDIGO_WHIRLPOOL_V1/DOCS/ENG/swimwear.png",
+            "SleepingBags.Name": "Sleeping Bags",
+            "SleepingBags.Description": "A cycle designed for sleeping bags that uses warm temperatures and medium spin speeds.",
+            "SleepingBags.LongDescription": "A cycle designed for sleeping bags that uses warm temperatures and medium spin speeds.",
+            "SleepingBags.IconPath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_COMBO_INDIGO_WHIRLPOOL_V1/DOCS/ENG/sleepingBags.png",
+            "BusinessCasual.Name": "Business Casual",
+            "BusinessCasual.Description": "A cycle designed for business casual items like shirts and blouses that uses cool temperatures and fast spin speeds.",
+            "BusinessCasual.LongDescription": "A cycle designed for business casual items like shirts and blouses that uses cool temperatures and fast spin speeds.",
+            "BusinessCasual.IconPath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_COMBO_INDIGO_WHIRLPOOL_V1/DOCS/ENG/businesscasual.png",
+            "Comforters.Name": "Comforters",
+            "Comforters.Description": "A cycle designed for bulky items like comforters and jackets that uses warm temperatures and medium spin speeds.",
+            "Comforters.LongDescription": "A cycle designed for bulky items like comforters and jackets that uses warm temperatures and medium spin speeds.",
+            "Comforters.IconPath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_COMBO_INDIGO_WHIRLPOOL_V1/DOCS/ENG/comforters.png",
+            "Blankets.Name": "Blankets",
+            "Blankets.Description": "A cycle designed for blankets that uses hot temperatures and extra fast spin speeds.",
+            "Blankets.LongDescription": "A cycle designed for blankets that uses hot temperatures and extra fast spin speeds.",
+            "Blankets.IconPath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_COMBO_INDIGO_WHIRLPOOL_V1/DOCS/ENG/blankets.png",
+            "CoatsJackets.Name": "Coats/Jackets",
+            "CoatsJackets.Description": "A cycle that uses cold temperatures & fast spin speeds to wash coats & jackets.",
+            "CoatsJackets.LongDescription": "A cycle designed for coats and jackets that uses cold temperatures and fast spin speeds.",
+            "CoatsJackets.IconPath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_COMBO_INDIGO_WHIRLPOOL_V1/DOCS/ENG/coatsJackets.png",
+            "Lingerie.Name": "Delicate Underwear",
+            "Lingerie.Description": "A cycle designed for delicate underwear that uses cool temperatures and slow spin speeds.",
+            "Lingerie.LongDescription": "A cycle designed for delicate underwear that uses cool temperatures and slow spin speeds.",
+            "Lingerie.IconPath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_COMBO_INDIGO_WHIRLPOOL_V1/DOCS/ENG/lingerie.png",
+            "MachineWashCurtains.Name": "Machine Wash Curtains",
+            "MachineWashCurtains.Description": "A cycle designed for machine wash curtains that uses cold temperatures and medium spin speeds.",
+            "MachineWashCurtains.LongDescription": "A cycle designed for machine wash curtains that uses cold temperatures and medium spin speeds.",
+            "MachineWashCurtains.IconPath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_COMBO_INDIGO_WHIRLPOOL_V1/DOCS/ENG/machineWashCurtains.png",
+            "Diapers.Name": "Cloth Diapers",
+            "Diapers.Description": "A cycle designed for cloth diapers that uses extra hot temperatures and extra fast spin speeds.",
+            "Diapers.LongDescription": "A cycle designed for cloth diapers that uses extra hot temperatures and extra fast spin speeds.",
+            "Diapers.IconPath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_COMBO_INDIGO_WHIRLPOOL_V1/DOCS/ENG/diapers.png"
+        },
+        "Notifications": {
+            "LaundryTips": {
+                "Name": "Laundry Tips",
+                "Description": "Laundry Tips"
+            },
+            "BulkDispense1Level": {
+                "Name": "Load & Go™ Dispenser 1 Low Level",
+                "Description": "Load & Go™ Dispenser 1 Low Level"
+            },
+            "BulkDispense2Level": {
+                "Name": "Load & Go™ Dispenser 2 Low Level",
+                "Description": "Load & Go™ Dispenser 2 Low Level"
+            },
+            "CustomerFaultCode": {
+                "Name": "Error Notification",
+                "Description": "Error Notification"
+            },
+            "MachineState": {
+                "Name": "Washing Complete",
+                "Description": "Washing Complete"
+            },
+            "CleanReminder": {
+                "Name": "Clean Washer Reminder",
+                "Description": "Clean Washer Reminder"
+            },
+            "LaundryOnWhileAway": {
+                "Name": "Nest Away Signal",
+                "Description": "Nest Away Signal"
+            },
+            "DetergentDispenser": {
+                "Name": "Detergent Dispenser",
+                "Description": "Turns automatic dosing on and off"
+            },
+            "DetergentConcentration": {
+                "Name": "Detergent Concentration",
+                "Description": "Allow user to adjust the concentration level of detergent they are using"
+            },
+            "Status": {
+                "Name": "Status",
+                "Description": "This button launches a picker allowing the user to select Active or Inactive, effectively turning dispensing on/off"
+            },
+            "Content": {
+                "Name": "Content",
+                "Description": "This button launches a picker allowing the user to change the chamber between Detergent and Softener"
+            },
+            "QuiteMode": {
+                "Name": "Quite Mode",
+                "Description": "Toggles quiet mode on and off."
+            },
+            "ControlLock": {
+                "Name": "Control Lock",
+                "Description": "Toggles the control lock feature on and off. Control lock toggle is disabled and inactive when appliance is running."
+            },
+            "DryOnly": {
+                "Name": "Dry Only",
+                "Description": "Allows you to skip the wash cycle."
+            }
+        },
+        "GlobalGoverningStates": {
+            "Party": {
+                "Name": "Party Mode",
+                "Description": "Party Mode is designed to perform function that helps service high volume consumption. Party Mode will keep the oven warning and the freezer producing more ice,perfect for hosting a party."
+            },
+            "Quiet": {
+                "Name": "Quiet Mode",
+                "Description": "Quiet Mode Minimizes the appliances operating noise and mutes alert sounds."
+            },
+            "Control": {
+                "Name": "Control Lock",
+                "Description": "Control Lock status of the control panel to prevent unintended use of the participating appliances."
+            },
+            "Vacation": {
+                "Name": "Vacation Mode",
+                "Description": "Vacation Mode monitors use of your appliances while you're away."
+            }
+        },
+        "RelatedVideos": {
+            "Name": "Related Videos",
+            "WaterLevelsLowerThanExpected": {
+                "Name": "Water Levels Lower Than Expected",
+                "url": "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1441885203&entry_id=1_up4wdlkz"
+            },
+            "HEDetergentRequirements": {
+                "Name": "HE Detergent Requirements",
+                "url": "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1441885203&entry_id=1_49fpmug1"
+            },
+            "HowtoRemoveWasherOdors": {
+                "Name": "How to Remove Washer Odors",
+                "url": "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1441885203&entry_id=1_1nlfx1ni"
+            }
+        },
+        "SupplyItem": {
+            "ExtendedWarranty": {
+                "Name": "Extended Warranty",
+                "Description": "Extended Warranty",
+                "Disclaimer": "Extended Warranty",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Whirlpool",
+                        "url": "https://serviceplans.whirlpool.com/",
+                        "Country": "United States"
+                    }
+                ]
+            },
+            "ScheduleService": {
+                "Name": "Schedule Service",
+                "Description": "Schedule Service",
+                "Disclaimer": "",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Whirlpool",
+                        "Country": "United States",
+                        "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2s6V1A7c2E6Mjc&cparam="
+                    },
+                    {
+                        "Merchant": "Whirlpool",
+                        "Country": "Canada",
+                        "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2s6V0M7c2E6NDA&cparam="
+                    },
+                    {
+                        "Merchant": "Whirlpool",
+                        "Country": "Mexico",
+                        "url": "http://servicio.whirlpool.com.mx/servicio.php"
+                    }
+                ]
+            },
+            "MachineCleaningWipes": {
+                "Name": "affresh® Machine Cleaning Wipes",
+                "Description": "Keeping your washer looking like new is easy, thanks to the versatility of affresh® Machine Cleaning Wipes—the strongest and thickest washing machine cleaning wipe available. Featuring dual-sided durability, a clean lemongrass scent and Micro-Grab™ fibers that visibly lift and lock in residue, dirt and dust from machine surfaces, no other washing machine wipe cleans better.",
+                "Disclaimer": "Keeping your washer looking like new is easy, thanks to the versatility of affresh® Machine Cleaning Wipes—the strongest and thickest washing machine cleaning wipe available. Featuring dual-sided durability, a clean lemongrass scent and Micro-Grab™ fibers that visibly lift and lock in residue, dirt and dust from machine surfaces, no other washing machine wipe cleans better.",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Amazon",
+                        "Country": "United States",
+                        "url": "https://www.amazon.com/Affresh-W10355053-Machine-Cleaning-Wipes/dp/B01BHUSR38/ref=sr_1_1?s=hi&ie=UTF8&qid=1532454323&sr=1-1&keywords=W10355053&th=1",
+                        "FilePath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_V1/DOCS/ENG/amazon_logo_RGB.jpg"
+                    }
+                ]
+            },
+            "MachineCleanerTablets6count": {
+                "Name": "affresh® Washing Machine Cleaner Tablets – 6 count",
+                "Description": "Did you know that your washing machine needs a wash of its own? That’s why each affresh® Washing Machine Cleaner tablet is specially formulated to help keep your washing machine performing and looking like new. Simply drop a tablet in for a clean with confidence.",
+                "Disclaimer": "Did you know that your washing machine needs a wash of its own? That’s why each affresh® Washing Machine Cleaner tablet is specially formulated to help keep your washing machine performing and looking like new. Simply drop a tablet in for a clean with confidence.",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Amazon",
+                        "Country": "United States",
+                        "url": "https://www.amazon.com/Affresh-Washer-Machine-Cleaner-6-Tablets/dp/B00C91Q86I/ref=sr_1_1?s=hi&ie=UTF8&qid=1532454376&sr=8-1&keywords=W10501250",
+                        "FilePath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_WASHER_INDIGO_WHIRLPOOL_V1/DOCS/ENG/amazon_logo_RGB.jpg"
+                    }
+                ]
+            }
+        },
+        "SmartTip": [
+            {
+                "Id": 1,
+                "Title": "Care Tip",
+                "Content": "Be sure to use high efficiency (HE) detergents with high efficiency clothes washers. HE detergent produces fewer suds and helps keep your machine performing at its best."
+            },
+            {
+                "Id": 2,
+                "Title": "Care Tip",
+                "Content": "When washing white towels, try using the warmest water option safe for your towels. Using a detergent with bleach will help those towels come out clean and bright."
+            },
+            {
+                "Id": 3,
+                "Title": "Care Tip",
+                "Content": "Wash and dry their uniform right in the washer with the Wash & Dry cycle so it’s ready to wear in the morning."
+            },
+            {
+                "Id": 4,
+                "Title": "Care Tip",
+                "Content": "Care for colored fabrics with a cycle that uses cold water like Cold Wash cycle to provide optimal fabric care."
+            }
+        ],
+        "cxcDetail": {
+            "US": {
+                "Country": "United States",
+                "cxcEmail": {
+                    "Development": "Connected_Appliances@Whirlpool.com",
+                    "Test": "Connected_Appliances@Whirlpool.com",
+                    "Staging": "Connected_Appliances@Whirlpool.com",
+                    "Cuft": "Connected_Appliances@Whirlpool.com",
+                    "Production": "Connected_Appliances@Whirlpool.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-866-555-1212",
+                    "Test": "1-866-333-4591",
+                    "Staging": "1-866-333-4591",
+                    "Cuft": "1-866-555-1212",
+                    "Production": "1-866-333-4591"
+                },
+                "cxcHours": {
+                    "Development": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Test": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Staging": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Cuft": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Production": "8.00 AM-8.00 PM EST,Monday-Friday"
+                }
+            },
+            "CA": {
+                "Country": "Canada",
+                "cxcEmail": {
+                    "Development": "Connected_Appliances@Whirlpool.com",
+                    "Test": "Connected_Appliances@Whirlpool.com",
+                    "Staging": "Connected_Appliances@Whirlpool.com",
+                    "Cuft": "Connected_Appliances@Whirlpool.com",
+                    "Production": "Connected_Appliances@Whirlpool.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-866-555-1212",
+                    "Test": "1-866-333-4591",
+                    "Staging": "1-866-333-4591",
+                    "Cuft": "1-866-555-1212",
+                    "Production": "1-866-333-4591"
+                },
+                "cxcHours": {
+                    "Development": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Test": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Staging": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Cuft": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Production": "8.00 AM-8.00 PM EST,Monday-Friday"
+                }
+            }
+        },
+        "Replenishment": {},
+        "LaundryDAPaths": [
+            {
+                "StainGuide": [
+                    "NAR/LAUNDRY/STAINGUIDE/eng",
+                    "NAR/LAUNDRY/STAINGUIDE/stainguide_v2.sqlite"
+                ],
+                "TIPs": [
+                    "NAR/LAUNDRY/TIPS/WHIRLPOOL/SmartTips/eng",
+                    "NAR/LAUNDRY/TIPS/WHIRLPOOL/GeneralTips/eng"
+                ],
+                "WorryFreeAlert": [
+                    "NAR/LAUNDRY/TIPS/WHIRLPOOL/WorryFreeAlert/eng"
+                ],
+                "ReadyAt": [
+                    "NAR/LAUNDRY/READYAT/LaundryETR_ReadyAt_v1.sqlite"
+                ]
+            }
+        ]
+    },
+    "NotificationMessages": {
+        "NotificationContents": [
+            {
+                "TemplateId": "MachineState",
+                "SmsText": "Your clothes are clean!",
+                "EmailText": "Your clothes are clean!",
+                "PushText": "Your clothes are clean!",
+                "AlertTitle": "Cycle Alert",
+                "Type": "cycle"
+            },
+            {
+                "TemplateId": "BulkDispense1Level",
+                "SmsText": "Load & Go™ Dispenser 1 is running low. Refill it soon or disable it to add detergent to the drum directly.",
+                "EmailText": "Load & Go™ Dispenser 1 is running low. Refill it soon or disable it to add detergent to the drum directly.",
+                "PushText": "Load & Go™ Dispenser 1 is running low. Refill it soon or disable it to add detergent to the drum directly.",
+                "AlertTitle": "Load & Go™ Dispenser 1 Low Level",
+                "Type": "detergentdispenser"
+            },
+            {
+                "TemplateId": "BulkDispense2Level",
+                "SmsText": "Load & Go™ Dispenser 2 is running low. Refill it soon or disable it to add detergent or softener to the drum directly.",
+                "EmailText": "Load & Go™ Dispenser 2 is running low. Refill it soon or disable it to add detergent or softener to the drum directly.",
+                "PushText": "Load & Go™ Dispenser 2 is running low. Refill it soon or disable it to add detergent or softener to the drum directly.",
+                "AlertTitle": "Load & Go™ Dispenser 2 Low Level",
+                "Type": "detergentdispenser"
+            },
+            {
+                "TemplateId": "ControlLockEnable",
+                "SmsText": "Washer controls have been locked ",
+                "EmailText": "Washer controls have been locked ",
+                "PushText": "Washer controls have been locked ",
+                "AlertTitle": "Control Lock",
+                "Type": "lock"
+            },
+            {
+                "TemplateId": "ControlLockDisable",
+                "SmsText": "Washer controls have been unlocked ",
+                "EmailText": "Washer controls have been unlocked ",
+                "PushText": "Washer controls have been unlocked ",
+                "AlertTitle": "Control Lock",
+                "Type": "lock"
+            },
+            {
+                "TemplateId": "CleanReminder",
+                "SmsText": "Reminder to run the Clean Washer cycle. Use an affresh® washing machine cleaning tablet for optimal results.",
+                "EmailText": "Reminder to run the Clean Washer cycle. Use an affresh® washing machine cleaning tablet for optimal results.",
+                "PushText": "Reminder to run the Clean Washer cycle. Use an affresh® washing machine cleaning tablet for optimal results.",
+                "AlertTitle": "Clean Washer Reminder",
+                "Type": "affresh"
+            },
+            {
+                "TemplateId": "LaundryOnWhileAwayTumbleFresh",
+                "SmsText": "Away mode signal received from the Nest Learning Thermostat™. Will activate the TumbleFresh™ option at the end of the cycle.",
+                "EmailText": "Away mode signal received from the Nest Learning Thermostat™. Will activate the TumbleFresh™ option at the end of the cycle.",
+                "PushText": "Away mode signal received from the Nest Learning Thermostat™. Will activate the TumbleFresh™ option at the end of the cycle.",
+                "AlertTitle": "Nest Away Tumble Fresh",
+                "Type": "nest"
+            },
+            {
+                "TemplateId": "PeakEnergyHours",
+                "SmsText": "Your cycle has been delayed to avoid running during peak energy hours. ",
+                "EmailText": "Your cycle has been delayed to avoid running during peak energy hours.",
+                "PushText": "Your cycle has been delayed to avoid running during peak energy hours.",
+                "AlertTitle": "PEAK ENERGY HOURS",
+                "Type": "cycle"
+            },
+            {
+                "TemplateId": "F0,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F0,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F0,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F0,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F0,E5",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F0,E5] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F0,E5] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F0,E5] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F1,E1",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F1,E1] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F1,E1] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F1,E1] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F1,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F1,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F1,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F1,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3,E1",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E1] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E1] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E1] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3,E4",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E4] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E4] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E4] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3,E5",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E5] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E5] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E5] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3,E6",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E6] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E6] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F3,E6] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F4,E1",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F4,E1] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F4,E1] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F4,E1] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F4,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F4,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F4,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F4,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F4,E4",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F4,E4] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F4,E4] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F4,E4] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F5,E1",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F5,E1] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F5,E1] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F5,E1] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F5,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F5,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F5,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F5,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F5,E3",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F5,E3] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F5,E3] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F5,E3] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F5,E4",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F5,E4] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F5,E4] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F5,E4] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F6,E1",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F6,E1] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F6,E1] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F6,E1] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F6,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F6,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F6,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F6,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F6,E3",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F6,E3] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F6,E3] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F6,E3] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F7,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F7,E8",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,E8] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,E8] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,E8] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F7,E9",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,E9] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,E9] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,E9] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F7,EA",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,EA] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,EA] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,EA] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F7,EC",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,EC] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,EC] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F7,EC] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F8,E1",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F8,E1] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F8,E1] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F8,E1] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F8,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F8,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F8,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F8,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F8,E3",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F8,E3] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F8,E3] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F8,E3] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F9,E1",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F9,E1] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F9,E1] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F9,E1] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F9,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F9,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F9,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Washer. Check the fault code [F9,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            }
+        ]
+    }
+}

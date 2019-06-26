@@ -1,0 +1,817 @@
+{
+    "DDMLiterals": {
+        "XCat_RemoteSetRemoteControlEnable.Label": "Remote Control",
+        "Sys_OpSetControlLock.Label": "Control Lock",
+        "Sys_OpSetControlLock.SmartTip": "Prevents the machine from accidentally being turned on.",
+        "WashCavity_CycleSetPresoakTimed.Label": "Presoak",
+        "DrySys_OpSetDampNotificationToneVolume.Label": "Damp Dry Signal",
+        "DrySys_OpSetDampNotificationToneVolume.EnumValues.VolumeValueOff.Label": "Off",
+        "DrySys_OpSetDampNotificationToneVolume.EnumValues.VolumeValueMedium.Label": "Soft",
+        "DrySys_OpSetDampNotificationToneVolume.EnumValues.VolumeValueMax.Label": "Loud",
+        "Generic_Drying.Label": "Drying",
+        "DryCavity_CycleSetManualDryTime.Timed.Label": "Timed",
+        "DryCavity_CycleSetDryness.Auto.Label": "Auto",
+        "DryCavity_CycleSetManualDryTime.Label": "Drying Time",
+        "DryCavity_CycleSetDryness.Label": "Drying Level",
+        "DryCavity_CycleSetDryness.EnumValues.DrynessLessMid.Label": "Less",
+        "DryCavity_CycleSetDryness.EnumValues.DrynessNormMid.Label": "Dry",
+        "DryCavity_CycleSetDryness.EnumValues.DrynessMoreMid.Label": "Extra Dry",
+        "DryCavity_CycleSetDryness.EnumValues.DrynessNone.Label": "Off",
+        "DryCavity_CycleSetWrinkleShield.Label": "Wrinkle Shield™",
+        "DryCavity_CycleSetWrinkleShield.EnumValues.WrinkleShieldOff.Label": "Off",
+        "DryCavity_CycleSetWrinkleShield.EnumValues.WrinkleShieldOn.Label": "On",
+        "DryCavity_CycleSetWrinkleShield.EnumValues.WrinkleShieldOnWithSteam.Label": "On + Steam",
+        "DryCavity_CycleSetEcoBoostEnable.Label": "EcoBoost™",
+        "DryCavity_CycleSetCycleSelect.WhatTo.Label": "What to Dry",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleNone.Label": "None",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleNormal.Label": "Regular",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleHeavyDuty.Label": "Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleDelicate.Label": "Delicate",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWrinkleControlCasual.Label": "Regular",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleBeddingBulky.Label": "Bulky Items",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleRapidDryExpress.Label": "Rapid Dry Express",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleSanitize.Label": "Sanitize",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleSteamRefresh.Label": "Steam Refresh",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleTimedDry.Label": "Timed Dry",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleColorsBrights.Label": "Colors",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToColorsBrightsHowToSanitize.Label": "Colors",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToColorsBrightsHowToQuick.Label": "Colors",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToColorsBrightsHowToHeavyDuty.Label": "Colors",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhites.Label": "Whites",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleTowels.Label": "Towels",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToColorsBrightsHowToWrinkleControl.Label": "Colors",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToBulkyHowToHeavyDuty.Label": "Bulky Items",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToBulkyHowToQuick.Label": "Bulky Items",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToBulkyHowToSanitize.Label": "Bulky",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToBulkyHowToWrinkleControl.Label": "Bulky",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToDelicatesHowToHeavyDuty.Label": "Delicates",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToDelicatesHowToQuick.Label": "Delicates",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToDelicatesHowToWrinkleControl.Label": "Delicates",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToTowelsHowToHeavyDuty.Label": "Towels",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToTowelsHowToQuick.Label": "Towels",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToTowelsHowToSanitize.Label": "Towels",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToTowelsHowToWrinkleControl.Label": "Towels",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToWhitesHowToHeavyDuty.Label": "Whites",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToWhitesHowToQuick.Label": "Whites",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToWhitesHowToSanitize.Label": "Whites",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToWhitesHowToWrinkleControl.Label": "Whites",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToColorsBrightsHowToTimed.Label": "Colors",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToBulkyHowToTimed.Label": "Bulky Items",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToDelicatesHowToTimed.Label": "Delicates",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToTowelsHowToTimed.Label": "Towels",
+        "DryCavity_CycleSetCycleSelect.WhatTo.EnumValues.DryCycleWhatToWhitesHowToTimed.Label": "Whites",
+        "DryCavity_CycleSetCycleSelect.HowTo.Label": "How to Dry",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleNone.Label": "None",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleNormal.Label": "Normal",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleHeavyDuty.Label": "Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleDelicate.Label": "Normal",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWrinkleControlCasual.Label": "Wrinkle Control",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleBeddingBulky.Label": "Normal",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleRapidDryExpress.Label": "Quick",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleSanitize.Label": "Sanitize",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleSteamRefresh.Label": "Steam Refresh",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleTimedDry.Label": "Timed Dry",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleColorsBrights.Label": "Normal",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToColorsBrightsHowToSanitize.Label": "Sanitize",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToColorsBrightsHowToQuick.Label": "Quick",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToColorsBrightsHowToHeavyDuty.Label": "Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhites.Label": "Normal",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleTowels.Label": "Normal",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToColorsBrightsHowToWrinkleControl.Label": "Wrinkle Control",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToBulkyHowToHeavyDuty.Label": "Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToBulkyHowToQuick.Label": "Quick",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToBulkyHowToSanitize.Label": "Sanitize",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToBulkyHowToWrinkleControl.Label": "Wrinkle Control",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToDelicatesHowToHeavyDuty.Label": "Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToDelicatesHowToQuick.Label": "Quick",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToDelicatesHowToWrinkleControl.Label": "Wrinkle Control",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToTowelsHowToHeavyDuty.Label": "Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToTowelsHowToQuick.Label": "Quick",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToTowelsHowToSanitize.Label": "Sanitize",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToTowelsHowToWrinkleControl.Label": "Wrinkle Control",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToWhitesHowToHeavyDuty.Label": "Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToWhitesHowToQuick.Label": "Quick",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToWhitesHowToSanitize.Label": "Sanitize",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToWhitesHowToWrinkleControl.Label": "Wrinkle Control",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToColorsBrightsHowToTimed.Label": "Timed Dry",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToBulkyHowToTimed.Label": "Timed Dry",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToDelicatesHowToTimed.Label": "Timed Dry",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToTowelsHowToTimed.Label": "Timed Dry",
+        "DryCavity_CycleSetCycleSelect.HowTo.EnumValues.DryCycleWhatToWhitesHowToTimed.Label": "Timed Dry",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleNone.Label": "None",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleNormal.Label": "Normal",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleHeavyDuty.Label": "Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleDelicate.Label": "Delicate",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWrinkleControlCasual.Label": "Wrinkle Control Casual",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleBeddingBulky.Label": "Bedding Bulky",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleRapidDryExpress.Label": "Rapid Dry Express",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleSanitize.Label": "Sanitize",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleSteamRefresh.Label": "Steam Refresh",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleTimedDry.Label": "Timed Dry",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleColorsBrights.Label": "Colors & Brights",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToColorsBrightsHowToSanitize.Label": "Colors & Sanitize",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToColorsBrightsHowToQuick.Label": "Colors & Quick",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToColorsBrightsHowToHeavyDuty.Label": "Colors & Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhites.Label": "Whites",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleTowels.Label": "Towels",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToColorsBrightsHowToWrinkleControl.Label": "Colors & Wrinkle Control",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToBulkyHowToHeavyDuty.Label": "Bulky & Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToBulkyHowToQuick.Label": "Bulky & Quick",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToBulkyHowToSanitize.Label": "Bulky & Sanitize",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToBulkyHowToWrinkleControl.Label": "Bulky & Wrinkle Control",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToDelicatesHowToHeavyDuty.Label": "Delicates & Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToDelicatesHowToQuick.Label": "Delicates & Quick",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToDelicatesHowToWrinkleControl.Label": "Delicates & Wrinkle Control",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToTowelsHowToHeavyDuty.Label": "Towels & Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToTowelsHowToQuick.Label": "Towels & Quick",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToTowelsHowToSanitize.Label": "Towels & Sanitize",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToTowelsHowToWrinkleControl.Label": "Towels & Wrinkle Control",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToWhitesHowToHeavyDuty.Label": "Whites & Heavy Duty",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToWhitesHowToQuick.Label": "Whites & Quick",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToWhitesHowToSanitize.Label": "Whites & Sanitize",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToWhitesHowToWrinkleControl.Label": "Whites & Wrinkle Control",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToColorsBrightsHowToTimed.Label": "Colors & Timed",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToBulkyHowToTimed.Label": "Bulky Items & Timed",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToDelicatesHowToTimed.Label": "Delicates & Timed",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToTowelsHowToTimed.Label": "Towels & Timed",
+        "DryCavity_CycleSetCycleSelect.EnumValues.DryCycleWhatToWhitesHowToTimed.Label": "Whites & Timed",
+        "DryCavity_CycleSetStaticGuardEnable.Label": "Reduce Static",
+        "DryCavity_CycleStatusAirFlowStatus.Label": "Check Vent Alert",
+        "DryCavity_CycleStatusAirFlowStatus.SmartTip": "Check Vent monitor informs you when to check your lint screen or vent. For best results, clean the lint screen after each use. If vent is experiencing issues, see your Use & Care guide for further instructions.",
+        "DryCavity_CycleStatusAirFlowStatus.EnumValues.AirFlowBad.SmartTip": "A blocked vent or low airflow issue has been detected. Poor airflow can impact dry times and your dryer's overall performance. Please refer to the \"Troubleshooting\" section of your Use & Care Guide for potential solutions to the issue.",
+        "DryCavity_CycleStatusAirFlowStatus.EnumValues.AirFlowGood.Label": "Clear",
+        "DryCavity_CycleStatusAirFlowStatus.EnumValues.AirFlowBad.Label": "Blocked",
+        "DryCavity_CycleStatusAirFlowStatus.EnumValues.AirFlowDetecting.Label": "Detecting",
+        "DryCavity_CycleStatusAirFlowStatus.EnumValues.AirFlowUnknown.Label": "Unknown",
+        "DryCavity_CycleSetTemperature.Label": "Temperature",
+        "DryCavity_CycleSetTemperature.EnumValues.DryTempAir.Label": "Air",
+        "DryCavity_CycleSetTemperature.EnumValues.DryTempCoolLow.Label": "Extra Low",
+        "DryCavity_CycleSetTemperature.EnumValues.DryTempCoolMid.Label": "Low",
+        "DryCavity_CycleSetTemperature.EnumValues.DryTempWarmMid.Label": "Medium",
+        "DryCavity_CycleSetTemperature.EnumValues.DryTempHotMid.Label": "High",
+        "Generic_EnergyProfileSetting.Label": "Energy Settings",
+        "Generic_UtilityID.Label": "Utility Cycles",
+        "DryCavity_CycleStatusCoolDown.Label": "CoolDown",
+        "DryCavity_CycleStatusSensing.Label": "Sensing",
+        "DryCavity_CycleStatusCycleSelect.Label": "CycleSelect",
+        "DryCavity_CycleStatusManualDryTime.Label": "ManualDryTime",
+        "DryCavity_ChangeStatusStaticGuard.Label": "Static Guard",
+        "DryCavity_ChangeStatusTemperature.Label": "Temperature",
+        "DryCavity_ChangeStatusDamp.Label": "Damp",
+        "DryCavity_ChangeStatusWet.Label": "Wet",
+        "DryCavity_CycleStatusWrinkleShield.Label": "Wrinkle Shield™",
+        "DryCavity_CycleStatusDrying.Label": "Drying",
+        "Generic_QuietMode.Label": "Quiet Mode",
+        "Generic_DryOptions.Label": "Dry Options",
+        "Generic_QuietMode.SmartTip": "Turns off button sounds and end of cycle notifications.",
+		"WashCavity.Label": "Washer",
+		"XCat_ApplianceInfoSetModelNumber.Label": "Appliance Info Set Model Number",
+		"XCat_ApplianceInfoSetSerialNumber.Label": "Appliance Info Set Serial Number",
+		"XCat_DateTimeMode.Label": "Date Time Mode",
+		"XCat_DstOffset.Label": "DST Offset",
+		"XCat_InServiceDate.Label": "In Service Date",
+		"XCat_OdometerStatusRunningHours.Label": "Odometer Status Running Hours",
+		"XCat_OdometerStatusTotalHours.Label": "Odometer Status Total Hours",
+		"XCat_OdometerStatusCycleCount.Label": "CycleCount",
+		"XCat_online.Label": "Online",
+		"XCat_PersistentInfoMacAddress.Label": "Persistent Info Mac Address",
+		"XCat_PersistentInfoSaid.Label": "Persistent Info Said",
+		"XCat_PersistentInfoVersion.Label": "Persistent Info Version",
+		"XCat_PowerStatusEnergyConsumption.Label": "Power Status Energy Consumption",
+		"XCat_PowerStatusPowerOutage.Label": "Power Status Power Outage",
+		"XCat_SmartGridSetSmartGridEnable.Label": "Smart Grid Set Smart Grid Enable",
+		"XCat_SmartGridSetSmartGridMode.Label": "Smart Grid Set Smart Grid Mode",
+		"XCat_SmartGridStatusSmartGridCompliant.Label": "Smart Grid Status Smart Grid Compliant",
+		"XCat_SmartGridStatusSmartGridCompliant.EnumValues.None.Label": "None",
+		"XCat_SmartGridStatusSmartGridCompliant.EnumValues.UserOverride.Label": "User Override",
+		"XCat_SmartGridStatusSmartGridCompliant.EnumValues.ApplianceOverride.Label": "Appliance Override",
+		"XCat_TimeZoneId.Label": "Time Zone ID",
+		"XCat_trid.Label": "Trid",
+		"XCat_trid_result.Label": "Trid Result",
+		"XCat_UtcOffset.Label": "UTC Offset",
+		"XCat_WifiSetPublishApplianceState.Label": "WiFi Set Publish Appliance State",
+		"XCat_WifiStatusRssiAntennaDiversity.Label": "WiFi Status RSSI Antenna Diversity",
+		"XCat_WifiStatusRssiDisplay.Label": "WiFi Status RSSI Display",
+		"XCat_WifiSetRebootWifiCommModule.Label": "Reboot WiFi Comm Module",
+		"XCat_ConfigSetMaxRelationalSteps.Label": "Maximum Relational Steps",
+		"XCat_ConfigSetMaxRelationalMemory.Label": "Maximum Relational Memory",
+		"XCat_WifiSetDeprovisionWifiCommModule.Label": "Deprovision WiFi Comm Module",
+		"XCat_WifiSetDisableWifiCommModule.Label": "Disable WiFi Comm Module",
+		"Cavity_OpStatusDoorLocked.Label": "Door Locked",
+		"Cavity_OpStatusDoorOpen.Label": "Door Open",
+		"XCat_RemoteSetRemoteDiagnosticsEnable.Label": "Remote Diagnostics Enable",
+		"XCat_RemoteSetRebootAppliance.Label": "Reboot Appliance",
+		"Cavity_OpSetOperations.Label": "Operations",
+		"Sys_OpSetAlertToneVolume.Label": "Alert Tone Volume",
+		"Sys_OpSetKeyPressToneVolume.Label": "Key Press Tone Volume",
+		"Sys_AlertStatusCustomerFaultCode.Label": "Customer Fault Code",
+		"Sys_DisplaySetEnable24Hour": "Enable 24 Hour",
+		"XCat_WifiSetIspAuthorized" : "Isp Authorized",
+		"Sys_DisplaySetLanguage" : "Language",
+		"Cavity_CycleStatusMachineState" : "Machine State",
+		"XCat_ConfigSetMaxMessageLength" : "Max Message Length",
+		"XCat_ConfigSetMaxFavorites" : "Max Favorites",
+		"XCat_ConfigSetNumberEnvelopes" : "Number Envelopes",
+		"Sys_DisplaySetBrightnessPercent" : "Brightness Percent",
+		"Cavity_TimeStatusEstTimeRemaining" : "Est Time Remaining",
+		"Cavity_TimeStatusDelayTimeRemaining" : "Delay Time Remaining",
+		"Cavity_CycleSetDownloadAndGo" : "Cavity_CycleSet",
+		"Cavity_CycleSetSpecialtyCycleId" : "Specialty Cycle Id",
+		"XCat_DateTimeSetDateTimeSet" : "DateTime Set",
+		"Cavity_CycleSetCycleName" : "Cycle Name",
+		"Relational_to_Appliance" : "Relational to Appliance"
+    },
+    "AFCSelfHelpPack": {
+        "F1,E1": {
+            "ErrorCode": "F1,E1",
+            "Type": "General Fault",
+            "Name": "Compressor Actuator Consistency",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code F1E1."
+            ],
+            "HelpPath": "TBD"
+        },
+        "F3,E1": {
+            "ErrorCode": "F3,E1",
+            "Type": "General Fault",
+            "Name": "Front Thermistor Open",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code F3E1."
+            ],
+            "HelpPath": "TBD"
+        },
+        "F3,E2": {
+            "ErrorCode": "F3,E2",
+            "Type": "General Fault",
+            "Name": "Moisture Sensor 1 Open",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code F3E2."
+            ],
+            "HelpPath": "TBD"
+        },
+        "F3,E3": {
+            "ErrorCode": "F3,E3",
+            "Type": "General Fault",
+            "Name": "Hot Thermistor Open",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code F3E3."
+            ],
+            "HelpPath": "TBD"
+        },
+        "F3,E4": {
+            "ErrorCode": "F3,E4",
+            "Type": "General Fault",
+            "Name": "Cool Thermistor Open",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code F3E4."
+            ],
+            "HelpPath": "TBD"
+        },
+        "F3,E5": {
+            "ErrorCode": "F3,E5",
+            "Type": "General Fault",
+            "Name": "Moisture Sensor 2 Open",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code F3E5."
+            ],
+            "HelpPath": "TBD"
+        },
+        "F4,E6": {
+            "ErrorCode": "F4,E6",
+            "Type": "General Fault",
+            "Name": "Lint Screen Not Present",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code F4E6."
+            ],
+            "HelpPath": "TBD"
+        },
+        "F6,E1": {
+            "ErrorCode": "F6,E1",
+            "Type": "General Fault",
+            "Name": "HMI/ACU Comm Failure",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code F6E1."
+            ],
+            "HelpPath": "TBD"
+        },
+        "F6,E2": {
+            "ErrorCode": "F6,E2",
+            "Type": "General Fault",
+            "Name": "Communication missing from ACU to HMI",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code F6E2."
+            ],
+            "HelpPath": "TBD"
+        },
+        "F9,E2": {
+            "ErrorCode": "F9,E2",
+            "Type": "General Fault",
+            "Name": "Water Level Sensor Failure - Digital",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code F9E2."
+            ],
+            "HelpPath": "TBD"
+        },
+        "FC,E1": {
+            "ErrorCode": "FC,E1",
+            "Type": "General Fault",
+            "Name": "Wifi Module Comm Lost",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code FCE1."
+            ],
+            "HelpPath": "TBD"
+        },
+        "FC,E2": {
+            "ErrorCode": "FC,E2",
+            "Type": "General Fault",
+            "Name": "Wifi Router Connection Lost",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code FCE2."
+            ],
+            "HelpPath": "TBD"
+        },
+        "FC,E3": {
+            "ErrorCode": "FC,E3",
+            "Type": "General Fault",
+            "Name": "Internet Communications Lost",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code FCE3."
+            ],
+            "HelpPath": "TBD"
+        },
+        "FC,E4": {
+            "ErrorCode": "FC,E4",
+            "Type": "General Fault",
+            "Name": "Antenna A",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code FCE4."
+            ],
+            "HelpPath": "TBD"
+        },
+        "FC,E5": {
+            "ErrorCode": "FC,E5",
+            "Type": "General Fault",
+            "Name": "Antenna B",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code FCE5."
+            ],
+            "HelpPath": "TBD"
+        },
+        "FC,E6": {
+            "ErrorCode": "FC,E6",
+            "Type": "General Fault",
+            "Name": "Power Measurement Module Current",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code FCE6."
+            ],
+            "HelpPath": "TBD"
+        },
+        "FC,E7": {
+            "ErrorCode": "FC,E7",
+            "Type": "General Fault",
+            "Name": "Router Provisioning",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code FCE7."
+            ],
+            "HelpPath": "TBD"
+        },
+        "FC,E8": {
+            "ErrorCode": "FC,E8",
+            "Type": "General Fault",
+            "Name": "SAID Programming",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code FCE8."
+            ],
+            "HelpPath": "TBD"
+        },
+        "FC,E9": {
+            "ErrorCode": "FC,E9",
+            "Type": "General Fault",
+            "Name": "Power Measurement Module Voltage",
+            "Description": "Looks like the dryer has detected an error.",
+            "StepsToRepair": [
+                "Please call for service and mention error code FCE9."
+            ],
+            "HelpPath": "TBD"
+        }
+    },
+    "MobileLiterals": {
+        "Manuals": {
+            "UseCareGuide": {
+                "Title": "Use and Care Guide",
+                "FilePath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_DRYER_INDIGO_WHIRLPOOL_V1/DOCS/ENG/W11204389A.pdf"
+            },
+            "InstallationInstructions": {
+                "Title": "Installation Instructions",
+                "FilePath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_DRYER_INDIGO_WHIRLPOOL_V1/DOCS/ENG/W11183136A.pdf"
+            },
+            "QuickReferenceGuide": {
+                "Title": "Quick Reference Guide",
+                "FilePath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_DRYER_INDIGO_WHIRLPOOL_V1/DOCS/ENG/W11184897A.pdf"
+            }
+        },
+        "NestSettings": {
+            "NestHome.Name": "Nest® Home 1",
+            "HomeCombo.Name": "Home Dryer",
+            "WrinkleShield.Name": "Wrinkle Shield™",
+            "WrinkleShield.Description": "If your dryer is running while Nest® detects you are Away the Wrinkle Shield™ option will start after the dry cycle is complete.  Nest Away signal may take up to two hours.",
+            "QuietWhileHome.Name": "Quiet While Home",
+            "QuietWhileHome.Description": "Your dryer will automatically go into quiet mode when your nest is set to Home.",
+            "EcoBoost.Name": "Eco Boost",
+            "EcoBoost.Description": "If a dryer cycle is running while Nest™ detects you're away, your dryer will automatically run longer at lower temperatures to save energy.",
+            "SmartEnergy.Name": "Smart Energy",
+            "SmartEnergy.Description": "If enabled by your energy provider, the Dryer will set an automatic delay start so that your appliance will not run during peak energy hours."
+        },
+        "SpecialtyCycles": {},
+        "Notifications": {
+            "LaundryTips": {
+                "Name": "Laundry Tips",
+                "Description": "Laundry Tips"
+            },
+            "DetergentDispenser": {
+                "Name": "Detergent Dispenser",
+                "Description": "Turns automatic dosing on and off"
+            },
+            "DetergentConcentration": {
+                "Name": "Detergent Concentration",
+                "Description": "Allow user to adjust the concentration level of detergent they are using"
+            },
+            "Status": {
+                "Name": "Status",
+                "Description": "This button launches a picker allowing the user to select Active or Inactive, effectively turning dispensing on/off"
+            },
+            "Content": {
+                "Name": "Content",
+                "Description": "This button launches a picker allowing the user to change the chamber between Detergent and Softener"
+            },
+            "QuiteMode": {
+                "Name": "Quite Mode",
+                "Description": "Toggles quiet mode on and off."
+            },
+            "ControlLock": {
+                "Name": "Control Lock",
+                "Description": "Toggles the control lock feature on and off. Control lock toggle is disabled and inactive when appliance is running."
+            },
+            "CustomerFaultCode": {
+                "Name": "Error Notification",
+                "Description": "Customer Fault Code"
+            },
+            "MachineState": {
+                "Name": "Drying Complete",
+                "Description": "Drying Complete"
+            },
+            "LaundryOnWhileAway": {
+                "Name": "Nest Away Signal",
+                "Description": "Nest Away Signal"
+            },
+            "DryOnly": {
+                "Name": "Dry Only",
+                "Description": "Allows you to skip the wash cycle."
+            }
+        },
+        "GlobalGoverningStates": {
+            "Party": {
+                "Name": "Party Mode",
+                "Description": "Party Mode is designed to perform function that helps service high volume consumption. Party Mode will keep the oven warning and the freezer producing more ice,perfect for hosting a party."
+            },
+            "Quiet": {
+                "Name": "Quiet Mode",
+                "Description": "Quiet Mode Minimizes the appliances operating noise and mutes alert sounds."
+            },
+            "Control": {
+                "Name": "Control Lock",
+                "Description": "Control Lock status of the control panel to prevent unintended use of the participating appliances."
+            },
+            "Vacation": {
+                "Name": "Vacation Mode",
+                "Description": "Vacation Mode monitors use of your appliances while you're away."
+            }
+        },
+        "RelatedVideos": {
+            "Name": "Related Videos",
+            "BlockedVent": {
+                "Name": "Blocked Vent",
+                "url": "http://cdnapi.kaltura.com/p/1661131/sp/166113100/embedIframeJs/uiconf_id/31123142/partner_id/1661131?iframeembed=true&playerId=kaltura_player_1441885203&entry_id=1_o1j5bh7h"
+            }
+        },
+        "SupplyItem": {
+            "ExtendedWarranty": {
+                "Name": "Extended Warranty",
+                "Description": "Extended Warranty",
+                "Disclaimer": "Extended Warranty",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Whirlpool",
+                        "url": "https://serviceplans.whirlpool.com/",
+                        "Country": "United States"
+                    }
+                ]
+            },
+            "ScheduleService": {
+                "Name": "Schedule Service",
+                "Description": "Schedule Service",
+                "Disclaimer": "",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Whirlpool",
+                        "Country": "United States",
+                        "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2E6Mjc&cparam="
+                    },
+                    {
+                        "Merchant": "Whirlpool",
+                        "Country": "Canada",
+                        "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2s6V0M7c2E6NDA&cparam"
+                    },
+                    {
+                        "Merchant": "Whirlpool",
+                        "Country": "Mexico",
+                        "url": "http://servicio.whirlpool.com.mx/servicio.php"
+                    }
+                ]
+            },
+            "MachineCleaningWipes": {
+                "Name": "affresh® Machine Cleaning Wipes",
+                "Description": "Keeping your washer looking like new is easy, thanks to the versatility of affresh® Machine Cleaning Wipes—the strongest and thickest washing machine cleaning wipe available. Featuring dual-sided durability, a clean lemongrass scent and Micro-Grab™ fibers that visibly lift and lock in residue, dirt and dust from machine surfaces, no other washing machine wipe cleans better.",
+                "Disclaimer": "Keeping your washer looking like new is easy, thanks to the versatility of affresh® Machine Cleaning Wipes—the strongest and thickest washing machine cleaning wipe available. Featuring dual-sided durability, a clean lemongrass scent and Micro-Grab™ fibers that visibly lift and lock in residue, dirt and dust from machine surfaces, no other washing machine wipe cleans better.",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Amazon",
+                        "Country": "United States",
+                        "url": "https://www.amazon.com/Affresh-W10355053-Machine-Cleaning-Wipes/dp/B01BHUSR38/ref=sr_1_1?s=hi&ie=UTF8&qid=1532454323&sr=1-1&keywords=W10355053&th=1",
+                        "FilePath": "NAR/WHIRLPOOL/DDM_LAUNDRY_JANUS_DRYER_INDIGO_WHIRLPOOL_V1/DOCS/ENG/amazon_logo_RGB.jpg"
+                    }
+                ]
+            }
+        },
+        "SmartTip": [
+            {
+                "Id": 1,
+                "Title": "Care Tip",
+                "Content": "Dry full loads, but don't overload the dryer. Air circulation is important to ensure proper drying."
+            },
+            {
+                "Id": 2,
+                "Title": "Care Tip",
+                "Content": "Clean the dryer lint filter after each load to maintain proper air circulation and heating."
+            },
+            {
+                "Id": 3,
+                "Title": "Care Tip",
+                "Content": "Dry a few loads in succession to take advantage of leftover heat in the dryer."
+            },
+            {
+                "Id": 4,
+                "Title": "Care Tip",
+                "Content": "Use moisture-sensing settings to help prevent over drying."
+            }
+        ],
+        "cxcDetail": {
+            "US": {
+                "Country": "United States",
+                "cxcEmail": {
+                    "Development": "Connected_Appliances@Whirlpool.com",
+                    "Test": "Connected_Appliances@Whirlpool.com",
+                    "Staging": "Connected_Appliances@Whirlpool.com",
+                    "Cuft": "Connected_Appliances@Whirlpool.com",
+                    "Production": "Connected_Appliances@Whirlpool.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-866-555-1212",
+                    "Test": "1-866-333-4591",
+                    "Staging": "1-866-333-4591",
+                    "Cuft": "1-866-555-1212",
+                    "Production": "1-866-333-4591"
+                },
+                "cxcHours": {
+                    "Development": "8.00 AM-8.00 PM EST, Monday-Friday",
+                    "Test": "8.00 AM-8.00 PM EST, Monday-Friday",
+                    "Staging": "8.00 AM-8.00 PM EST, Monday-Friday",
+                    "Cuft": "8.00 AM-8.00 PM EST, Monday-Friday",
+                    "Production": "8.00 AM-8.00 PM EST, Monday-Friday"
+                }
+            },
+            "CA": {
+                "Country": "Canada",
+                "cxcEmail": {
+                    "Development": "Connected_Appliances@Whirlpool.com",
+                    "Test": "Connected_Appliances@Whirlpool.com",
+                    "Staging": "Connected_Appliances@Whirlpool.com",
+                    "Cuft": "Connected_Appliances@Whirlpool.com",
+                    "Production": "Connected_Appliances@Whirlpool.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-866-555-1212",
+                    "Test": "1-866-333-4591",
+                    "Staging": "1-866-333-4591",
+                    "Cuft": "1-866-555-1212",
+                    "Production": "1-866-333-4591"
+                },
+                "cxcHours": {
+                    "Development": "8.00 AM-8.00 PM EST, Monday-Friday",
+                    "Test": "8.00 AM-8.00 PM EST, Monday-Friday",
+                    "Staging": "8.00 AM-8.00 PM EST, Monday-Friday",
+                    "Cuft": "8.00 AM-8.00 PM EST, Monday-Friday",
+                    "Production": "8.00 AM-8.00 PM EST, Monday-Friday"
+                }
+            }
+        },
+        "Replenishment": {},
+        "LaundryDAPaths": [
+            {
+                "StainGuide": [
+                    "NAR/LAUNDRY/STAINGUIDE/eng",
+                    "NAR/LAUNDRY/STAINGUIDE/stainguide_v2.sqlite"
+                ],
+                "TIPs": [
+                    "NAR/LAUNDRY/TIPS/WHIRLPOOL/SmartTips/eng",
+                    "NAR/LAUNDRY/TIPS/WHIRLPOOL/GeneralTips/eng"
+                ],
+                "ReadyAt": [
+                    "NAR/LAUNDRY/READYAT/LaundryETR_ReadyAt_v1.sqlite"
+                ]
+            }
+        ]
+    },
+    "NotificationMessages": {
+        "NotificationContents": [
+            {
+                "TemplateId": "MachineState",
+                "SmsText": "Your clothes are dry!",
+                "EmailText": "Your clothes are dry!",
+                "PushText": "Your clothes are dry!",
+                "AlertTitle": "DRYING COMPLETE",
+                "Type": "cycle"
+            },
+            {
+                "TemplateId": "ControlLockEnable",
+                "SmsText": "Dryer controls have been locked ",
+                "EmailText": "Dryer controls have been locked ",
+                "PushText": "Dryer controls have been locked ",
+                "AlertTitle": "Control Lock Alert",
+                "Type": "lock"
+            },
+            {
+                "TemplateId": "ControlLockDisable",
+                "SmsText": "Dryer controls have been unlocked ",
+                "EmailText": "Dryer controls have been unlocked ",
+                "PushText": "Dryer controls have been unlocked ",
+                "AlertTitle": "Control Lock Alert ",
+                "Type": "lock"
+            },
+            {
+                "TemplateId": "LaundryOnWhileAwayWrinkleShield",
+                "SmsText": "Away mode signal received from the Nest Learning Thermostat™. Will activate the Wrinkle Shield™ option at the end of the cycle.",
+                "EmailText": "Away mode signal received from the Nest Learning Thermostat™. Will activate the Wrinkle Shield™ option at the end of the cycle.",
+                "PushText": "Away mode signal received from the Nest Learning Thermostat™. Will activate the Wrinkle Shield™ option at the end of the cycle.",
+                "AlertTitle": "Nest Away Wrinkle Shield",
+                "Type": "cycle"
+            },
+            {
+                "TemplateId": "WrinklesEnabled",
+                "SmsText": "Wrinkle Shield™ has been enabled to help keep wrinkles from setting into your clean, dry fabrics.",
+                "EmailText": "Wrinkle Shield™ has been enabled to help keep wrinkles from setting into your clean, dry fabrics.",
+                "PushText": "Wrinkle Shield™ has been enabled to help keep wrinkles from setting into your clean, dry fabrics.",
+                "AlertTitle": "DRYING COMPLETE",
+                "Type": "cycle"
+            },
+            {
+                "TemplateId": "WrinklesNotEnabled",
+                "SmsText": "Would you like to turn on Wrinkle Shield™ to help keep wrinkles from setting into your clean, dry fabrics?",
+                "EmailText": "Would you like to turn on Wrinkle Shield™ to help keep wrinkles from setting into your clean, dry fabrics?",
+                "PushText": "Would you like to turn on Wrinkle Shield™ to help keep wrinkles from setting into your clean, dry fabrics?",
+                "AlertTitle": "DRYING COMPLETE",
+                "Type": "cycle"
+            },
+            {
+                "TemplateId": "PeakEnergyHours",
+                "SmsText": "Your cycle has been delayed to avoid running during peak energy hours. ",
+                "EmailText": "Your cycle has been delayed to avoid running during peak energy hours.",
+                "PushText": "Your cycle has been delayed to avoid running during peak energy hours.",
+                "AlertTitle": "PEAK ENERGY HOURS",
+                "Type": "cycle"
+            },
+            {
+                "TemplateId": "F1,E1",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F1,E1] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F1,E1] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F1,E1] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3,E1",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E1] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E1] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E1] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3,E3",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E3] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E3] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E3] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3,E4",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E4] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E4] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E4] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3,E5",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E5] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E5] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F3,E5] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F4,E6",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F4,E6] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F4,E6] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F4,E6] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F6,E1",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F6,E1] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F6,E1] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F6,E1] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F6,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F6,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F6,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F6,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F9,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F9,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F9,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [F9,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "FC,E1",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [FC,E1] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [FC,E1] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [FC,E1] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "FC,E2",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [FC,E2] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [FC,E2] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [FC,E2] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "FC,E3",
+                "SmsText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [FC,E3] and see the troubleshooting section of the app for further instructions.",
+                "EmailText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [FC,E3] and see the troubleshooting section of the app for further instructions.",
+                "PushText": "Hmm… Looks like there may be an issue with your Dryer. Check the fault code [FC,E3] and see the troubleshooting section of the app for further instructions.",
+                "AlertTitle": "Fault Code Alert",
+                "Type": "fault"
+            }
+        ]
+    }
+}

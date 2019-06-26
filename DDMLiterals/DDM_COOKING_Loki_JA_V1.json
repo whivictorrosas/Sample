@@ -1,0 +1,524 @@
+{
+  "DDMLiterals": {
+    "XCat_PersistentInfoVersion.Label": "Data Model Version",
+    "XCat_PersistentInfoSaid.Label": "Smart Appliance ID",
+    "XCat_PersistentInfoMacAddress.Label": "MAC Address",
+    "XCat_WifiStatusRssiAntennaDiversity.Label": "Signal Strength Antenna Diversity",
+    "XCat_PowerStatusEnergyConsumption.Label": "Energy Consumption",
+    "XCat_PowerStatusEnergyMeasurementResults.Label": "Energy Measurement Results",
+    "XCat_PowerStatusRealTimePower.Label": "Real Time Power",
+    "XCat_PowerStatusRealTimeVoltage.Label": "Real Time Voltage",
+    "XCat_PowerStatusPowerOutage.Label": "Power Outage",
+    "XCat_OdometerStatusRunningHours.Label": "Running Hours",
+    "XCat_OdometerStatusTotalHours.Label": "Total Hours",
+    "XCat_OdometerStatusCycleCount.Label": "Cycle Count",
+    "XCat_ApplianceInfoSetModelNumber.Label": "Model Number",
+    "XCat_ApplianceInfoSetSerialNumber.Label": "Serial Number",
+    "XCat_WifiSetPublishApplianceState.Label": "Publish Appliance State",
+    "XCat_WifiSetRebootWifiCommModule.Label": "Reboot WiFi Comm Module",
+    "XCat_WifiSetDeprovisionWifiCommModule.Label": "Deprovision WiFi Comm Module",
+    "XCat_WifiSetDisableWifiCommModule.Label": "Disable WiFi Comm Module",
+    "XCat_WifiSetIspAuthorized.Label": "Isp Authorized",
+    "XCat_WifiSetIspFirmwareDescriptionUrl.Label": "ISP Firmware Description URL",
+    "XCat_PowerSetEnergyMeasurementStart.Label": "Energy Measurement Start",
+    "XCat_PowerSetRealTimePowerPublishTiming.Label": "Real Time Power Publish Timing",
+    "XCat_PowerSetRealTimePowerPublishStart.Label": "Real Time Power Publish Start",
+    "Sys_AlertStatusCustomerFaultCode.Label": "Customer Fault Code",
+    "Sys_OperationSetControlLock.Label": "Control Lock",
+    "Sys_OperationSetQuietModeEnabled.Label": "Quiet Mode Enabled",
+    "Cooktop_OperationStatusState.Label": "State",
+    "Cooktop_OperationStatusCooktopOn.Label": "Cooktop On",
+    "Cooktop_CycleStatusOdometer.Label": "Odometer",
+    "Cooktop_CycleStatusCookElementState.Label": "Cook Element State",
+    "Cooktop_AlertStatusHotSurface.Label": "Hot Surface",
+    "Cooktop_OperationSetWarmingZoneOn.Label": "Warming Zone On",
+    "Cooktop_CycleSetCookElementPower.Label": "Cook Element Power",
+    "Cooktop_CycleSetCookElementSize.Label": "Cook Element Size",
+    "PushTrigger.Label": "Push Trigger used by WISE for sending Notifications",
+    "Relational_to_Appliance.Label": "Attribute used to send Relational data to Appliance",
+    "GetSubscribeListVersion.Label": "Set to 1 to Get appliance SubscribeListVersion",
+    "M2MSubList.Label": "M2M SubList",
+    "M2MSubscribeListVersion.Label": "M2M Subscribe List Version",
+    "SetDNSNames.Label": "Set DNS Names - defines which environment appliances connects to",
+    "sys-parser-type.Label": "defines to this are a pure API144 parser",
+    "MAC_Address.Label": "MAC Address",
+    "uid.Label": "uid SAID#",
+    "ModelNumber.Label": "Model Number",
+    "SerialNumber.Label": "Serial Number",
+    "ISPReasonCode.Label": "ISP Reason Code",
+    "GetApplianceVersionNumber.Label": "Get Appliance Version Number",
+    "ProjectReleaseNumber.Label": "Software Bundle Part Number",
+    "ISPStep.Label": "ISP Step",
+    "Sys_AlertStatusCustomerFaultCodeNotification.Label": "Customer Fault Code Notification",
+    "Sys_AlertStatusControlLockChangedByAppliance.Label": "Control Lock Changed by Appliance",
+    "Generic_ApplianceVersionNumber.Label": "Appliance Version Number",
+    "Generic_EnergyProfileSetting.Label": "Appliance Energy Profile Setting 0=OFF, 1=ON",
+    "Generic_ISPBundleAttributes.Label": "ISP Update Payload",
+    "Generic_RatePlanID.Label": "Rate Plan ID",
+    "Generic_UtilityID.Label": "UtilityID Utility Company",
+    "Generic_SmartID.Label": "Appliance Smart ID",
+    "Generic_Zip.Label": "Zip/Postal Code",
+    "Generic_cc_uri.Label": "cc_uri",
+    "XCat_InServiceDate.Label": "In Service Date",
+    "XCat_trid_result.Label": "Transaction Response ID Results",
+    "XCat_trid.Label": "Transaction Response ID",
+    "XCat_online.Label": "Appliance Online Status",
+    "XCat_UtcOffset.Label": "UTC Offset (in seconds)",
+    "XCat_DstOffset.Label": "DST Offset (in seconds)",
+    "XCat_TimeZoneId.Label": "Time Zone ID",
+    "XCat_DateTimeMode.label": "Date Time Mode",
+    "Cooktop_CycleStatusCookElementState.EnumValues.CookTimeStateIdle.Label": "Idle",
+    "Cooktop_CycleStatusCookElementState.EnumValues.CookTimeStateRunning.Label": "Running",
+    "Cooktop_OperationStatus.State.EnumValues.SimpleStateOff.Label": "Off",
+    "Cooktop_OperationStatus.State.EnumValues.SimpleStateProgramming.Label": "Programming",
+    "Cooktop_OperationStatus.State.EnumValues.SimpleStateRunning.Label": "Running",
+    "ControlLock.Label" : "Control lock",
+    "SystemSettings_ControlLock.Description": "Allows you to lock the controls to prevent unintended use of the appliance.",
+    "Notifications.Label" : "Notifications",
+    "Notifications.Description" : "Start or stop notifications for individual notifications at any time"
+  },
+  "AFCSelfHelpPack": {
+    "F1E0": {
+      "ErrorCode": "F1E0",
+      "Name": "User Interface Board",
+      "Type": "User Interface Board",
+      "Description": "There may be a problem with the cooktop control, user interface board(s), or associated wiring.",
+      "StepsToRepair": [
+        "Reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+        "Power unit up by turning on the circuit breaker(s).",
+        "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+        "Verify cooktop operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": "TBD"
+    },
+    "F1E1": {
+      "ErrorCode": "F1E1",
+      "Name": "Control Relay Board",
+      "Type": "Control Relay Board",
+      "Description": "There may be a problem with the cooktop control(s) or the associated wiring.",
+      "StepsToRepair": [
+        "Reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+        "Power unit up by turning on the circuit breaker(s).",
+        "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+        "Verify cooktop operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": "TBD"
+    },
+    "F2E1": {
+      "ErrorCode": "F2E1",
+      "Name": "Stuck Key",
+      "Type": "Stuck Key",
+      "Description": "There may be a problem with the user interface board(s).",
+      "StepsToRepair": [
+        "Reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+        "Power unit up by turning on the circuit breaker(s).",
+        "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+        "Verify cooktop operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": "TBD"
+    },
+    "F6E0": {
+      "ErrorCode": "F6E0",
+      "Name": "User Interface Connection",
+      "Type": "User Interface Connection",
+      "Description": "There may be a problem with the control(s), the user interface board(s), or the associated wiring.",
+      "StepsToRepair": [
+        "Reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+        "Power unit up by turning on the circuit breaker(s).",
+        "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+        "Verify cooktop operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": "TBD"
+    },
+    "F6E4": {
+      "ErrorCode": "F6E4",
+      "Name": "Control Status",
+      "Type": "Control Status",
+      "Description": "There may be a problem with the main control.",
+      "StepsToRepair": [
+        "Reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+        "Power unit up by turning on the circuit breaker(s).",
+        "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+        "Verify cooktop operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": "TBD"
+    },
+    "F6E6": {
+      "ErrorCode": "F6E6",
+      "Name": "Main Control Connection",
+      "Type": "Main Control Connection",
+      "Description": "There may be a problem with the main control or the associated wiring.",
+      "StepsToRepair": [
+        "There may be a problem with the main control or the associated wiring.",
+        "Reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+        "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+        "Verify cooktop operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": "TBD"
+    },
+    "F6E9": {
+      "ErrorCode": "F6E9",
+      "Name": "Secondary Control Connection",
+      "Type": "Secondary Control Connection",
+      "Description": "There may be a problem with the secondary control or the associated wiring.",
+      "StepsToRepair": [
+        "Reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+        "Power unit up by turning on the circuit breaker(s).",
+        "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+        "Verify cooktop operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": "TBD"
+    },
+    "F6EA": {
+      "ErrorCode": "F6EA",
+      "Name": "User Interface Over Temperature",
+      "Type": "User Interface Over Temperature",
+      "Description": "There may be a problem with the user interface board(s).",
+      "StepsToRepair": [
+        "Reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+        "Power unit up by turning on the circuit breaker(s).",
+        "Restart the cycle and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+        "Verify cooktop operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": "TBD"
+    },
+    "F9E0": {
+      "ErrorCode": "F9E0",
+      "Name": "Power Input",
+      "Type": "Power Input",
+      "Description": "There may be a problem with the power wiring to the product.",
+      "StepsToRepair": [
+        "Reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute.",
+        "Power unit up by turning on the circuit breaker(s).",
+        "Restart unit and monitor the cooktop for one (1) minute to ensure the error code does not display again.",
+        "Verify cooktop operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": "TBD"
+    }
+  },
+  "MobileLiterals": {
+    "Manuals": {
+      "UseCareGuide": {
+        "Title": "Use & Care Guide",
+        "FilePath": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/eng/UserCareGuide.pdf"
+      },
+      "InstallationInstructions": {
+        "Title": "Installation Instructions",
+        "FilePath": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/eng/InstallationInstruction.pdf"
+      },
+      "Warranty": {
+        "Title": "Warranty",
+        "FilePath": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/eng/Warranty.pdf"
+      },
+      "FccInformationForm": {
+        "Title": "FCC Information Form",
+        "FilePath": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/eng/FccInformation.pdf"
+      }
+    },
+    "Notifications": {
+      "ControlLockOn": {
+        "Name": "Control Lock",
+        "Description": "Receive a notification when remote control has been enabled or disabled."
+      },
+      "CookTopTurnedOn": {
+        "Name": "Cooktop On",
+        "Description": "Receive a notification when the cooktop is turned on"
+      },
+      "CooktopLeftOn": {
+        "Name": "Cooktop Left On",
+        "Description": "Receive a notification when your Cooktop is left on for a predefined amount of time that you select"
+      }
+    },
+    "SpecialtyCycles": {
+      
+    },
+    "SupplyItem": {
+      "ExtendedWarranty": {
+        
+      },
+      "ScheduleService": {
+        "Name": "Schedule Service",
+        "Description": "Schedule Service",
+        "Disclaimer": "Schedule Service",
+        "SupplyLocations": [
+          {
+            "Merchant": "JennAir",
+            "Country": "United States",
+            "url": "https://jennair.com/customer-care/schedule-repair"
+          },
+          {
+            "Merchant": "JennAir",
+            "Country": "Canada",
+            "url": "http://www.jennair.ca/customer-care/schedule-service/"
+          }
+        ]
+      }
+    },
+    "Parts & Accessories": {
+      "Griddle": {
+        "Name": "Griddle",
+        "Description": "A multi-layer stainless steel griddle with an aluminum core that works on modular induction cooktops as well as select gas cooktops.",
+        "Disclaimer": "",
+        "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W11035422_Original.tif",
+        "SupplyLocations": [
+          {
+            "Merchant": "JennAir",
+            "Country": "United States",
+            "url": "https://jennair.com/accessories/details/W11035422"
+          },
+          {
+            "Merchant": "JennAir",
+            "Country": "Canada",
+            "url": "https://www.whirlpoolparts.ca/POL/partssearch?partsId=W11035422"
+          }
+        ]
+      },
+      "Flat Bottom Wok": {
+        "Name": "Flat Bottom Wok",
+        "Description": "This exquisite flat bottom wok is designed for a range of cooking techniques such as steaming, stir frying, braising, poaching and more. This versatile pan with induction technology is essential to any cooking enthusiast kitchen.",
+        "Disclaimer": "",
+        "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W11035423_Original.tif",
+        "SupplyLocations": [
+          {
+            "Merchant": "JennAir",
+            "Country": "United States",
+            "url": "https://jennair.com/accessories/details/W11035423"
+          },
+          {
+            "Merchant": "JennAir",
+            "Country": "Canada",
+            "url": "https://www.whirlpoolparts.ca/POL/partssearch?partsId=W11035423"
+          }
+        ]
+      },
+      "Cooktop Cleaning Kit": {
+        "Name": "Affresh® Cooktop Cleaning Kit",
+        "Description": "Affresh® Cooktop Cleaning Kit includes a scraper and scrub pad that remove build-up and cooked-on spills without scratching or harming your cooktop surfaces and a non-abrasive cleaner that is safe for all glass and ceramic cooktops. Use monthly or as needed to polish your cooktop and keep it looking like new.",
+        "Disclaimer": "",
+        "SupplyLocations": [
+          {
+            "Merchant": "JennAir",
+            "Country": "United States",
+            "url": "https://www.affresh.com/product/cooktop-cleaning-kit/"
+          }
+        ]
+      },
+      "Cooktop Cleaner": {
+        "Name": "Affresh® Cooktop Cleaner",
+        "Description": "Affresh® Cooktop Cleaner is specially formulated to cut through tough, cooked-on residues that can linger on your cooktop. Use monthly or as needed to polish your cooktop with a streak-free shine1.",
+        "Disclaimer": "",
+        "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W10355051_Original.jpg",
+        "SupplyLocations": [
+          {
+            "Merchant": "JennAir",
+            "Country": "United States",
+            "url": "https://www.affresh.com/product/cooktop-cleaner/"
+          },
+          {
+            "Merchant": "JennAir",
+            "Country": "Canada",
+            "url": "https://affresh.ca/collections/frontpage/products/affresh-cooktop-cleaner#"
+          }
+        ]
+      },
+      "Cooktop Cleaning Wipes": {
+        "Name": "Affresh® Cooktop Cleaning Wipes",
+        "Description": "Affresh® Cooktop Cleaning Wipes are specially formulated, dual-sided wipes with a scrubber side to remove everyday residues and a smooth side to leave your ceramic cooktop shiny and sparkling with a streak-free finish.",
+        "Disclaimer": "",
+        "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W10539770_Original.tif",
+        "SupplyLocations": [
+          {
+            "Merchant": "JennAir",
+            "Country": "United States",
+            "url": "https://www.affresh.com/product/cooktop-cleaning-wipes/"
+          }
+        ]
+      }
+    },
+    "MobileKeys": {
+      "infoIcon.key": "Remotely disable the control panel to avoid unintended use no matter where you are.",
+      "infoUntreated.key": "Leaving your cooktop unattended while in use is not recommended.",
+      "infoKitchenTimer.key": "",
+      "infoSetKitchenTimer.key": "Setting a timer will alert you when it's time to check your food; the element will not turn off when the timer ends.",
+      "infoCooktopOnNotify.key": "This notification will appear when your cooktop has been left on for the amount of time set below. Whatever you set is your liability and is not the responsibility of KitchenAid."
+    },
+    "JEC4536H": {
+      "Burner-1": {
+        "Name": "Element-1",
+        "Description": "6'' 1200-Watt Round Element -- This element is ideal for lower heat cooking, like simmering sauces and warming foods, in cookware up to 6” in diameter.",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4536H.Burner-1.jpg"
+      },
+      "Burner-2": {
+        "Name": "Element-2",
+        "Description": "12\"/9\"/6\" Triple-Choice™ Element -- This versatile element is perfect for everything from high-heat cooking, like boiling liquids and sauces, searing and browning meats, and frying; to lower heat techniques, like simmering sauces or keeping foods warm.  The triple element design incorporates a 12 \" outer element, a 9” middle element and a 6 \" inner element to accommodate a large variety of cookware sizes from small saucepans to large stock pots.",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4536H.Burner-2.jpg"
+      },
+      "Burner-3": {
+        "Name": "Element-3",
+        "Description": "6'' 1200-Watt Round Element -- This element is ideal for lower heat cooking, like simmering sauces and warming foods, in cookware up to 6” in diameter",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4536H.Burner-3.jpg"
+      },
+      "Burner-4": {
+        "Name": "Element-4",
+        "Description": "10\"/6\" Dual-Choice™ Element -- This versatile element is perfect for everything from high-heat cooking, like boiling liquids and sauces, searing and browning meats, and frying; to lower heat techniques, such as simmering sauces or keeping foods warm. The dual element design incorporates a 10 \" outer element and a 6 \" inner element to accommodate a variety of cookware sizes from small saucepans to large stock pots",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4536H.Burner-4.jpg"
+      },
+      "Burner-6": {
+        "Name": "Element-6",
+        "Description": "10\"/6\" Dual-Choice™ Element -- This versatile element is perfect for everything from high-heat cooking, like boiling liquids and sauces, searing and browning meats, and frying; to lower heat techniques, such as simmering sauces or keeping foods warm. The dual element design incorporates a 10 \" outer element and a 6 \" inner element to accommodate a variety of cookware sizes from small saucepans to large stock pots.",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4536H.Burner-6.jpg"
+      }
+    },
+    "JEC4430H": {
+      "Burner-2": {
+        "Name": "Element-2",
+        "Description": "6'' Simmer/Melt Element -- This high - precision element that has a wide range of power,able to melt chocolate and butter and offers lower heat cooking,like simmering sauces,poaching,and warming foods,in cookware up to 6” in diameter.",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4430H.Burner-2.jpg"
+      },
+      "Burner-3": {
+        "Name": "Element-3",
+        "Description": "10\"/6\" High Power Dual-Choice™ Element with Simmer Setting -- This versatile element is perfect for everything from high-heat cooking, like boiling liquids and sauces, searing and browning meats, and frying; to lower heat techniques, such as simmering sauces or keeping foods warm. The dual element design incorporates a 10 \"outer element and a 6 \" inner element to accommodate a variety of cookware sizes from small saucepans to large stock pots.",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4430H.Burner-3.jpg"
+      },
+      "Burner-5": {
+        "Name": "Element-5",
+        "Description": "12\"/9\"/6\" Triple-Choice™ Element -- This versatile element is perfect for everything from high-heat cooking, like boiling liquids and sauces, searing and browning meats, and frying; to lower heat techniques, like simmering sauces or keeping foods warm.  The triple element design incorporates a 12 \" outer element,a 9” middle element and a 6 \" inner element to accommodate a large variety of cookware sizes from small saucepans to large stock pots.",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4430H.Burner-5.jpg"
+      },
+      "Burner-6": {
+        "Name": "Element-6",
+        "Description": "6'' Simmer/Melt Element -- This high - precision element that has a wide range of power,able to melt chocolate and butter and offers lower heat cooking,like simmering sauces,poaching,and warming foods,in cookware up to 6” in diameter.",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4430H.Burner-6.jpg"
+      }
+    },
+    "JEC4424H": {
+      "Burner-2": {
+        "Name": "Element-2",
+        "Description": "8'' 1800-Watt Round Element -- This element is ideal for boiling smaller amounts of soups  and sauces, as well as, simmering and warming foods, in cookware up to 8” in diameter.",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4424H.Burner-2.jpg"
+      },
+      "Burner-3": {
+        "Name": "Element-3",
+        "Description": "10\"/6\"Dual - Choice™ Element--This versatile element is perfect for everything from high - heat cooking,like boiling liquids and sauces,searing and browning meats,and frying;to lower heat techniques,such as simmering sauces or keeping foods warm.The dual element design incorporates a 10 \" outer element and a 6 \" inner element to accommodate a variety of cookware sizes from small saucepans to large stock pots.",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4424H.Burner-3.jpg"
+      },
+      "Burner-5": {
+        "Name": "Element-5",
+        "Description": "6'' 1200-Watt Round Element -- This element is ideal for lower heat cooking, like simmering sauces and warming foods, in cookware up to 6” in diameter. ",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4424H.Burner-5.jpg"
+      },
+      "Burner-6": {
+        "Name": "Element-6",
+        "Description": "6'' Simmer/Melt Element -- This high - precision element that has a wide range of power,able to melt chocolate and butter and offers lower heat cooking,like simmering sauces,poaching,and warming foods,in cookware up to 6” in diameter ",
+        "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4424H.Burner-6.jpg"
+      }
+    },
+    "cxcDetail": {
+      "US": {
+        "Country": "United States",
+        "cxcEmail": {
+          "Development": "wcloud@mailinator.com",
+          "Test": "wcloud@mailinator.com",
+          "Staging": "wcloud@mailinator.com",
+          "Cuft": "Connected_Appliances@Whirlpool.com",
+          "Production": "Connected_Appliances@Whirlpool.com"
+        },
+        "cxcPhone": {
+          "Development": "1-800-536-6247",
+          "Test": "1-800-536-6247",
+          "Staging": "1-800-536-6247",
+          "Cuft": "1-800-536-6247",
+          "Production": "1-800-536-6247"
+        },
+        "cxcHours": {
+          "Development": ",Monday-Friday,8 AM-8 PM EST",
+          "Test": " Monday-Friday,8 AM-8 PM EST",
+          "Staging": " Monday-Friday,8 AM-8 PM EST",
+          "Cuft": " Monday-Friday ,8 AM-8 PM ",
+          "Production": " Monday-Friday,8 AM-8 PM EST"
+        }
+      },
+      "CA": {
+        "Country": "Canada",
+        "cxcEmail": {
+          "Development": "Connected_Appliances@Whirlpool.com",
+          "Test": "Connected_Appliances@Whirlpool.com",
+          "Staging": "Connected_Appliances@Whirlpool.com",
+          "Cuft": "Connected_Appliances@Whirlpool.com",
+          "Production": "Connected_Appliances@Whirlpool.com"
+        },
+        "cxcPhone": {
+          "Development": "1-800-536-6247",
+          "Test": "1-800-536-6247",
+          "Staging": "1-800-536-6247",
+          "Cuft": "1-800-536-6247",
+          "Production": "1-800-536-6247"
+        },
+        "cxcHours": {
+          "Development": "M-F 8:00-8:00 EST",
+          "Test": "M-F 8:00-8:00 EST",
+          "Staging": "M-F 8:00-8:00 EST",
+          "Cuft": "M-F 8:00-8:00 EST",
+          "Production": "M-F 8:00-8:00 EST"
+        }
+      }
+    },
+    "smartTip": [
+      
+    ]
+  },
+  "NotificationMessages": {
+    "NotificationContents": [
+      {
+        "TemplateId": "ControlUnlocked",
+        "SmsText": "Control Lock on your appliance is disabled",
+        "EmailText": "Control Lock on your appliance is disabled",
+        "PushText": "Control Lock on your appliance is disabled",
+        "AlertTitle": "Control Lock Alert",
+        "Type": "lock"
+      },
+      {
+        "TemplateId": "ControlLockOn",
+        "EmailText": "Control Lock on your appliance is enabled",
+        "PushText": "Control Lock on your appliance is enabled",
+        "SmsText": "Control Lock on your appliance is enabled",
+        "AlertTitle": "Control Lock Alert",
+        "Type": "lock"
+      },
+      {
+        "TemplateId": "CooktopLeftOn",
+        "SmsText": "Cooktop is turned on for a predefined time you set up.",
+        "EmailText": "Cooktop is turned on for a predefined time you set up.",
+        "PushText": "Cooktop is turned on for a predefined time you set up.",
+        "AlertTitle": "Cooktop Left On Alert",
+        "Type": "cooktopalert"
+      },
+      {
+        "TemplateId": "CookTopTurnedOn",
+        "SmsText": "Your cooktop is turned on.",
+        "EmailText": "Your cooktop is turned on.",
+        "PushText": "Your cooktop is turned on.",
+        "AlertTitle": "Cooktop Turned On Alert",
+        "Type": "cooktopalert"
+      }
+    ]
+  }
+}

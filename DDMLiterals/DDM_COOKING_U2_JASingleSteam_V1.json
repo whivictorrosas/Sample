@@ -1,0 +1,1191 @@
+{
+    "DDMLiterals": {
+        "XCat_PersistentInfoVersion.Label": "Data Model Version",
+        "XCat_PersistentInfoSaid.Label": "Smart Appliance ID",
+        "XCat_PersistentInfoMacAddress.Label": "MAC Address",
+        "XCat_WifiStatusRssiAntennaDiversity.Label": "Signal Strength Antenna Diversity",
+        "XCat_PowerStatusEnergyConsumption.Label": "Energy Consumption",
+        "XCat_PowerStatusEnergyMeasurementResults.Label": "Energy Measurement Results",
+        "XCat_PowerStatusRealTimePower.Label": "Real Time Power",
+        "XCat_PowerStatusRealTimeVoltage.Label": "Real Time Voltage",
+        "XCat_PowerStatusPowerOutage.Label": "Power Outage",
+        "XCat_OdometerStatusRunningHours.Label": "RunningHours",
+        "XCat_OdometerStatusTotalHours.Label": "TotalHours",
+        "XCat_OdometerStatusCycleCount.Label": "CycleCount",
+        "XCat_ApplianceInfoSetModelNumber.Label": "Model Number",
+        "XCat_ApplianceInfoSetSerialNumber.Label": "Serial Number",
+        "XCat_RemoteSetRemoteControlEnable.Label": "Remote Control Enable",
+        "XCat_RemoteSetRemoteDiagnosticsEnable.Label": "Remote Diagnostics Enable",
+        "XCat_RemoteSetRebootAppliance.Label": "Reboot Appliance",
+        "XCat_WifiSetPublishApplianceState.Label": "Publish Appliance State",
+        "XCat_WifiSetRebootWifiCommModule.Label": "Reboot WiFi Comm Module",
+        "XCat_WifiSetDeprovisionWifiCommModule.Label": "Deprovision WiFi Comm Module",
+        "XCat_WifiSetDisableWifiCommModule.Label": "Disable WiFi Comm Module",
+        "XCat_PowerSetEnergyMeasurementStart.Label": "Energy Measurement Start",
+        "XCat_PowerSetRealTimePowerPublishTiming.Label": "Real Time Power Publish Timing",
+        "XCat_PowerSetRealTimePowerPublishStart.Label": "RealTimePowerPublishStart",
+        "XCat_ConfigSetMaxRelationalSteps.Label": "Maximum Relational Steps",
+        "XCat_ConfigSetMaxRelationalMemory.Label": "Maximum Relational Memory",
+        "XCat_ConfigSetMaxCustomCycles.Label": "Maximum Custom Cycles",
+        "Sys_DisplayStatusBroilDisplayType.Label": "Broil Display Type",
+        "Sys_AlertStatusCustomerFaultCode.Label": "Customer Fault Code",
+        "Sys_AlertStatusRemoteDiagnosticsResults.Label": "Remote Diagnostics Results",
+        "Sys_AlertStatusNotification.Label": "Notification",
+        "Sys_DisplaySetTempUnits.Label": "Temp Units",
+        "Sys_DisplaySetAutoShutOff.Label": "Auto Shut Off",
+        "Sys_OperationSetGlobalToneVolume.Label": "Global Tone Volume",
+        "Sys_OperationSetKeyPressToneVolume.Label": "Key Press Tone Volume",
+        "Sys_OperationSetEndOfCycleToneVolume.Label": "End Of Cycle Tone Volume",
+        "Sys_OperationSetEndOfCycleReminderToneVolume.Label": "End Of Cycle Reminder Tone  Volume",
+        "Sys_OperationSetAlertToneVolume.Label": "Alert Tone Volume",
+        "Sys_OperationSetSabbathModeEnabled.Label": "Sabbath Mode Enabled",
+        "Sys_OperationSetSteamFilter.Label": "Steam Filter",
+        "OvenUpperCavity_TimeStatusCookTimeRemaining.Label": "Cook Time Remaining",
+        "OvenUpperCavity_TimeStatusCycleTimeElapsed.Label": "Cycle Time Elapsed",
+        "OvenUpperCavity_TimeStatusDelayTimeRemaining.Label": "Delay Time Remaining",
+        "OvenUpperCavity_DisplStatusDisplayTemp.Label": "Display Temp",
+        "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp.Label": "Meat Probe Display Temp",
+        "OvenUpperCavity_OpStatusCookTimeState.Label": "Cook Time State",
+        "OvenUpperCavity_OpStatusDoorOpen.Label": "Door Open",
+        "OvenUpperCavity_OpStatusState.Label": "State",
+        "OvenUpperCavity_OpStatusDoorLocked.Label": "Door Locked",
+        "OvenUpperCavity_OpStatusFillValveOn.Label": "Fill Valve On",
+        "OvenUpperCavity_OpStatusCleanOven.Label": "Clean Oven",
+        "OvenUpperCavity_CycleStatusOdometer.Label": "Odometer",
+        "OvenUpperCavity_AlertStatusMeatProbePluggedIn.Label": "Meat Probe Plugged In",
+        "OvenUpperCavity_TimeSetCookTimeSet.Label": "Cook Time Set",
+        "OvenUpperCavity_TimeSetCookTimeOperations.Label": "Cook Time Operations",
+        "OvenUpperCavity_TimeSetDelayTime.Label": "Delay Time",
+        "OvenUpperCavity_DisplaySetLightOn.Label": "Light On",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.Label": "Cook Time Complete Action",
+        "OvenUpperCavity_OpSetOperations.Label": "Operations",
+        "OvenUpperCavity_OpSetSabbathModeActive.Label": "Sabbath Mode Active",
+        "OvenUpperCavity_CycleSetTargetTemp.Label": "Target Temp",
+        "OvenUpperCavity_CycleSetMeatProbeTargetTemp.Label": "Meat Probe Target Temp",
+        "OvenUpperCavity_CycleSetBrowning.Label": "Browning",
+        "OvenUpperCavity_CycleSetCommonMode.Label": "Common Mode",
+        "OvenUpperCavity_CycleSetConvectBakeFood.Label": "Convect Bake Food",
+        "OvenUpperCavity_CycleSetEasySteamFood.Label": "Easy Steam Food",
+        "OvenUpperCavity_CycleSetEasyConvectFood.Label": "Easy Convect Food",
+        "OvenUpperCavity_CycleSetBreadProof.Label": "Bread Proof",
+        "OvenUpperCavity_CycleSetCleanOvenMode.Label": "Clean Oven Mode",
+        "OvenUpperCavity_CulinaryCtrSetId.Label": "ID",
+        "OvenUpperCavity_CulinaryCtrSetVersion.Label": "Version",
+        "OvenUpperCavity_CustomCycleSetId.Label": "ID",
+        "OvenUpperCavity_CustomCycleSetStep.Label": "Step",
+        "Relational_CycleMyCreation.Label": "My Creation",
+        "Relational_CycleRecentCycles.Label": "Recent Cycles",
+        "Relational_EnvelopeOpen.Label": "Open",
+        "Relational_EnvelopeClose.Label": "Close",
+        "Relational_EnvelopeAction.Label": "Action",
+        "Relational_EntityOpen.Label": "Open",
+        "Relational_EntityClose.Label": "Close",
+        "Relational_EntityName.Label": "Name",
+        "Relational_EntityId.Label": "ID",
+        "Relational_ArrayOpen.Label": "Open",
+        "Relational_ArrayClose.Label": "Close",
+        "XCat_RemoteSetRemoteDiagnosticsEnable.EnumValues.RemoteDiagDisableAutoTest.Label": "RemoteDiagDisable AutoTest",
+        "XCat_RemoteSetRemoteDiagnosticsEnable.EnumValues.RemoteDiagEnableAutoTest.Label": "RemoteDiagEnable  AutoTest",
+        "XCat_RemoteSetRebootAppliance.EnumValues.RebootApplianceCancelResetRequest.Label": "RebootApplianceCancelResetRequest",
+        "XCat_RemoteSetRebootAppliance.EnumValues.RebootApplianceResetRequest.Label": "RebootApplianceResetRequest",
+        "XCat_RemoteSetRebootAppliance.EnumValues.RebootApplianceExecuteReset.Label": "RebootApplianceExecuteReset",
+        "Sys_DisplayStatusBroilDisplayType.EnumValues.BroilDisplayHighLow.Label": "BroilDisplayHighLow",
+        "Sys_AlertStatusRemoteDiagnosticsResults.EnumValues.RemoteDiagResultsFail.Label": "RemoteDiagResults Fail",
+        "Sys_AlertStatusRemoteDiagnosticsResults.EnumValues.RemoteDiagResultsPass.Label": "RemoteDiagResults Pass",
+        "Sys_AlertStatusNotification.EnumValues.NotificationsNone.Label": "Notifications None",
+        "Sys_AlertStatusNotification.EnumValues.NotificationsPreheatMinus25.Label": "Notifications PreheatMinus25",
+        "Sys_AlertStatusNotification.EnumValues.NotificationsPreheatComplete.Label": "Notifications PreheatComplete",
+        "Sys_AlertStatusNotification.EnumValues.NotificationsMeatProbeTemperatureReached.Label": "Notifications MeatProbeTemperatureReached",
+        "Sys_DisplaySetTempUnits.EnumValues.TempUnitsDegreesC.Label": "TempUnitsDegreesC",
+        "Sys_DisplaySetTempUnits.EnumValues.TempUnitsDegreesF.Label": "TempUnitsDegreesF",
+        "Sys_OperationSetGlobalToneVolume.EnumValues.VolumeOff.Label": "Volume Off",
+        "Sys_OperationSetGlobalToneVolume.EnumValues.VolumeHigh.Label": "Volume High",
+        "Sys_OperationSetKeyPressToneVolume.EnumValues.VolumeOff.Label": "Volume Off",
+        "Sys_OperationSetKeyPressToneVolume.EnumValues.VolumeHigh.Label": "Volume High",
+        "Sys_OperationSetEndOfCycleToneVolume.EnumValues.VolumeOff.Label": "Volume Off",
+        "Sys_OperationSetEndOfCycleToneVolume.EnumValues.VolumeHigh.Label": "Volume High",
+        "Sys_OperationSetEndOfCycleReminderToneVolume.EnumValues.VolumeOff.Label": "Volume Off",
+        "Sys_OperationSetEndOfCycleReminderToneVolume.EnumValues.VolumeHigh.Label": "Volume High",
+        "Sys_OperationSetAlertToneVolume.EnumValues.VolumeOff.Label": "Volume Off",
+        "Sys_OperationSetAlertToneVolume.EnumValues.VolumeHigh.Label": "Volume High",
+        "Sys_OperationSetSteamFilter.EnumValues.FilterStatusOk.Label": "FilterStatus Ok",
+        "Sys_OperationSetSteamFilter.EnumValues.FilterStatusReplace.Label": "FilterStatus Replace",
+        "Sys_OperationSetSteamFilter.EnumValues.FilterStatusReset.Label": "FilterStatus Reset",
+        "OvenUpperCavity_OpStatusCookTimeState.EnumValues.CookTimeStateIdle.Label": "Idle",
+        "OvenUpperCavity_OpStatusCookTimeState.EnumValues.CookTimeStateRunning.Label": "Running",
+        "OvenUpperCavity_OpStatusCookTimeState.EnumValues.CookTimeStateComplete.Label": "Complete",
+        "OvenUpperCavity_OpStatusState.EnumValues.StateIdle.Label": "Idle",
+        "OvenUpperCavity_OpStatusState.EnumValues.StatePreheating.Label": "Preheating",
+        "OvenUpperCavity_OpStatusState.EnumValues.StateSteady.Label": "Steady",
+        "OvenUpperCavity_OpStatusState.EnumValues.StateProgramming.Label": "Programming",
+        "OvenUpperCavity_OpStatusState.EnumValues.StateDelaying.Label": "Delaying",
+        "OvenUpperCavity_OpStatusState.EnumValues.StateCooling.Label": "Cooling",
+        "OvenUpperCavity_OpStatusCleanOven.EnumValues.CleanOvenNotRunning.Label": "CleanOven NotRunning",
+        "OvenUpperCavity_OpStatusCleanOven.EnumValues.CleanOvenRunning.Label": "CleanOven Running",
+        "OvenUpperCavity_TimeSetCookTimeOperations.EnumValues.CookTimeOperationsNone.Label": "None",
+        "OvenUpperCavity_TimeSetCookTimeOperations.EnumValues.CookTimeOperationsCancel.Label": "Cancel",
+        "OvenUpperCavity_TimeSetCookTimeOperations.EnumValues.CookTimeOperationsStart.Label": "Start",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionUnset.Label": "Unset",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionStayOn.Label": "Stay On",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionKeepWarm.Label": "Keep Warm",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionTurnOff.Label": "Turn Off",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionAutoAdvance.Label": "Auto Advance",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionWaitForNextCommand.Label": "Wait For Next Command",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionWaitForTimeExpire.Label": "Wait For Time Expire",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionWaitForDoor.Label": "Wait For Door",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionWaitForEvent.Label": "Wait For Event",
+        "OvenUpperCavity_OpSetOperations.EnumValues.OperationsNone.Label": "None",
+        "OvenUpperCavity_OpSetOperations.EnumValues.OperationsCancel.Label": "Cancel",
+        "OvenUpperCavity_OpSetOperations.EnumValues.OperationsStart.Label": "Start",
+        "OvenUpperCavity_OpSetOperations.EnumValues.OperationsSetOnDisplay.Label": "Send To Appliance",
+        "OvenUpperCavity_OpSetOperations.EnumValues.OperationsModify.Label": "Modify",
+        "OvenUpperCavity_CycleSetBrowning.EnumValues.BrowningNone.Label": "Browning None",
+        "OvenUpperCavity_CycleSetBrowning.EnumValues.BrowningLow.Label": "Browning Low",
+        "OvenUpperCavity_CycleSetBrowning.EnumValues.BrowningMedium.Label": "Browning Medium",
+        "OvenUpperCavity_CycleSetBrowning.EnumValues.BrowningHigh.Label": "Browning High",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeIdle.Label": "Idle",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeBake.Label": "Bake",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeSabbathBake.Label": "Sabbath Bake",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeConvectBake.Label": "Convect Bake",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeBroil.Label": "Broil",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.ConvectBakeFoodPastry.Label": "Convect Pastry",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeConvectBroil.Label": "Convect Broil",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeSteam.Label": "Steam",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeConvectRoast.Label": "Convect Roast",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeConvectSlowRoast1.Label": "Convect Slow Roast LO",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeKeepWarm.Label": "Keep Warm",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeConvectSlowRoast2.Label": "Convect Slow Roast MED",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeConvectSlowRoast3.Label": "Convect Slow Roast HI",
+        "OvenUpperCavity_CycleSetConvectBakeFood.EnumValues.ConvectBakeFoodIdle.Label": "Food Idle",
+        "OvenUpperCavity_CycleSetConvectBakeFood.EnumValues.ConvectBakeFoodFrozenPizza.Label": "Convect Frozen Pizza",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodIdle.Label": "Idle",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodMeat.Label": "Meat",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodPoultry.Label": "Poultry",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodSeafood.Label": "Seafood",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodVegetable.Label": "Vegetable",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodBread.Label": "Bread",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodCasserole.Label": "Casserole",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodDessert.Label": "Dessert",
+        "OvenUpperCavity_CycleSetEasyConvectFood.EnumValues.EasyConvectFoodIdle.Label": "Idle",
+        "OvenUpperCavity_CycleSetConvectBakeFood.EnumValues.ConvectBakeFoodPastry.Label": "Convect Pastry",
+        "OvenUpperCavity_CycleSetEasyConvectFood.EnumValues.EasyConvectFoodBakedGoods.Label": "Baked Goods",
+        "OvenUpperCavity_CycleSetEasyConvectFood.EnumValues.EasyConvectFoodMeat.Label": "Meat",
+        "OvenUpperCavity_CycleSetBreadProof.EnumValues.BreadProofNone.Label": "None",
+        "OvenUpperCavity_CycleSetBreadProof.EnumValues.BreadProofStandard.Label": "Proof",
+        "OvenUpperCavity_CycleSetBreadProof.EnumValues.BreadProofRapid.Label": "Rapid Proof",
+        "OvenUpperCavity_CycleSetCleanOvenMode.EnumValues.CleanOvenIdle.Label": "Idle",
+        "OvenUpperCavity_CycleSetCleanOvenMode.EnumValues.CleanOvenStandard.Label": "Self-Clean",
+        "Relational_EnvelopeAction.EnumValues.ActionCreate.Label": "ActionCreate",
+        "Relational_EnvelopeAction.EnumValues.ActionGet.Label": "ActionGet",
+        "Relational_EnvelopeAction.EnumValues.ActionUpdate.Label": "ActionUpdate",
+        "Relational_EnvelopeAction.EnumValues.ActionDelete.Label": "ActionDelete",
+        "Relational_EnvelopeAction.EnumValues.ActionPublish.Label": "ActionPublish",
+        "Relational_EnvelopeAction.EnumValues.ActionStart.Label": "ActionStart",
+        "Relational_EnvelopeAction.EnumValues.ActionSetOnDisplay.Label": "ActionSetOnDisplay",
+        "OvenUpperCavity.Label" : "Oven",
+                "OvenUpperCavity_CycleSetCommonModeCommonModeBake.Label": "Bake",
+        "ConvectBake.Label": "Convect Bake",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBake.Label": "Convect Bake",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods.Label": "Baked Goods",
+        "ConvectRoast.Label": "Convect Roast",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectRoast.Label": "Convect Roast",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat.Label": "Meat",
+        "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza.Label": "Convect Frozen Pizza",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBroil.Label": "Convect Broil",
+        "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodPastry.Label": "Convect Pastry",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeBroil.Label": "Broil",
+        "OvenUpperCavity_CycleSetBreadProofBreadProofStandard.Label": "Proof",
+        "OvenUpperCavity_CycleSetBreadProofBreadProofRapid.Label": "Rapid Proof",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeKeepWarm.Label": "Keep Warm",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast1.Label": "Convect Slow Roast LO",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast2.Label": "Convect Slow Roast MED",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast3.Label": "Convect Slow Roast HI",
+        "ProbeCook.Label": "Probe Cook",
+        "Manual.Label": "Manual",
+        "Auto.Label":"Auto",
+        "Steam.Label" : "Steam",
+        "EasySteamFoodBread.Label": "Bread",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodBread.Label": "Bread",
+        "EasySteamFoodMeat.Label": "Meat",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodMeat.Label": "Meat",
+        "EasySteamFoodPoultry.Label": "Poultry",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodPoultry.Label": "Poultry",
+        "EasySteamFoodVegetable.Label": "Vegetable",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodVegetable.Label": "Vegetable",
+        "EasySteamFoodDessert.Label": "Dessert",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodDessert.Label": "Dessert",
+        "EasySteamFoodCasserole.Label": "Casserole",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodCasserole.Label": "Casserole",
+        "EasySteamFoodSeafood.Label": "Seafood",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodSeafood.Label": "Seafood",
+        "ControlLock.Label" : "Control lock",
+        "ControlLock.Description": "Allows you to lock the controls to prevent unintended use of the appliance.",
+        "Notifications.Label" : "Notifications",
+        "Notifications.Description" : "Start or stop notifications for individual notifications at any time",
+        "LocalKitchenTimer.Label" : "Kitchen timer",
+        "LocalKitchenTimer.Description" : "Set a timer to measure specific time intervals during the cooking process",
+        "LightOnOff.Label" : "Cavity light",
+        "LightOnOff.Description" : "Turn your cavity light on/off any any time"
+    },
+    "AFCSelfHelpPack": {
+    "F0,E0": {
+      "ErrorCode": "F0E0",
+      "Name": "System Check - No Error",
+      "Description": "Appliance system has been checked and shows no error.",
+      "StepsToRepair": [
+      ],
+      "HelpPath": ""
+    },
+    "F1,E0": {
+      "ErrorCode": "F1E0",
+      "Name": "User Interface Board",
+      "Description": "There may be a problem with the oven control, user interface board(s), or associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F1,E1": {
+      "ErrorCode": "F1E1",
+      "Name": "Control Relay Board",
+      "Description": "There may be a problem with the oven control(s) or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F2,E1": {
+      "ErrorCode": "F2E1",
+      "Name": "Stuck Key",
+      "Description": "There may be a problem with the user interface board(s).",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again.",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-536-6247 for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F2,E2": {
+      "ErrorCode": "F2E2",
+      "Name": "Oven Knob",
+      "Description": "There may be a problem with the user interface board(s).",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F3,E0": {
+      "ErrorCode": "F3E0",
+      "Name": "Main Oven Sensor",
+      "Description": "There may be a problem with the main oven temperature sensor, the control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F3,E1": {
+      "ErrorCode": "F3E1",
+      "Name": "Left Oven Sensor",
+      "Description": "There may be a problem with the left oven temperature sensor, control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F3,E3": {
+      "ErrorCode": "F3E3",
+      "Name": "Meat Probe - for Main Oven Only",
+      "Description": "There may be a problem with the main oven meat probe temperature sensor, the associated user interface board, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F3,E9": {
+      "ErrorCode": "F3E9",
+      "Name": "Left Oven Meat Probe short-circuit",
+      "Description": "There may be a problem with the left oven meat probe temperature sensor, the associated user interface board, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F5,E0": {
+      "ErrorCode": "F5E0",
+      "Name": "Main Oven Door Latch Switch",
+      "Description": "There may be a problem with the main oven door latch assembly, the door switch, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F5,E1": {
+      "ErrorCode": "F5E1",
+      "Name": "Main Oven Door Latch Motor",
+      "Description": "There may be a problem with the main oven door latch assembly or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F5,E3": {
+      "ErrorCode": "F5E3",
+      "Name": "Left Oven Door Latch Switch",
+      "Description": "There may be a problem with the left oven door latch assembly, the door switch, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F5,E4": {
+      "ErrorCode": "F5E4",
+      "Name": "Left Oven Door Latch Motor",
+      "Description": "There may be a problem with the left oven door latch assembly or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E0": {
+      "ErrorCode": "F6E0",
+      "Name": "User Interface Connection",
+      "Description": "There may be a problem with the oven control(s), the user interface board(s), or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E1": {
+      "ErrorCode": "F6E1",
+      "Name": "Main Oven Over Temperature Limit",
+      "Description": "There may be a problem with the main oven temperature sensor, main oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E3": {
+      "ErrorCode": "F6E3",
+      "Name": "Left Oven Over Temperature Limit",
+      "Description": "There may be a problem with the left oven temperature sensor, left oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E4": {
+      "ErrorCode": "F6E4",
+      "Name": "Control Status",
+      "Description": "There may be a problem with the main oven control.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E6": {
+      "ErrorCode": "F6E6",
+      "Name": "Main Oven Control Connection",
+      "Description": "There may be a problem with the main control or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E9": {
+      "ErrorCode": "F6E9",
+      "Name": "Left Oven Control Connection",
+      "Description": "There may be a problem with the left oven control or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F7,E1": {
+      "ErrorCode": "F7E1",
+      "Name": "Boiler Over Temperature Limit",
+      "Description": "There may be a problem with the boiler temperature sensor, the main oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F7,E2": {
+      "ErrorCode": "F7E2",
+      "Name": "Boiler Temperature Out of Range",
+      "Description": "There may be a problem with the boiler temperature sensor, the main oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F8,E0": {
+      "ErrorCode": "F8E0",
+      "Name": "Main Oven Cooling Fan Speed Low",
+      "Description": "There may be a problem with an airflow restriction, the main oven cooling fan, the main oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F8,E1": {
+      "ErrorCode": "F8E1",
+      "Name": "Left Oven Cooling Fan Speed Low",
+      "Description": "There may be a problem with an airflow restriction, the left oven cooling fan, the left oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F8,E2": {
+      "ErrorCode": "F8E2",
+      "Name": "Main Oven Cooling Fan Speed High",
+      "Description": "There may be a problem with an airflow restriction, the main oven cooling fan, the main oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F8,E3": {
+      "ErrorCode": "F8E3",
+      "Name": "Left Oven Cooling Fan Speed High",
+      "Description": "There may be a problem with an airflow restriction, the left oven cooling fan, the left oven control, or the associated wiring.",
+      "StepsToRepair": [
+        "Turn the temperature knob to the \"OFF\" position to cancel the error and resume product use. ",
+        "If the problem persists, reset power to the product by following the subsequent steps",
+        "Power unit down by turning off the circuit breaker(s) for one (1) minute. ",
+        "Restart the cycle and monitor the oven for one (1) minute to ensure the error code does not display again. ",
+        "Verify oven operation.",
+        "If the problem persists, call 1-800-JENN-AIR (536-6247) for Service."
+      ],
+      "HelpPath": ""
+    },
+    "F9,E0": {
+      "ErrorCode": "F9E0",
+      "Name": "Power Input",
+      "Description": "The electrical outlet in the home may be miswired.",
+      "StepsToRepair": [
+        "Contact a qualified electrician to verify the electrical supply."
+      ],
+      "HelpPath": ""
+    }
+  },
+    "MobileLiterals": {
+        "Manuals": {
+            "UseCareGuide": {
+                "Title": "Use & Care Guide",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleSteam_V1/Docs/eng/UserCareGuide.pdf"
+            },
+            "InstallationInstructions": {
+                "Title": "Installation Instructions",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleSteam_V1/Docs/eng/InstallationInstruction.pdf"
+            },
+            "Warranty": {
+                "Title": "Warranty",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleSteam_V1/Docs/eng/Warranty.pdf"
+            },
+            "FccInformationForm": {
+                "Title": "FCC Information Form",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleSteam_V1/Docs/eng/FccInformation.pdf"
+            }
+        },
+        "NestSettings": {
+            "AwayOvenWarning.Name": "Off While Away",
+            "AwayOvenWarning.Description": "Receive a notification asking if you’d like to turn your oven off if Nest™ detects you're away while your oven is running.   Please note that it may take up to two hours for Nest™ to send the away signal."
+        },
+        "SpecialtyCycles": {},
+        "SupplyItem": {
+            "ExtendedWarranty": {},
+            "ScheduleService": {
+                "Name": "Schedule Service",
+                "Description": "Schedule Service",
+                "Disclaimer": "Schedule Service",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "United States",
+                        "url": "https://jennair.com/customer-care/schedule-repair"
+                    },
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "Canada",
+                        "url": "http://www.jennair.ca/customer-care/schedule-service/"
+                    }
+                ]
+            }
+        },
+        "Parts & Accessories": {
+            "Griddle": {
+                "Name": "Griddle",
+                "Description": "A multi-layer stainless steel griddle with an aluminum core that works on modular induction cooktops as well as select gas cooktops.",
+                "Disclaimer": "",
+                "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W11035422_Original.tif",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "United States",
+                        "url": "https://jennair.com/accessories/details/W11035422"
+                    }
+                ]
+            },
+            "Flat Bottom Wok": {
+                "Name": "Flat Bottom Wok",
+                "Description": "This exquisite flat bottom wok is designed for a range of cooking techniques such as steaming, stir frying, braising, poaching and more. This versatile pan with induction technology is essential to any cooking enthusiast kitchen.",
+                "Disclaimer": "",
+                "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W11035423_Original.tif",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "United States",
+                        "url": "https://jennair.com/accessories/details/W11035423"
+                    }
+                ]
+            },
+            "Cooktop Cleaner": {
+                "Name": "Affresh® Cooktop Cleaner",
+                "Description": "Affresh® Cooktop Cleaner is specially formulated to cut through tough, cooked-on residues that can linger on your cooktop. Use monthly or as needed to polish your cooktop with a streak-free shine1.",
+                "Disclaimer": "",
+                "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W10355051_Original.jpg",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "United States",
+                        "url": "https://www.amazon.com/Whirlpool-W10355051-10-Ounce-Affresh-Cooktop/dp/B004VJSUM6/ref=sr_1_1?s=hi&ie=UTF8&qid=1517433369&sr=1-1&keywords=W10355051"
+                    }
+                ]
+            },
+            "Cooktop Cleaning Wipes": {
+                "Name": "Affresh® Cooktop Cleaning Wipes",
+                "Description": "Affresh® Cooktop Cleaning Wipes are specially formulated, dual-sided wipes with a scrubber side to remove everyday residues and a smooth side to leave your ceramic cooktop shiny and sparkling with a streak-free finish.",
+                "Disclaimer": "",
+                "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W10539770_Original.tif",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "United States",
+                        "url": "https://www.amazon.com/Affresh-W10539770-Cooktop-Cleaning-Wipes/dp/B06VT232FH/ref=sr_1_1?s=hi&ie=UTF8&qid=1517433335&sr=8-1&keywords=W10539770"
+                    }
+                ]
+            }
+        },
+        "Set Oven": {
+            "MainMode": {
+                "OvenUpperCavity": {
+                    "Bake": {
+                        "Name": "Bake"
+                    },
+                    "Convect Bake": {
+                        "Name": "Convect Bake"
+                    },
+                    "Convect Roast": {
+                        "Name": "Convect Roast"
+                    },
+                    "Convect Frozen Pizza": {
+                        "Name": "Convect Frozen Pizza"
+                    },
+                    "Convect Broil": {
+                        "Name": "Convect Broil"
+                    },
+                    "Convect Pastry": {
+                        "Name": "Convect Pastry"
+                    },
+                    "Broil": {
+                        "Name": "Broil"
+                    },
+                    "Proof": {
+                        "Name": "Proof"
+                    },
+                    "Rapid Proof": {
+                        "Name": "Rapid Proof"
+                    },
+                    "Keep Warm": {
+                        "Name": "Keep Warm"
+                    },
+                    "Self-Clean": {
+                        "Name": "Self-Clean"
+                    },
+                    "Convect Slow Roast LO": {
+                        "Name": "Convect Slow Roast LO"
+                    },
+                    "Convect Slow Roast MED": {
+                        "Name": "Convect Slow Roast MED"
+                    },
+                    "Convect Slow Roast HI": {
+                        "Name": "Convect Slow Roast HI"
+                    }
+                },
+                "OvenLowerCavity": {
+                    "Bake": {
+                        "Name": "Bake"
+                    },
+                    "Convect Bake": {
+                        "Name": "Convect Bake"
+                    },
+                    "Convect Roast": {
+                        "Name": "Convect Roast"
+                    },
+                    "Convect Frozen Pizza": {
+                        "Name": "Convect Frozen Pizza"
+                    },
+                    "Convect Broil": {
+                        "Name": "Convect Broil"
+                    },
+                    "Convect Pastry": {
+                        "Name": "Convect Pastry"
+                    },
+                    "Broil": {
+                        "Name": "Broil"
+                    },
+                    "Proof": {
+                        "Name": "Proof"
+                    },
+                    "Rapid Proof": {
+                        "Name": "Rapid Proof"
+                    },
+                    "Keep Warm": {
+                        "Name": "Keep Warm"
+                    },
+                    "Self-Clean": {
+                        "Name": "Self-Clean"
+                    },
+                    "Convect Slow Roast LO": {
+                        "Name": "Convect Slow Roast LO"
+                    },
+                    "Convect Slow Roast MED": {
+                        "Name": "Convect Slow Roast MED"
+                    },
+                    "Convect Slow Roast HI": {
+                        "Name": "Convect Slow Roast HI"
+                    }
+                }
+            },
+            "CookingStyle": {
+                "Auto": {
+                    "Name": "Auto"
+                },
+                "Manual": {
+                    "Name": "Manual"
+                },
+                "Easy": {
+                    "Name": "Easy"
+                }
+            },
+            "CookingModeLabels": {
+                "Mode": {
+                    "Name": "Mode"
+                },
+                "CookingStyle": {
+                    "Name": "Cooking Style"
+                },
+                "Food": {
+                    "Name": "Food"
+                },
+                "CookTime": {
+                    "Name": "Cook Time"
+                },
+                "Temparature": {
+                    "Name": "Temparature"
+                },
+                "Delay": {
+                    "Name": "Add Delay"
+                },
+                "CycleName": {
+                    "Name": "Cycle Name"
+                }
+            }
+        },
+        "Notifications": {
+            "OvenOnWhileAway": {
+                "Name": "Oven On While Away",
+                "Description": "Your home is in Away/Auto-Away mode and your oven is still on."
+            },
+            "CookCycleCanceled": {
+                "Name": "Cooking Mode Cancelled",
+                "Description": "Receive a notification when the cooking mode on the oven has been cancelled."
+            },
+            "CookModeChanged": {
+                "Name": "Cook Mode Changed",
+                "Description": "Receive a notification when the cooking mode on the oven has been changed."
+            },
+            "CookTargetTempChanged": {
+                "Name": "Oven Temperature Changed",
+                "Description": "Receive a notification when the oven temperature has been changed."
+            },
+            "CookTimeComplete": {
+                "Name": "Cook Time Complete",
+                "Description": "Receive a notification when cook time on the oven is complete."
+            },
+            "CookTimerChanged": {
+                "Name": "Cook Time Changed",
+                "Description": "Receive a notification when cook time on the oven has been changed. "
+            },
+            "MeatProbeTempAchieved": {
+                "Name": "Probe Temperature Achieved",
+                "Description": "Receive a notification when the meat probe has reached its set temperature."
+            },
+            "PreheatComplete": {
+                "Name": "Preheat Complete",
+                "Description": "Receive a notification when the oven finishes preheating."
+            },
+            "RemoteStatus": {
+                "Name": "Remote Control Status",
+                "Description": "Receive a notification when remote control has been enabled or disabled. "
+            },
+            "ErrorNotification": {
+                "Name": "Error Notification",
+                "Description": "Receive a notification when an error code is generated. "
+            }
+        },
+        "smartTip": [],
+        "cxcDetail": {
+            "US": {
+                "Country": "United States",
+                "cxcEmail": {
+                    "Development": "wcloud@mailinator.com",
+                    "Test": "wcloud@mailinator.com",
+                    "Staging": "wcloud@mailinator.com",
+                    "Cuft": "Connected_Appliances@Whirlpool.com",
+                    "Production": "Connected_Appliances@Whirlpool.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": ",Monday-Friday,8 AM-8 PM EST",
+                    "Test": " Monday-Friday,8 AM-8 PM EST",
+                    "Staging": " Monday-Friday,8 AM-8 PM EST",
+                    "Cuft": " Monday-Friday ,8 AM-8 PM ",
+                    "Production": " Monday-Friday,8 AM-8 PM EST"
+                }
+            },
+            "CA": {
+                "Country": "Canada",
+                "cxcEmail": {
+                    "Development": "Connected_Appliances@Whirlpool.com",
+                    "Test": "Connected_Appliances@Whirlpool.com",
+                    "Staging": "Connected_Appliances@Whirlpool.com",
+                    "Cuft": "Connected_Appliances@Whirlpool.com",
+                    "Production": "Connected_Appliances@Whirlpool.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": "M-F 8:00-8:00 EST",
+                    "Test": "M-F 8:00-8:00 EST",
+                    "Staging": "M-F 8:00-8:00 EST",
+                    "Cuft": "M-F 8:00-8:00 EST",
+                    "Production": "M-F 8:00-8:00 EST"
+                }
+            }
+        }
+    },
+    "NotificationMessages": {
+        "NotificationContents": [
+            {
+                "TemplateId": "OvenOnWhileAway",
+                "PushText": "Your home is in Away/Auto-Away mode and your oven is still on",
+                "AlertTitle": "Oven On While Away",
+                "Type": "online"
+            },
+            {
+                "TemplateId": "CookCycleCanceled",
+                "EmailText": "Oven cook mode is cancelled.",
+                "PushText": "Oven cook mode is cancelled.",
+                "SmsText": "Oven cook mode is cancelled.",
+                "AlertTitle": "Cooking Mode Cancelled",
+                "Type": "cookMode"
+            },
+            {
+                "TemplateId": "CookModeChanged",
+                "EmailText": "Oven cooking is changed.",
+                "PushText": "Oven cooking is changed.",
+                "AlertTitle": "Cooking Mode Changed",
+                "Type": "cookMode"
+            },
+            {
+                "TemplateId": "CookTargetTempChanged",
+                "EmailText": "Oven temperature is changed.",
+                "PushText": "Oven temperature is changed.",
+                "SmsText": "Oven temperature is changed.",
+                "AlertTitle": "Oven Temperature Changed",
+                "Type": "cookMode"
+            },
+            {
+                "TemplateId": "CookTimeComplete",
+                "EmailText": "Oven cook time is complete.",
+                "PushText": "Oven cook time is complete.",
+                "AlertTitle": "Cook Time Complete",
+                "Type": "cookTimer"
+            },
+            {
+                "TemplateId": "CookTimerChanged",
+                "EmailText": "Oven cook time is changed.",
+                "PushText": "Oven cook time is changed.",
+                "AlertTitle": "Cook Time Changed",
+                "Type": "cookTimer"
+            },
+            {
+                "TemplateId": "MeatProbeTempAchieved",
+                "EmailText": "Oven meat probe temperature achieved",
+                "PushText": "Oven meat probe temperature achieved",
+                "SmsText": "Oven meat probe temperature achieved",
+                "AlertTitle": "Probe Temperature Reached",
+                "Type": "meatProbe"
+            },
+            {
+                "TemplateId": "PreheatComplete",
+                "EmailText": "Oven preheat complete",
+                "PushText": "Oven preheat complete",
+                "SmsText": "Oven preheat complete",
+                "AlertTitle": "Preheat Complete",
+                "Type": "preheat"
+            },
+            {
+                "TemplateId": "RemoteStatusDisabled",
+                "EmailText": "Remote Control has been disabled on your oven.",
+                "PushText": "Remote Control has been disabled on your oven.",
+                "SmsText": "Remote Control has been disabled on your oven.",
+                "AlertTitle": "Remote Control Status",
+                "Type": "remoteControl"
+            },
+            {
+                "TemplateId": "RemoteStatusEnabled",
+                "EmailText": "Remote Control of your appliance is enabled.",
+                "PushText": "Remote Control of your appliance is enabled.",
+                "SmsText": "Remote Control of your appliance is enabled.",
+                "AlertTitle": "Remote Control Status",
+                "Type": "remoteControl"
+            },
+            {
+                "TemplateId": "F0E0",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F0,E0).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F0,E0).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F0,E0).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F1E0",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F1,E0).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F1,E0).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F1,E0).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F1E1",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F1,E1).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F1,E1).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F1,E1).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F2E1",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F2,E1).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F2,E1).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F2,E1).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F2E2",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F2,E2).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F2,E2).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F2,E2).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3E0",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F3,E0).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F3,E0).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F3,E0).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3E1",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F3,E1).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F3,E1).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F3,E1).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3E3",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F3,E3).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F3,E3).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F3,E3).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F3E9",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F3,E9).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F3,E9).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F3,E9).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F5E0",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F5,E0).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F5,E0).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F5,E0).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F5E1",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F5,E1).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F5,E1).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F5,E1).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F5E3",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F5,E3).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F5,E3).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F5,E3).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F5E4",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F5,E4).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F5,E4).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F5,E4).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F6E0",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E0).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E0).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E0).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F6E1",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E1).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E1).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E1).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F6E3",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E3).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E3).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E3).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F6E4",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E4).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E4).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E4).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F6E6",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E6).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E6).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E6).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F6E9",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E9).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E9).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F6,E9).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F7E1",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F7,E1).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F7,E1).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F7,E1).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F7E2",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F7,E2).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F7,E2).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F7,E2).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F8E0",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F8,E0).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F8,E0).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F8,E0).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F8E1",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F8,E1).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F8,E1).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F8,E1).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F8E2",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F8,E2).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F8,E2).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F8,E2).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F8E3",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F8,E3).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F8,E3).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F8,E3).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            },
+            {
+                "TemplateId": "F9E0",
+                "EmailText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F9,E0).",
+                "PushText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F9,E0).",
+                "SmsText": "It looks like there may be an issue with your oven. Review the Service & Support section of the app for further instructions on fault code (F9,E0).",
+                "AlertTitle": "Error Notification",
+                "Type": "fault"
+            }
+        ]
+    }
+}
