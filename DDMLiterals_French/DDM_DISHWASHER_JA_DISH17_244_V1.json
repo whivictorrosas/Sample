@@ -1,0 +1,518 @@
+{
+    "DDMLiterals": {
+        "Cavity_CycleSetCycleId.EnumValues.CycleCancelDrain.Label": "Annuler",
+        "Cavity_CycleSetCycleId.EnumValues.CycleFactoryTest.Label": "Programme Test usine",
+        "Cavity_CycleSetCycleId.EnumValues.CycleLightChina.Label": "Cristal",
+        "Cavity_CycleSetCycleId.EnumValues.CycleNone.Label": "Aucun",
+        "Cavity_CycleSetCycleId.EnumValues.CycleNormal.Label": "Ordinaire",
+        "Cavity_CycleSetCycleId.EnumValues.CycleOneHourWash.Label": "1 heure",
+        "Cavity_CycleSetCycleId.EnumValues.CyclePotsAndPans.Label": "Plat de cuisson",
+        "Cavity_CycleSetCycleId.EnumValues.CycleRinseOnly.Label": "Rafraîchissement",
+        "Cavity_CycleSetCycleId.EnumValues.CycleSensor.Label": "Capteur",
+        "Cavity_CycleSetCycleId.EnumValues.CycleServiceTest.Label": "Programme Test de service",
+        "Cavity_CycleSetCycleId.Label": "Programme de lavage",
+        "Cavity_CycleSetDownloadAndGo.EnumValues.DownloadGoGentle.Label": "Lavage doux",
+        "Cavity_CycleSetDownloadAndGo.EnumValues.DownloadGoHeavy.Label": "Trés sale",
+        "Cavity_CycleSetDownloadAndGo.EnumValues.DownloadGoMachineCycle.Label": "Programme de la machine Download Go",
+        "Cavity_CycleSetDownloadAndGo.EnumValues.DownloadGoMyCycle.Label": "Mon programme Download Go",
+        "Cavity_CycleSetDownloadAndGo.EnumValues.DownloadGoQuick.Label": "Lavage rapide",
+        "Cavity_CycleSetDownloadAndGo.EnumValues.DownloadGoSanitize.Label": "Assainir Lavage",
+        "Cavity_CycleSetDownloadAndGo.EnumValues.DownloadGoSpecialtyItems.Label": "Articles spécialisés",
+        "Cavity_CycleSetDownloadAndGo.Label": "Cycle Set Télécharger et aller",
+        "Cavity_CycleSetOptionBottleWashZone.EnumValues.Disabled.Label": "Désactivé",
+        "Cavity_CycleSetOptionBottleWashZone.EnumValues.Enabled.Label": "Actif",
+        "Cavity_CycleSetOptionBottleWashZone.EnumValues.EnabledAndDefault.Label": "Activé et par défaut",
+        "Cavity_CycleSetOptionBottleWashZone.EnumValues.OptionNotAvailable.Label": "Option non disponible",
+        "Cavity_CycleSetOptionBottleWashZone.Label": "Lavage de bouteilles de grande taille",
+        "Cavity_CycleSetOptionHighTemp.EnumValues.Disabled.Label": "Désactivé",
+        "Cavity_CycleSetOptionHighTemp.EnumValues.Enabled.Label": "Activé",
+        "Cavity_CycleSetOptionHighTemp.EnumValues.EnabledAndDefault.Label": "Activé et par défaut",
+        "Cavity_CycleSetOptionHighTemp.EnumValues.OptionNotAvailable.Label": "Option non disponible",
+        "Cavity_CycleSetOptionHighTemp.Label": "Lavage à  température élevée",
+        "Cavity_CycleSetOptionLowerRackOnly.EnumValues.Disabled.Label": "Désactivé",
+        "Cavity_CycleSetOptionLowerRackOnly.EnumValues.Enabled.Label": "Activé",
+        "Cavity_CycleSetOptionLowerRackOnly.EnumValues.EnabledAndDefault.Label": "Activé et par défaut",
+        "Cavity_CycleSetOptionLowerRackOnly.EnumValues.OptionNotAvailable.Label": "Option non disponible",
+        "Cavity_CycleSetOptionLowerRackOnly.Label": "Lavage du panier inférieur",
+        "Cavity_CycleSetOptionSaniRinse.EnumValues.Disabled.Label": "Désactivé",
+        "Cavity_CycleSetOptionSaniRinse.EnumValues.Enabled.Label": "Activé",
+        "Cavity_CycleSetOptionSaniRinse.EnumValues.EnabledAndDefault.Label": "Activé et par défaut",
+        "Cavity_CycleSetOptionSaniRinse.EnumValues.OptionNotAvailable.Label": "Option non disponible",
+        "Cavity_CycleSetOptionSaniRinse.Label": "Rinçage avec assainissement",
+        "Cavity_CycleSetOptionSmartHeatedDry.EnumValues.Disabled.Label": "Désactivé",
+        "Cavity_CycleSetOptionSmartHeatedDry.EnumValues.Enabled.Label": "Activé",
+        "Cavity_CycleSetOptionSmartHeatedDry.EnumValues.EnabledAndDefault.Label": "Activé et par défaut",
+        "Cavity_CycleSetOptionSmartHeatedDry.EnumValues.OptionNotAvailable.Label": "Option non disponible",
+        "Cavity_CycleSetOptionSmartHeatedDry.Label": "Precision Dry + (séchage avec précision)",
+        "Cavity_CycleSetOptionSteam.EnumValues.Disabled.Label": "Désactivé",
+        "Cavity_CycleSetOptionSteam.EnumValues.Enabled.Label": "Activé",
+        "Cavity_CycleSetOptionSteam.EnumValues.EnabledAndDefault.Label": "Activé et par défaut",
+        "Cavity_CycleSetOptionSteam.EnumValues.OptionNotAvailable.Label": "Option non disponible",
+        "Cavity_CycleSetOptionSteam.Label": "Terminé vapeur",
+        "Cavity_CycleSetOptionUpperRackOnly.EnumValues.Disabled.Label": "Désactivé",
+        "Cavity_CycleSetOptionUpperRackOnly.EnumValues.Enabled.Label": "Activé",
+        "Cavity_CycleSetOptionUpperRackOnly.EnumValues.EnabledAndDefault.Label": "Activé et par défaut",
+        "Cavity_CycleSetOptionUpperRackOnly.EnumValues.OptionNotAvailable.Label": "Option non disponible",
+        "Cavity_CycleSetOptionUpperRackOnly.Label": "Lavage du panier supérieur",
+        "Cavity_CycleStatusCycleClean.Label": "État du programme de nettoyage",
+        "Cavity_CycleStatusCycleSanitized.EnumValues.SanitizeCompleted.Label": "Assainissement terminé",
+        "Cavity_CycleStatusCycleSanitized.EnumValues.SanitizeNotRequested.Label": "Assainissement non demandé",
+        "Cavity_CycleStatusCycleSanitized.EnumValues.SanitizeNotSuccessful.Label": "Échec d'assainissement",
+        "Cavity_CycleStatusCycleSanitized.Label": "État du programme d’assainissement",
+        "Cavity_CycleStatusCycleState.EnumValues.StateCycleNotActive.Label": "État Programme non actif",
+        "Cavity_CycleStatusCycleState.EnumValues.StateDrying.Label": "État Séchage",
+        "Cavity_CycleStatusCycleState.EnumValues.StateFinalRinse.Label": "État Rinçage final",
+        "Cavity_CycleStatusCycleState.EnumValues.StateIntermediateRinse.Label": "État Rinçage intermédiaire",
+        "Cavity_CycleStatusCycleState.EnumValues.StateMainWash.Label": "État Lavage principal",
+        "Cavity_CycleStatusCycleState.EnumValues.StatePrewash.Label": "État Prélavage",
+        "Cavity_CycleStatusCycleState.EnumValues.StatePurge.Label": "État Purge",
+        "Cavity_CycleStatusCycleState.Label": "État du programme",
+        "Cavity_CycleStatusHeavyDutyCycleOdometer.Label": "Lecture de l'odométre de l'état du service intense",
+        "Cavity_CycleStatusOdometer.Label": "État du programme Odométre",
+        "Cavity_IsTimeToCleanFilter.Label": "État du filtre",
+        "Cavity_OperationSetAffreshCycleNeeded.Label": "État affresh®",
+        "Cavity_OperationSetStartCommand.EnumValues.Start.Label": "Start (mise en marche)",
+        "Cavity_OperationSetStartCommand.EnumValues.StopCancel.Label": "Arrêter l'annulation",
+        "Cavity_OperationSetStartCommand.Label": "Programme prêt pour commande de mise en marche",
+        "Cavity_OperationStatusCleanFilter.Label": "État du filtre",
+        "Cavity_OperationStatusDoorOpen.Label": "État de fonctionnement Porte ouverte",
+        "Cavity_OperationStatusMachineState.EnumValues.Complete.Label": "Terminé",
+        "Cavity_OperationStatusMachineState.EnumValues.Delay.Label": "Délai",
+        "Cavity_OperationStatusMachineState.EnumValues.DelayPause.Label": "Différer la mise sur pause",
+        "Cavity_OperationStatusMachineState.EnumValues.Drain.Label": "Vidange",
+        "Cavity_OperationStatusMachineState.EnumValues.NonUser.Label": "Non-utilisateur",
+        "Cavity_OperationStatusMachineState.EnumValues.ProgrammingMode.Label": "Mode de programmation",
+        "Cavity_OperationStatusMachineState.EnumValues.Running.Label": "Fonctionnement",
+        "Cavity_OperationStatusMachineState.EnumValues.RunPause.Label": "Exécuter Pause",
+        "Cavity_OperationStatusMachineState.EnumValues.Standby.Label": "Attente",
+        "Cavity_OperationStatusMachineState.Label": "État de fonctionnement État de la machine",
+        "Cavity_TimeSetDelayTime.Label": "Délai",
+        "Cavity_TimeStatusEstTimeRemaining.Label": "État de la durée Durée estimée restante",
+        "Generic_ApplianceVersionNumber.Label": "Numéro de version de l'appliance",
+        "Generic_CcUri.Label": "CCURI",
+        "Generic_EnergyProfileSetting.Label": "Réglage de profil de consommation",
+        "Generic_IspBundleAttributes.Label": "ISP Bundle Attributes",
+        "Generic_RatePlanId.Label": "ID du taux du plan",
+        "Generic_SmartId.Label": "ID Smart",
+        "Generic_UtilityId.Label": "ID de l’utilitaire",
+        "Generic_Zip.Label": "Code postal",
+        "Internal_AffreshCycleCount.Label": "Nbre de cycles Affresh",
+        "Internal_CycleStatusHeavyDutyCycleOdometerDiff.Label": "Lecture différée de l'odométre de l'état du service intense",
+        "Internal_CycleStatusHeavyDutyCycleOdometerLast.Label": "Derniére lecture de l'odométre de l'état du service intense",
+        "Internal_CycleStatusOdometerDiff.Label": "Lecture différée de l'odométre de l'état d'avancement du programme",
+        "Internal_CycleStatusOdometerLast.Label": "Derniére lecture de l'odométre de l'état d'avancement du programme",
+        "Internal_DetergentPodUsageOdometer.Label": "Sachet de détergent Utilisation de l’odométre",
+        "Internal_FilterCycleCount.Label": "État du filtre",
+        "Internal_FilterHeavyDutyCycleCount.Label": "Nbre de cycles de filtre de service intense",
+        "Internal_WashWhileAwayOn.Label": "Lavage lorsqu’ absent",
+        "Relational_ArrayClose.Label": "Choix fermé",
+        "Relational_ArrayOpen.Label": "Choix ouvert",
+        "Relational_CapabilityDishCycleOptions.Label": "Capacité de plats Options de programme",
+        "Relational_CapabilityDishSettings.Label": "Capacité de plats Réglages",
+        "Relational_CycleDishDownload.Label": "Téléchargement de programme",
+        "Relational_EntityClose.Label": "Entité fermée",
+        "Relational_EntityId.Label": "ID de l’entité",
+        "Relational_EntityName.Label": "Nom de l’entité",
+        "Relational_EntityOpen.Label": "Entité ouverte",
+        "Relational_EnvelopeAction.EnumValues.Create.Label": "Créer",
+        "Relational_EnvelopeAction.EnumValues.Delete.Label": "Supprimer",
+        "Relational_EnvelopeAction.EnumValues.Get.Label": "Obtenir",
+        "Relational_EnvelopeAction.EnumValues.Publish.Label": "Publier",
+        "Relational_EnvelopeAction.EnumValues.Running.Label": "Fonctionnement",
+        "Relational_EnvelopeAction.EnumValues.SetOnDisplay.Label": "Réglage Affichage en marche",
+        "Relational_EnvelopeAction.EnumValues.Start.Label": "Start (mise en marche)",
+        "Relational_EnvelopeAction.EnumValues.Update.Label": "Mise à  jour",
+        "Relational_EnvelopeAction.Label": "Enveloppe action",
+        "Relational_EnvelopeClose.Label": "Enveloppe fermée",
+        "Relational_EnvelopeOpen.Label": "Enveloppe ouverte",
+        "Sys_AlertStatusControlLockChangedByAppliance.Label": "État d’alerte Verrouillage des commandes modifié par l’appareil",
+        "Sys_AlertStatusCustomerFaultCode.Label": "État d’alerte Code d’anomalie client",
+        "Sys_AlertStatusCustomerFaultCodeNotification.Label": "État d’alerte Notification code d’anomalie client",
+        "Sys_Idle.Label": "Inactif",
+        "Sys_OperationSetDelayModeSelect.EnumValues.Scrolling.Label": "Défilement",
+        "Sys_OperationSetDelayModeSelect.Label": "Réglage de fonctionnement Sélection du mode Délai",
+        "Sys_OperationSetDelayUpper.Label": "Réglage de fonctionnement Délai Supérieur",
+        "Sys_OperationSetQuietModeEnabled.Label": "Mode Silence",
+        "Sys_OperationSetSabbathModeEnabled.Label": "Mode cachére",
+        "XCat_ApplianceInfoSetModelNumber.Label": "Informations de l’appareil Réglage du numéro de modéle",
+        "XCat_ApplianceInfoSetSerialNumber.Label": "Informations de l’appareil Réglage du numéro de série",
+        "XCat_DateTimeMode.Label": "Mode date et heure",
+        "XCat_DstOffset.Label": "DécalageÂ MMD",
+        "XCat_InServiceDate.Label": "Données en service",
+        "XCat_OdometerStatusCycleCount.Label": "État odométre Nombre de programmes",
+        "XCat_OdometerStatusRunningHours.Label": "État odométre Heures de fonctionnement",
+        "XCat_OdometerStatusTotalHours.Label": "État odométre Nombre total d’heures",
+        "XCat_Online.Label": "En ligne",
+        "XCat_PersistentInfoMacAddress.Label": "Informations de persistance Adresse Mac",
+        "XCat_PersistentInfoSaid.Label": "Informations de persistance SAID",
+        "XCat_PersistentInfoVersion.Label": "Informations de persistance Version",
+        "XCat_PowerStatusPowerOutage.Label": "État d’alimentation Coupure de courant",
+        "XCat_RemoteSetRebootAppliance.EnumValues.CancelResetRequest.Label": "Annuler Réinitialiser Requête",
+        "XCat_RemoteSetRebootAppliance.EnumValues.ExecuteReset.Label": "Effectuer la réinitialisation",
+        "XCat_RemoteSetRebootAppliance.EnumValues.ResetRequest.Label": "Réinitialiser Requête",
+        "XCat_RemoteSetRebootAppliance.Label": "Réglage à  distance Réinitialisation de l’appareil",
+        "XCat_RemoteSetRemoteControlEnable.Label": "Réglage à  distance Commande à  distance activée",
+        "XCat_RemoteSetRemoteDiagnosticsEnable.EnumValues.DisableAutoTest.Label": "Désactiver le test automatique",
+        "XCat_RemoteSetRemoteDiagnosticsEnable.EnumValues.EnableAutoTest.Label": "Activer le test automatique",
+        "XCat_RemoteSetRemoteDiagnosticsEnable.Label": "Réglage à  distance Commande à  distance désactivée",
+        "XCat_TimeZoneId.Label": "Identifiant de fuseau horaire",
+        "XCat_Trid.Label": "Trid",
+        "XCat_TridResult.Label": "Résultat Trid",
+        "XCat_UtcOffset.Label": "Décalage UTC",
+        "XCat_WifiSetDeprovisionWifiCommModule.Label": "Réglage Wi-Fi Désactiver le module de communication Wi-Fi",
+        "XCat_WifiSetDisableWifiCommModule.Label": "Réglage Wi-Fi Désactiver le module de communication Wi-Fi",
+        "XCat_WifiSetPublishApplianceState.Label": "Réglage Wi-Fi Publier l’état de l’appareil",
+        "XCat_WifiSetRebootWifiCommModule.Label": "Réglage Wi-Fi Redémarrer le module de communication Wi-Fi",
+        "XCat_WifiStatusFirmwareUpdate.Label": "État Wi-Fi Mise à  jour du micrologiciel",
+        "XCat_WifiStatusRssiAntennaDiversity.Label": "État Wi-Fi Diversité d’antenne RSSI",
+        "XCat_WifiStatusRssiDisplay.Label": "État Wi-Fi Affichage RSSI",
+        "Cavity_CycleSetCycleIdCycleLightChina.Label": "Cristal",
+        "Cavity_CycleSetCycleIdCycleNormal.Label": "Ordinaire",
+        "Cavity_CycleSetCycleIdCycleOneHourWash.Label": "1 heure",
+        "Cavity_CycleSetCycleIdCyclePotsAndPans.Label": "Plat de cuisson",
+        "Cavity_CycleSetCycleIdCycleRinseOnly.Label": "Rafraîchissement",
+        "Cavity_CycleSetCycleIdCycleSensor.Label": "Capteur",
+        "Cavity_CycleSetDownloadAndGoDownloadGoGentle.Label": "Lavage doux",
+        "Cavity_CycleSetDownloadAndGoDownloadGoHeavy.Label": "Trés sale",
+        "Cavity_CycleSetDownloadAndGoDownloadGoQuick.Label": "Lavage rapide",
+        "Cavity_CycleSetDownloadAndGoDownloadGoSanitize.Label": "Assainir Lavage",
+        "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems.Label": "Articles spécialisés",
+        "WashMode.Label": "Modes de lavage",
+        "CustomCycle.Label": "Programmes personnalisés",
+        "DishCavity.Label": "lave-vaisselle",
+        "Cavity_CycleSetDownloadAndGoDownloadGoGentle.Description" : "Limits cycle temperatures to 135F to help protect items prone to melting with varying soil levels.  If selected, Heat Dry is also shortened to limit heat input.",
+        "Cavity_CycleSetDownloadAndGoDownloadGoHeavy.Description" : "Provides extra wash time and heat to clean tougher items with baked-on food residue.",
+        "Cavity_CycleSetDownloadAndGoDownloadGoQuick.Description" : "Quick cleaning power. Perfect for cleaning food prep items (such as mixing bowls) and getting everything ready for an event.",
+        "Cavity_CycleSetDownloadAndGoDownloadGoSanitize.Description" : "Uses extra wash time and high temperatures (156F) to ensure important items come out clean",
+        "Cavity_CycleSetDownloadAndGoDownloadGoSpecialtyItems.Description" : "Senses the amount of wash time and heat needed to clean food residue. Great for items that may need a little more care.",
+        "Cavity_CycleSetOptionUpperRackOnly.Description": "Washes dishes on the top rack only. Can be used with any wash cycle.",
+        "Cavity_CycleSetOptionLowerRackOnly.Description": "Washes dishes on the bottom rack only. Can be used with any wash cycle.",
+        "Cavity_CycleSetOptionSaniRinse.Description": "The final rinse water is heated to 155°F (68.3°C), eliminating 99.999% of food soil bacteria",
+        "Cavity_CycleSetOptionSmartHeatedDry.Description": "Active drying that evenly dries with heat and a fan.",
+        "Cavity_CycleSetOptionBottleWashZone.Description": "Articulating nozzles deliver a high-powered spray into tall items, including vases and champagne flutes.",
+        "Cavity_CycleSetOptionSteam.Description": "Helps your stemware glisten by generating a cloud of steam before the final rinse cycle.",
+        "Cavity_CycleSetOptionHighTemp.Description": "Provides increased water temperature during washing for hard-to-remove soils.",
+        "ControlLock.Label" : "Control lock",
+        "ControlLock.Description": "Permet de verrouiller les commandes pour éviter une utilisation involontaire de l'appareil.",
+        "Notifications.Label" : "Notifications",
+        "Notifications.Description" : "Start or stop notifications for individual notifications at any time",
+        "SabbathMode.Label" : "Sabbath mode",
+        "SabbathMode.Description" : "Permet au lave-vaisselle d'agir conformément aux directives religieuses en vigueur pendant le sabbat et les fêtes religieuses.",
+        "QuietMode.Label" : "Quiet mode",
+        "QuietMode.Description" : "Met au silence les tonalités lors de l’appui sur les boutons du tableau de commande et empêche le signal du programme terminé."
+        
+    },
+    "AFCSelfHelpPack": {
+        "F1,E2": {
+            "ErrorCode": "F1E2",
+            "Name": "",
+            "Type": "Défaillance générale",
+            "Description": "Votre lave-vaisselle a signalé une défaillance qui nécessite une intervention pour dépanner et diagnostiquer le problème, ainsi qu’effectuer les réparations, si nécessaire.",
+            "StepsToRepair": [
+                "Un entretien est requis. Composer le 1 800 JENNAIR pour demander une intervention de dépannage.",
+                "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/AFCSelfHelpPack/eng/F01E02_P1.html."
+            ],
+            "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/AFCSelfHelpPack/fre/F01E02_P1.html",
+            "VideoPath": "http://www.kaltura.com/tiny/lnrux"
+        },
+        "F2,E2": {
+            "ErrorCode": "F2E2",
+            "Name": "",
+            "Type": "Défaillance générale",
+            "Description": "Couper puis relancer l’alimentation à partir de la commande pour réinitialiser le lave-vaisselle.",
+            "StepsToRepair": [
+                "Couper l’alimentation du lave-vaisselle en fermant le disjoncteur pendant (1) minute.",
+                "Alimenter de nouveau le lave-vaisselle en réarmant le disjoncteur.",
+                "Contrôler le lave-vaisselle pendant (1) minute pour vérifier que le code d’erreur ne s’affiche plus.",
+                "Vérifiez que le lave-vaisselle fonctionne.  Si le problème continu, ine intervention de dépannage sera requise. Composer le 1 800 JENNAIR pour demander une intervention de dépannage ",
+                "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/AFCSelfHelpPack/eng/F01E02_P1.html."
+            ],
+            "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/AFCSelfHelpPack/fre/F01E02_P1.html",
+            "VideoPath": "http://www.kaltura.com/tiny/lnrux"
+        },
+        "F2,E3": {
+            "ErrorCode": "F2E3",
+            "Name": "",
+            "Type": "Défaillance générale",
+            "Description": "Votre lave-vaisselle a signalé une défaillance qui nécessite une intervention pour dépanner et diagnostiquer le problème, ainsi qu’effectuer les réparations, si nécessaire.",
+            "StepsToRepair": [
+                "Un entretien est requis. Composer le 1 800 JENNAIR pour demander une intervention de dépannage",
+                "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/AFCSelfHelpPack/eng/F01E02_P1.html."
+            ],
+            "HelpPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/AFCSelfHelpPack/fre/F01E02_P1.html",
+            "VideoPath": "http://www.kaltura.com/tiny/lnrux"
+        }
+    },
+    "MobileLiterals": {
+        "Manuals": {
+            "Warranty": {
+                "Title": "Garantie",
+                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/fre/JA_DISH17_Warranty.pdf"
+            },
+            "UseCareGuide": {
+                "Title": "Guide utilisation et entretien",
+                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/fre/JA_DISH17_Use_Careguide.pdf"
+            },
+            "InstallationInstructions": {
+                "Title": "Instructions d’installation",
+                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/fre/JA_DISH17_InstallationInstructions.pdf"
+            },
+            "FCCInformationForm": {
+                "Title": "Fiche informative de la CFC",
+                "FilePath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/fre/JA_DISH17_FCC.pdf"
+            }
+        },
+        "NestSettings": {
+            "QuietWhileHome.Name": "Calme tandis que la maison",
+            "QuietWhileHome.Description": "Votre lave-vaisselle passe automatiquement en mode silencieux lorsque Nest ™ sait que vous êtes chez vous.",
+            "WashWhileAway.Name": "Laver en dehors",
+            "WashWhileAway.Description": "Lorsque Nest ™ détecte que vous êtes absent, votre lave-vaisselle démarre le cycle sélectionné. Veuillez noter que Nest ™ peut prendre jusqu'à deux heures pour envoyer le signal à l'extérieur."
+        },
+        "Notifications": {
+            "CycleComplete": {
+                "Name": "Programme terminé",
+                "Description": "Recevez une notification lorsque le programme de lavage sélectionné est terminé."
+            },
+            "FilterStatus": {
+                "Name": "Alerte de nettoyage du filtre",
+                "Description": "Recevez une notification lorsque vient le temps de nettoyer le système de triple filtration de votre lave-vaisselle."
+            },
+            "SaniRinse": {
+                "Name": "Rinçage avec assainissement",
+                "Description": "Recevez une notification pour la température de rinçage avec assainissement."
+            },
+            "RemoteStatus": {
+                "Name": "État de commande à distance",
+                "Description": "Recevez une notification lorsque l’état de la commande à distance de votre appareil change."
+            },
+            "AffreshNotification": {
+                "Name": "État affresh®",
+                "Description": "Recevez une notification lorsque vient le temps d’effectuer un programme de nettoyage affresh® pour maintenir votre lave-vaisselle propre."
+            }
+        },
+        "SpecialtyCycles": {
+            "Gentle.Name": "Gentle",
+            "Gentle.Description": "",
+            "Gentle.LongDescription": "",
+            "Gentle.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_PlasticItems.png",
+            "Heavy.Name": "Heavy",
+            "Heavy.Description": "",
+            "Heavy.LongDescription": "",
+            "Heavy.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_FineChina.png",
+            "SpecialtyItems.Name": "Specialty Items",
+            "SpecialtyItems.Description": "",
+            "SpecialtyItems.LongDescription": "",
+            "SpecialtyItems.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_CanningItems.png",
+            "SanitizeWash.Name": "Sanitize Wash",
+            "SanitizeWash.Description": "",
+            "SanitizeWash.LongDescription": "",
+            "SanitizeWash.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_CanningItems.png",
+            "QuickWash.Name": "Quick Wash",
+            "QuickWash.Description": "",
+            "QuickWash.LongDescription": "",
+            "QuickWash.IconPath": "NAR/JENNAIR/DDM_DISHWASHER_JA_DISH17_244_V1/Docs/JA_Dish_SpecialtyCycleIcons_RinseOnly.png"
+        },
+        "SupplyItem": {
+            "Warranty": {
+                "Name": "Plan de service étendu",
+                "Description": "Plan de service étendu",
+                "Disclaimer": "Plan de service étendu",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Whirlpool",
+                        "Country": "United States",
+                        "url": "https://www.whirlpoolextendedserviceplans.com/Home/Welcome/"
+                    },
+                    {
+                        "Merchant": "Whirlpool",
+                        "Country": "Canada",
+                        "url": "https://certifiedcare.ca/"
+                    }
+                ]
+            },
+            "AffreshDishwasherCleaner": {
+                "Name": "Nettoyant pour lave-vaisselle affresh®",
+                "Description": "Écartez-vous - de la bonne façon Affresh® Dishwasher Clearn est spécialement formulé pour aider à éliminer l'accumulation de calcaire et de minéraux qui peut être inesthétique et qui pourrait affecter les performances de votre lave-vaisselle. Chaque tablette est conçue pour nettoyer l'intérieur de votre machine pendant que votre détergent nettoie votre vaisselle.*",
+                "Disclaimer": "Vérifiez les instructions de nettoyage du fabricant sur tous les articles de lave-vaisselle.",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Whirlpool",
+                        "Country": "United States",
+                        "url": "http://www.whirlpool.com/-%5BW10282479%5D-1001564/W10282479/"
+                    },
+                    {
+                        "Merchant": "Whirlpool",
+                        "Country": "Canada",
+                        "url": "http://www.whirlpool.ca/en_CA/-%5BW10288149B%5D-1301464/W10288149B/"
+                    }
+                ]
+            },
+            "ScheduleService": {
+                "Name": "Service de planification",
+                "Description": "Service de planification",
+                "Disclaimer": "Service de planification",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Whirlpool",
+                        "Country": "United States",
+                        "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2E6Mjc&cparam="
+                    },
+                    {
+                        "Merchant": "Whirlpool",
+                        "Country": "Canada",
+                        "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2s6V0M7c2E6NDA&cparam"
+                    }
+                ]
+            }
+        },
+        "GlobalGoverningStates": {
+            "Quiet": {
+                "Name": "Quiet Mode",
+                "Description": "Quiet Mode Minimizes the appliances operating noise and mutes alert sounds."
+            },
+            "Control": {
+                "Name": "Control Lock",
+                "Description": "Control Lock status of the control panel to prevent unintended use of the participating appliances."
+            },
+            "Vacation": {
+                "Name": "Vacation Mode",
+                "Description": "Vacation Mode monitors use of your appliances while you're away."
+            }
+        },
+        "SmartTip": [
+            
+        ],
+        "cxcDetail": {
+            "US": {
+                "Country": "United States",
+                "cxcEmail": {
+                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Test": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Staging": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Cuft": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Production": "8.00 AM-8.00 PM EST,Monday-Friday"
+                }
+            },
+            "CA": {
+                "Country": "Canada",
+                "cxcEmail": {
+                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Test": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Staging": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Cuft": "8.00 AM-8.00 PM EST,Monday-Friday",
+                    "Production": "8.00 AM-8.00 PM EST,Monday-Friday"
+                }
+            }
+        },
+        "Replenishment": {
+            "ReplenishmentSlot": {
+                "DisplayName": {
+                    "DishwasherSlot1Name": "Lave-vaisselle Fente 1 Nom",
+                    "DishwasherSlot2Name": "Lave-vaisselle Fente 2 Nom"
+                },
+                "UomDisplay": {
+                    "DishwasherSlot1UomDisplay": "Lave-vaisselle Fente 1 Affichage UOM",
+                    "DishwasherSlot2UomDisplay": "Lave-vaisselle Fente 2 Affichage UOM"
+                }
+            },
+            "ReplenishmentDelay": {
+                "DisplayName": {
+                    "DishwasherSlot1Delay0": "Mise en marche différée 0",
+                    "DishwasherSlot1Delay2": "Délai 2",
+                    "DishwasherSlot1Delay4": "Délai 4",
+                    "DishwasherSlot1Delay6": "Délai 6",
+                    "DishwasherSlot2Delay0": "Délai 0",
+                    "DishwasherSlot2Delay2": "Délai 2",
+                    "DishwasherSlot2Delay4": "Délai 4",
+                    "DishwasherSlot2Delay6": "Délai 6"
+                }
+            },
+            "ReplenishmentUsage": {
+                "DisplayName": {
+                    "DishwasherSlot1UsageDefault": "Utilisation du lave-vaisselle Fente 1 par défaut",
+                    "DishwasherSlot2UsageDefault": "Utilisation du lave-vaisselle Fente 2 par défaut"
+                }
+            }
+        }
+    },
+    "NotificationMessages": {
+        "NotificationContents": [
+            {
+                "TemplateId": "CycleComplete",
+                "SmsText": "Le programme de lavage du lave-vaisselle est terminé.",
+                "EmailText": "Le programme de lavage du lave-vaisselle est terminé.",
+                "PushText": "Le programme de lavage du lave-vaisselle est terminé.",
+                "AlertTitle": "Programme terminé",
+                "Type": "cycle"
+            },
+            {
+                "TemplateId": "AffreshNotification",
+                "SmsText": "Il est temps d’effectuer un programme de nettoyage affresh® sur votre lave-vaisselle. Il est recommandé d’utiliser le nettoyant affresh tous les mois pour garder votre lave-vaisselle propre et frais.",
+                "EmailText": "Il est temps d’effectuer un programme de nettoyage affresh® sur votre lave-vaisselle. Il est recommandé d’utiliser le nettoyant affresh tous les mois pour garder votre lave-vaisselle propre et frais.",
+                "PushText": "Il est temps d’effectuer un programme de nettoyage affresh® sur votre lave-vaisselle. Il est recommandé d’utiliser le nettoyant affresh tous les mois pour garder votre lave-vaisselle propre et frais.",
+                "AlertTitle": "État affresh®",
+                "Type": "affresh"
+            },
+            {
+                "TemplateId": "FilterStatus",
+                "SmsText": "Il est temps de nettoyer le système de triple filtration de votre lave-vaisselle si vous souhaitez conserver un rendement de lavage optimal.",
+                "EmailText": "Il est temps de nettoyer le système de triple filtration de votre lave-vaisselle si vous souhaitez conserver un rendement de lavage optimal.",
+                "PushText": "Il est temps de nettoyer le système de triple filtration de votre lave-vaisselle si vous souhaitez conserver un rendement de lavage optimal.",
+                "AlertTitle": "État du nettoyage du filtre",
+                "Type": "dishFilter"
+            },
+            {
+                "TemplateId": "SaniRinse",
+                "SmsText": "Le programme de rinçage avec assainissement est terminé.",
+                "EmailText": "Le programme de rinçage avec assainissement est terminé.",
+                "PushText": "Le programme de rinçage avec assainissement est terminé.",
+                "AlertTitle": "Rinçage avec assainissement",
+                "Type": "saniRinse"
+            },
+            {
+                "TemplateId": "RemoteStatusEnabled",
+                "SmsText": "La commande à distance du lave-vaisselle est activée. Vous pouvez maintenant commander votre lave-vaisselle à distance.",
+                "EmailText": "La commande à distance du lave-vaisselle est activée. Vous pouvez maintenant commander votre lave-vaisselle à distance.",
+                "PushText": "La commande à distance du lave-vaisselle est activée. Vous pouvez maintenant commander votre lave-vaisselle à distance.",
+                "AlertTitle": "État de commande à distance",
+                "Type": "remoteControl"
+            },
+            {
+                "TemplateId": "RemoteStatusDisabled",
+                "SmsText": "La commande à distance du lave-vaisselle est désactivée. Vous pouvez réactiver la commande sur votre appareil pour le commander à distance.",
+                "EmailText": "La commande à distance du lave-vaisselle est désactivée. Vous pouvez réactiver la commande sur votre appareil pour le commander à distance.",
+                "PushText": "La commande à distance du lave-vaisselle est désactivée. Vous pouvez réactiver la commande sur votre appareil pour le commander à distance.",
+                "AlertTitle": "État de commande à distance",
+                "Type": "remoteControl"
+            }
+        ]
+    }
+}

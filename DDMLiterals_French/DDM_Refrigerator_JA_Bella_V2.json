@@ -1,0 +1,396 @@
+{
+    "DDMLiterals": {
+        "CapabilityCavity_SetCavitySelect.Label": "Réglage de la cavité sélectionnée",
+        "CapabilityCavity_SetCavitySelect.EnumValues.RefrigeratorZone1.Label": "Zone 1 réfrigérateur",
+        "CapabilityCavity_SetCavitySelect.EnumValues.FreezerZone2.Label": "Zone 2 congélateur",
+        "CapabilityCavity_SetCavitySelect.EnumValues.PantryZone3.Label": "Zone 3 garde-manger",
+        "CapabilityCavity_SetTempDefault.Label": "Réglage de la température par défaut",
+        "CapabilityCavity_SetTempMax.Label": "Réglage de la température maximale",
+        "CapabilityCavity_SetTempMin.Label": "Réglage de la température minimale",
+        "CapabilitySys_SetFavoriteFillMax.Label": "Réglage du remplissage préféré maximal",
+        "Freezer_OpSetTargetTemp.Label": "Temp cible",
+        "Freezer_OpStatusDoorOpen.Label": "Porte ouverte",
+        "Freezer_OpStatusOverTemp.Label": "Température excessive",
+        "Generic_EnergyProfileSetting.Label": "Réglage de profil de consommation",
+        "Generic_RatePlanID.Label": "ID du taux du plan",
+        "Generic_SmartID.Label": "ID Smart",
+        "Generic_UtilityID.Label": "ID de l’utilitaire",
+        "Generic_Zip.Label": "Code postal",
+        "Pantry_OpSetTargetTemp.Label": "Temp cible",
+        "Refrigerator_OpSetTargetTemp.Label": "Temp cible",
+        "Refrigerator_OpStatusDoorOpen.Label": "Porte ouverte",
+        "Refrigerator_OpStatusOverTemp.Label": "Température excessive",
+        "Relational_ArrayClose.Label": "Choix fermé",
+        "Relational_ArrayOpen.Label": "Choix ouvert",
+        "Relational_CapabilityFrigCavityTemp.Label": "Température de cavité frig",
+        "Relational_CapabilityFrigSettings.Label": "Réglages frig",
+        "Relational_EntityClose.Label": "Entité fermée",
+        "Relational_EntityId.Label": "ID de l’entité",
+        "Relational_EntityName.Label": "Nom de l’entité",
+        "Relational_EntityOpen.Label": "Entité ouverte",
+        "Relational_EnvelopeAction.Label": "Enveloppe action",
+        "Relational_EnvelopeAction.EnumValues.Get.Label": "Obtenir",
+        "Relational_EnvelopeAction.EnumValues.Publish.Label": "Publier",
+        "Relational_EnvelopeClose.Label": "Enveloppe fermée",
+        "Relational_EnvelopeOpen.Label": "Enveloppe ouverte",
+        "Sys_AlertStatusControlLockChangedByAppliance.Label": "État d’alerte Verrouillage des commandes modifié par l’appareil",
+        "Sys_AlertStatusDoorOpenAlarm.Label": "État d’alerte Alarme porte ouverte",
+        "Sys_AlertStatusLockNotification.Label": "État d’alerte Notification de verrouillage",
+        "Sys_DisplaySetNightLightBrightness.Label": "Lumière nocturne automatique",
+        "Sys_DisplaySetNightLightBrightness.EnumValues.Off.Label": "Arrêt",
+        "Sys_DisplaySetNightLightBrightness.EnumValues.Maximum.Label": "Marche",
+        "Sys_DisplaySetTempUnits.Label": "Réglage de l’affichage Unités de température",
+        "Sys_DisplaySetTempUnits.EnumValues.DegreesC.Label": "C",
+        "Sys_DisplaySetTempUnits.EnumValues.DegreesF.Label": "F",
+        "Sys_OpSetAirFilter.Label": "Filtre à air",
+        "Sys_OpSetAirFilter.EnumValues.AirFilterGood.Label": "Bon",
+        "Sys_OpSetAirFilter.EnumValues.AirFilterReorder.Label": "Commander de nouveau",
+        "Sys_OpSetAirFilter.EnumValues.AirFilterReplace.Label": "Changer",
+        "Sys_OpSetAirFilter.EnumValues.AirFilterReplaceOverdue.Label": "Changer",
+        "Sys_OpSetControlLock.Label": "Verrouillage des commandes",
+        "Sys_OpSetFavoriteFillAmount1.Label": "Quantité de remplissage préférée 1",
+        "Sys_OpSetFavoriteFillAmount2.Label": "Quantité de remplissage préférée 2",
+        "Sys_OpSetFavoriteFillUnits1.Label": "Unité de remplissage préférée 1",
+        "Sys_OpSetFavoriteFillUnits1.EnumValues.mL.Label": "mL",
+        "Sys_OpSetFavoriteFillUnits1.EnumValues.Cups.Label": "Tasses",
+        "Sys_OpSetFavoriteFillUnits1.EnumValues.Ounces.Label": "Oz",
+        "Sys_OpSetFavoriteFillUnits2.Label": "Unité de remplissage préférée 2",
+        "Sys_OpSetFavoriteFillUnits2.EnumValues.mL.Label": "mL",
+        "Sys_OpSetFavoriteFillUnits2.EnumValues.Cups.Label": "Tasses",
+        "Sys_OpSetFavoriteFillUnits2.EnumValues.Ounces.Label": "Oz",
+        "Sys_OpSetMaxCool.Label": "Max Cool (refroidissement maximal)",
+        "Sys_OpSetMaxIce.Label": "Max Ice (production de glaçons maximale)",
+        "Sys_OpSetPartyMode.Label": "Mode fête",
+        "Sys_OpSetSabbathModeEnabled.Label": "Mode Sabbat activé",
+        "Sys_OpSetWaterFilter.Label": "Filtre à eau",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterGood.Label": "Bon",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterReorder.Label": "Commander de nouveau",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterReplace.Label": "Changer",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterReplaceOverdue.Label": "Changer",
+        "Sys_OpStatusCoolingOn.Label": "Refroidissement en marche",
+        "Sys_OpStatusNoFreezerBurnActive.Label": "No Freezer Burn (pas de brûlure de congélation) activé",
+        "Sys_OpStatusState.Label": "État",
+        "Sys_OpStatusState.EnumValues.CompressorOff.Label": "Compresseur fermé",
+        "Sys_OpStatusState.EnumValues.NormalCooling.Label": "Refroidissement normal",
+        "Sys_OpStatusState.EnumValues.Defrosting.Label": "Décongélation",
+        "Sys_PreventativeMaintAirFilterEnable.Label": "Entretien préventif — filtre à air",
+        "Sys_PreventativeMaintCleanFridgeEnable.Label": "Entretien préventif — nettoyage du réfrigérateur",
+        "XCat_ApplianceInfoSetModelNumber.Label": "Informations de l’appareil Réglage du numéro de modèle",
+        "XCat_ApplianceInfoSetSerialNumber.Label": "Informations de l’appareil Réglage du numéro de série",
+        "XCat_DateTimeMode.Label": "Mode date et heure",
+        "XCat_DstOffset.Label": "Décalage MMD",
+        "XCat_InServiceDate.Label": "Données en service",
+        "XCat_OdometerStatusRunningHours.Label": "État odomètre Heures de fonctionnement",
+        "XCat_OdometerStatusTotalHours.Label": "État odomètre Nombre total d’heures",
+        "XCat_online.Label": "En ligne",
+        "XCat_PersistentInfoMacAddress.Label": "Informations de persistance Adresse Mac",
+        "XCat_PersistentInfoSaid.Label": "Informations de persistance SAID",
+        "XCat_PersistentInfoVersion.Label": "Informations de persistance Version",
+        "XCat_PowerStatusEnergyConsumption.Label": "État d’alimentation Consommation d’énergie",
+        "XCat_PowerStatusPowerOutage.Label": "État d’alimentation Coupure de courant",
+        "XCat_SmartGridSetSmartGridEnable.Label": "Réglage de la fonction réseau intelligent Fonction réseau intelligent activé",
+        "XCat_SmartGridSetSmartGridMode.Label": "Réglage de la fonction réseau intelligent Mode réseau intelligent",
+        "XCat_SmartGridStatusSmartGridCompliant.Label": "État de la fonction réseau intelligent Conforme à la fonction réseau intelligent",
+        "XCat_SmartGridStatusSmartGridCompliant.EnumValues.None.Label": "Aucun",
+        "XCat_SmartGridStatusSmartGridCompliant.EnumValues.UserOverride.Label": "Remplacer l’utilisateur",
+        "XCat_SmartGridStatusSmartGridCompliant.EnumValues.ApplianceOverride.Label": "Remplacer l’appareil",
+        "XCat_TimeZoneId.Label": "Identifiant de fuseau horaire",
+        "XCat_trid.Label": "Trid",
+        "XCat_trid_result.Label": "Résultat Trid",
+        "XCat_UtcOffset.Label": "Décalage UTC",
+        "XCat_WifiSetPublishApplianceState.Label": "Réglage Wi-Fi Publier l’état de l’appareil",
+        "XCat_WifiStatusRssiAntennaDiversity.Label": "État Wi-Fi Diversité d’antenne RSSI",
+        "XCat_WifiStatusRssiDisplay.Label": "État Wi-Fi Affichage RSSI",
+        "RefrigeratorCavity.Label" : "Réfrigérateur",
+        "FreezerCavity.Label" : "Congélateur",
+        "PantryCavity.Label" :"garde-manger",
+        "Pantry_OpSetTargetTemp.EnumValues.Meat.Label" : "Meat",
+        "Pantry_OpSetTargetTemp.EnumValues.Beverage.Label" : "Beverage",
+        "Pantry_OpSetTargetTemp.EnumValues.Assorted.Label" : "Assorted",
+        "Pantry_OpSetTargetTemp.EnumValues.Deli.Label" : "Deli",
+        "ControlLock.Label" : "Control lock",
+        "ControlLock.Description": "Lock the controls to prevent unintended use of the appliance",
+        "Notifications.Label" : "Notifications",
+        "Notifications.Description" : "Start or stop notifications for individual notifications at any time",
+        "SabbathMode.Label" : "Sabbath mode",
+        "SabbathMode.Description" : "Set your dishwasher to act in accordance with religious guidelines for use during the Sabbath and religious holidays",
+        "MaxCool.Label" : "Max cool",
+        "MaxCool.Description" : "Accelerates the cooling process for your refrigerator",
+        "MaxIce.Label" : "Max ice",
+        "MaxIce.Description" : "Accelerates the ice making production for your refrigerator. This setting will not operate until the Ice Maker is turned on",
+        "AutoNightLight.Label" : "Auto Night Light"
+        
+
+    },
+    "AFCSelfHelpPack": {},
+    "MobileLiterals": {
+        "Manuals": {
+            "UseCareGuide": {
+                "Title": "Guide d’utilisation et d’entretien",
+                "FilePath": "NAR/JENNAIR/DDM_Refrigerator_JA_Bella_V2/Docs/fre/Refrigerator_Use_and_Care_Guide.pdf"
+            },
+            "Warranty": {
+                "Title": "Garantie",
+                "FilePath": "NAR/JENNAIR/DDM_Refrigerator_JA_Bella_V2/Docs/fre/Refrigerator_Warranty.pdf"
+            },
+            "InstallationInstructions": {
+                "Title": "Instructions d’installation",
+                "FilePath": "NAR/JENNAIR/DDM_Refrigerator_JA_Bella_V2/Docs/fre/Refrigerator_Installation_Instructions.pdf"
+            },
+            "FccInformationForm": {
+                "Title": "Fiche informative de la CFC",
+                "FilePath": "NAR/JENNAIR/DDM_Refrigerator_JA_Bella_V2/Docs/fre/Refrigerator_FCC.pdf"
+            }
+        },
+        "NestSettings": {
+            "SmartEnergy.Name": "Efficacité énergétique intelligente",
+            "SmartEnergy.Description": "Utilisez la mise en marche différée intelligente de votre réfrigérateur pour l’empêcher d’utiliser le programme de dégivrage pendant les heures de grande consommation d’électricité."
+        },
+        "SpecialtyCycles": {},
+        "Notifications": {
+            "DoorOpenAlert": {
+                "Name": "Avertissement de porte ouverte",
+                "Description": "Recevez une notification si la porte du réfrigérateur est restée ouverte pendant plus de 5 minutes."
+            },
+            "MaxCool": {
+                "Name": "Max Cool (refroidissement maximal)",
+                "Description": "Recevez une notification lorsque la fonction de refroidissement maximal se met en marche et s’arrête."
+            },
+            "MaxIce": {
+                "Name": "Max Ice (production de glaçons maximale)",
+                "Description": "Recevez une notification lorsque la fonction de production de glaçons maximale se met en marche et s’arrête."
+            },
+            "OverTemp": {
+                "Name": "Alerte de température élevée",
+                "Description": "Recevez une notification si la température de votre réfrigérateur dépasse la température sélectionnée."
+            },
+            "PreventativeMaintenanceAirFilter": {
+                "Name": "Alerte du filtre à air",
+                "Description": "Recevez une notification lorsque vient le temps de vérifier l’état du filtre à air ou du conservateur de produits frais."
+            },
+            "WaterFilter": {
+                "Name": "Alerte du filtre à eau",
+                "Description": "Recevez une notification lorsque vient le temps de remplacer le filtre à eau du réfrigérateur."
+            }
+        },
+        "SupplyItem": {
+            "ProducePreserverStarterKit": {
+                "Name": "Trousse de démarrage pour conservateur pour produits frais",
+                "Description": null,
+                "Disclaimer": null,
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Jenn-Air®",
+                        "Country": "United States",
+                        "url": "http://jennair.com/accessories/details/P1FB6S1"
+                    },
+                    {
+                        "Merchant": "Jenn-Air®",
+                        "Country": "Canada",
+                        "url": "http://www.jennair.ca/appliances/uncategorized/p1kg6s1b-kitchenaid-produce-preserver-starter-kit/"
+                    }
+                ]
+            },
+            "ProducePreserverRefill": {
+                "Name": "Recharge de conservateur pour produits frais",
+                "Description": null,
+                "Disclaimer": null,
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Jenn-Air®",
+                        "Country": "United States",
+                        "url": "http://jennair.com/accessories/details/P1FB6S1"
+                    },
+                    {
+                        "Merchant": "Jenn-Air®",
+                        "Country": "Canada",
+                        "url": "http://www.jennair.ca/appliances/uncategorized/p1kg6r1b-kitchenaid-produce-preserver-keep-fresh-packets/"
+                    }
+                ]
+            },
+            "FreshflowAirFilter": {
+                "Name": "Filtre à air FreshFlow™",
+                "Description": null,
+                "Disclaimer": null,
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Jenn-Air®",
+                        "Country": "United States",
+                        "url": "http://jennair.com/accessories/details/W10311524"
+                    },
+                    {
+                        "Merchant": "Jenn-Air®",
+                        "Country": "Canada",
+                        "url": "http://www.jennair.ca/?s=W10311524&lang=en"
+                    }
+                ]
+            },
+            "EverydropWaterFilter": {
+                "Name": "Filtre à eau EveryDrop™",
+                "Description": null,
+                "Disclaimer": null,
+                "SupplyLocations": [
+                    {
+                        "Merchant": "Jenn-Air®",
+                        "Country": "United States",
+                        "url": "http://jennair.com/accessories/details/EDR2RXD1"
+                    },
+                    {
+                        "Merchant": "Jenn-Air®",
+                        "Country": "Canada",
+                        "url": "https://everydropwater.ca/en/filter2-refrigerator-water-filter-turn-model-edr2rxd1b"
+                    }
+                ]
+            }
+        },
+        "SmartTip": [],
+        "cxcDetail": {
+            "US": {
+                "Country": "United States",
+                "cxcEmail": {
+                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": "Mon–Fri 8am–8pm EST",
+                    "Test": "Mon–Fri 8am–8pm EST",
+                    "Staging": "Mon–Fri 8am–8pm EST",
+                    "Cuft": "Mon–Fri 8am–8pm EST",
+                    "Production": "Mon–Fri 8am–8pm EST"
+                }
+            },
+            "CA": {
+                "Country": "Canada",
+                "cxcEmail": {
+                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": "Mon–Fri 8am–8pm EST",
+                    "Test": "Mon–Fri 8am–8pm EST",
+                    "Staging": "Mon–Fri 8am–8pm EST",
+                    "Cuft": "Mon–Fri 8am–8pm EST",
+                    "Production": "Mon–Fri 8am–8pm EST"
+                }
+            }
+        },
+        "Temperature": {
+            "Name": {
+                "FreezerTemperature": "Température du congélateur",
+                "RefrigeratorTemperature": "Température du réfrigérateur"
+            }
+        }
+    },
+    "NotificationMessages": {
+       "NotificationContents": [
+            {
+                "TemplateId": "DoorOpenAlert1",
+                "SmsText": "L’alarme de porte de réfrigérateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+                "EmailText": "L’alarme de porte de réfrigérateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+                "PushText": "L’alarme de porte de réfrigérateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+                "AlertTitle": "Avertissement de porte ouverte",
+                "Type": "maxIceDoor"
+            },
+            {
+                "TemplateId": "MaxCool1",
+                "SmsText": "Le réfrigérateur a démarré la fonction Max Cool (refroidissement maximal), ce qui abaisse la température du réfrigérateur.",
+                "EmailText": "Le réfrigérateur a démarré la fonction Max Cool (refroidissement maximal), ce qui abaisse la température du réfrigérateur.",
+                "PushText": "Le réfrigérateur a démarré la fonction Max Cool (refroidissement maximal), ce qui abaisse la température du réfrigérateur.",
+                "AlertTitle": "Alerte de refroidissement maximal",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "MaxCool2",
+                "SmsText": "Le réfrigérateur a cessé d’utiliser la fonction Max Cool (refroidissement maximal), ce qui replace la température du réfrigérateur à son réglage précédent.",
+                "EmailText": "Le réfrigérateur a cessé d’utiliser la fonction Max Cool (refroidissement maximal), ce qui replace la température du réfrigérateur à son réglage précédent.",
+                "PushText": "Le réfrigérateur a cessé d’utiliser la fonction Max Cool (refroidissement maximal), ce qui replace la température du réfrigérateur à son réglage précédent.",
+                "AlertTitle": "Alerte de refroidissement maximal",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "MaxIce1",
+                "SmsText": "Le réfrigérateur a démarré la fonction Max Ice (production de glaçons maximale), ce qui abaisse la température du congélateur.",
+                "EmailText": "Le réfrigérateur a démarré la fonction Max Ice (production de glaçons maximale), ce qui abaisse la température du congélateur.",
+                "PushText": "Le réfrigérateur a démarré la fonction Max Ice (production de glaçons maximale), ce qui abaisse la température du congélateur.",
+                "AlertTitle": "Alerte de production de glaçons maximale",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "MaxIce2",
+                "SmsText": "Le réfrigérateur a cessé d’utiliser la fonction Max Ice (production de glaçons maximale), ce qui replace la température du congélateur à son réglage précédent.",
+                "EmailText": "Le réfrigérateur a cessé d’utiliser la fonction Max Ice (production de glaçons maximale), ce qui replace la température du congélateur à son réglage précédent.",
+                "PushText": "Le réfrigérateur a cessé d’utiliser la fonction Max Ice (production de glaçons maximale), ce qui replace la température du congélateur à son réglage précédent.",
+                "AlertTitle": "Alerte de production de glaçons maximale",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "OverTemp1",
+                "SmsText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+                "EmailText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+                "PushText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+                "AlertTitle": "Alerte de température élevée",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "OverTemp2",
+                "SmsText": "Vérifiez le contenu de votre congélateur – la température est élevée.",
+                "EmailText": "Vérifiez le contenu de votre congélateur – la température est élevée.",
+                "PushText": "Vérifiez le contenu de votre congélateur – la température est élevée.",
+                "AlertTitle": "Alerte de température élevée",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "PreventativeMaintenanceAirFilter",
+                "SmsText": "Il est temps de vérifier l’état du filtre à air ou du conservateur de produits frais du réfrigérateur ",
+                "EmailText": "Il est temps de vérifier l’état du filtre à air ou du conservateur de produits frais du réfrigérateur ",
+                "PushText": "Il est temps de vérifier l’état du filtre à air ou du conservateur de produits frais du réfrigérateur ",
+                "AlertTitle": "Alerte du filtre à air",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "WaterFilter0",
+                "SmsText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+                "EmailText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+                "PushText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+                "AlertTitle": "Alerte du filtre à eau",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "WaterFilter1",
+                "SmsText": " Il est temps de remplacer le filtre à eau de votre réfrigérateur, commandez maintenant.",
+                "EmailText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur, commandez maintenant.",
+                "PushText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur, commandez maintenant.",
+                "AlertTitle": "Alerte du filtre à eau",
+                "Type": "waterFilter"
+            },
+            {
+                "TemplateId": "WaterFilter2",
+                "SmsText": "remplacer le filtre à eau de votre réfrigérateur,",
+                "EmailText": "remplacer le filtre à eau de votre réfrigérateur,",
+                "PushText": "remplacer le filtre à eau de votre réfrigérateur,",
+                "AlertTitle": "Alerte du filtre à eau",
+                "Type": "waterFilter"
+            }
+        ]
+    }
+}

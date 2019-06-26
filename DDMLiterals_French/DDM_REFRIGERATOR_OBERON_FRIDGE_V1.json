@@ -1,0 +1,312 @@
+{
+    "DDMLiterals": {
+        "CapabilityCavity_SetCavitySelect.EnumValues.FreezerZone2.Label": "Zone 2 congélateur",
+        "CapabilityCavity_SetCavitySelect.EnumValues.PantryZone3.Label": "Zone 3 garde-manger",
+        "CapabilityCavity_SetCavitySelect.EnumValues.RefrigeratorZone1.Label": "Zone 1 réfrigérateur",
+        "CapabilityCavity_SetCavitySelect.Label": "Réglage de la cavité sélectionnée",
+        "CapabilityCavity_SetTempDefault.Label": "Réglage de la température par défaut",
+        "CapabilityCavity_SetTempMax.Label": "Réglage de la température maximale",
+        "CapabilityCavity_SetTempMin.Label": "Réglage de la température minimale",
+        "CapabilityCavity_SetTempPresetDefault.EnumValues.TempPresetAssorted.Label": "Assortiment",
+        "CapabilityCavity_SetTempPresetDefault.EnumValues.TempPresetBeverage.Label": "Boisson",
+        "CapabilityCavity_SetTempPresetDefault.EnumValues.TempPresetDeli.Label": "Produits de spécialité",
+        "CapabilityCavity_SetTempPresetDefault.EnumValues.TempPresetMeat.Label": "Viande",
+        "CapabilityCavity_SetTempPresetDefault.EnumValues.TempPresetOff.Label": "Arrêt",
+        "CapabilityCavity_SetTempPresetDefault.EnumValues.TempPresetProduce.Label": "produits frais",
+        "CapabilityCavity_SetTempPresetDefault.Label": "Réglage de la température Préréglage par défaut",
+        "Freezer_OpSetTempPreset.EnumValues.TempPresetAssorted.Label": "Assortiment",
+        "Freezer_OpSetTempPreset.EnumValues.TempPresetBeverage.Label": "Boisson",
+        "Freezer_OpSetTempPreset.EnumValues.TempPresetDeli.Label": "Produits de spécialité",
+        "Freezer_OpSetTempPreset.EnumValues.TempPresetMeat.Label": "Viande",
+        "Freezer_OpSetTempPreset.EnumValues.TempPresetOff.Label": "Arrêt",
+        "Freezer_OpSetTempPreset.EnumValues.TempPresetProduce.Label": "produits frais",
+        "Freezer_OpSetTempPreset.Label": "Préréglage de la température",
+        "Generic_EnergyProfileSetting.Label": "Réglage de profil de consommation",
+        "Generic_RatePlanId.Label": "ID du taux du plan",
+        "Generic_SmartId.Label": "ID Smart",
+        "Generic_UtilityId.Label": "ID de l’utilitaire",
+        "Generic_Zip.Label": "Code postal",
+        "online.Label": "En ligne",
+        "Pantry_OpSetTempPreset.EnumValues.TempPresetAssorted.Label": "Assortiment",
+        "Pantry_OpSetTempPreset.EnumValues.TempPresetBeverage.Label": "Boisson",
+        "Pantry_OpSetTempPreset.EnumValues.TempPresetDeli.Label": "Produits de spécialité",
+        "Pantry_OpSetTempPreset.EnumValues.TempPresetMeat.Label": "Viande",
+        "Pantry_OpSetTempPreset.EnumValues.TempPresetOff.Label": "Arrêt",
+        "Pantry_OpSetTempPreset.EnumValues.TempPresetProduce.Label": "Produits frais",
+        "Pantry_OpSetTempPreset.Label": "Préréglage de la température",
+        "Refrigerator_OpSetTargetTemp.Label": "Temp cible",
+        "Refrigerator_OpStatusDoorOpen.Label": "Porte ouverte",
+        "Refrigerator_OpStatusOverTemp.Label": "Température excessive",
+        "Relational_CapabilityFrigCavityTemp.Label": "Température de cavité du réfrigérateur",
+        "Relational_CapabilityFrigSettings.Label": "Réglages du réfrigérateur",
+        "Sys_AlertStatusControlLockChangedByAppliance.Label": "État d’alerte Verrouillage des commandes modifié par l’appareil",
+        "Sys_AlertStatusCustomerFaultCode.Label": "Code d’anomalie - Client",
+        "Sys_AlertStatusCustomerFaultCodeNotification.Label": "Notification de code d’anomalie - Client",
+        "Sys_AlertStatusDoorOpenAlarm.Label": "Alarme de porte ouverte",
+        "Sys_DisplaySetCavityBrightness.EnumValues.Low.Label": "Basse",
+        "Sys_DisplaySetCavityBrightness.EnumValues.Maximum.Label": "Maximum",
+        "Sys_DisplaySetCavityBrightness.EnumValues.Medium.Label": "Moyenne",
+        "Sys_DisplaySetCavityBrightness.Label": "Réglage de l’affichage Luminosité de la cavité",
+        "Sys_DisplaySetTempUnits.EnumValues.DegreesC.Label": "Degrés C",
+        "Sys_DisplaySetTempUnits.EnumValues.DegreesF.Label": "Degrés F",
+        "Sys_DisplaySetTempUnits.Label": "Unités de température",
+        "Sys_OpSetControlLock.Label": "Mode de verrouillage",
+        "Sys_OpSetIceMakerOn.Label": "Machine à glaçons",
+        "Sys_OpSetMaxCool.Label": "Refroidissement maximal",
+        "Sys_OpSetMaxIce.Label": "Production de glaçons maximale",
+        "Sys_OpSetPartyMode.Label": "Mode fête",
+        "Sys_OpSetSabbathModeEnabled.Label": "Mode Sabbat",
+        "Sys_OpSetVacationMode.Label": "Mode Vacances",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterGood.Label": "Bon",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterReorder.Label": "Commander de nouveau",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterReplace.Label": "Changer",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterReplace.Description": "1. Pour ouvrir, pousser la porte du filtre à eau, située en haut à gauche, au-dessus du compartiment du réfrigérateur ou du congélateur.\n\n  2. Faire tourner le filtre à eau de 90° dans le sens antihoraire pour le déverrouiller.\n\n  3. Retirer le filtre du compartiment.\n\n  4. Retirer le capuchon du filtre à eau.\n\n  5. Installer le capuchon de filtre à eau sur le nouveau filtre.Aligner correctement les flèches pour que les rainures du filtre soient alignées avec les nervures du capuchon.\n\n  6. Placer le filtre dans le compartiment.\n\n  7. Tourner le filtre à eau de 90 degrés dans le sens horaire pour le verrouiller en place et aligner les flèches.\n\n  8. Refermer la porte du filtre à eau.",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterReplaceOverdue.Label": "Changer",
+        "Sys_OpSetWaterFilter.Label": "Filtre à eau EveryDrop®",
+        "Sys_OpStatusIceMakerJam.Label": "Blocage de la machine à glaçons",
+        "Sys_OpStatusState.EnumValues.CompressorOff.Label": "Compresseur fermé",
+        "Sys_OpStatusState.EnumValues.Defrosting.Label": "Décongélation",
+        "Sys_OpStatusState.EnumValues.NormalCooling.Label": "Refroidissement normal",
+        "Sys_OpStatusState.Label": "État",
+        "XCat_ApplianceInfoSetModelNumber.Label": "Informations de l’appareil Réglage du numéro de modèle",
+        "XCat_ApplianceInfoSetSerialNumber.Label": "Informations de l’appareil Réglage du numéro de série",
+        "XCat_ConfigSetApplianceCapability.Label": "Réglage de configuration Capacité de l’appareil",
+        "XCat_DateTimeMode.Label": "Mode date et heure",
+        "XCat_DstOffset.Label": "Décalage MMD",
+        "XCat_InServiceDate.Label": "Données en service",
+        "XCat_OdometerStatusRunningHours.Label": "État odomètre Heures de fonctionnement",
+        "XCat_OdometerStatusTotalHours.Label": "État odomètre Nombre total d’heures",
+        "XCat_PersistentInfoMacAddress.Label": "Informations de persistance Adresse Mac",
+        "XCat_PersistentInfoSaid.Label": "Informations de persistance SAID",
+        "XCat_PersistentInfoVersion.Label": "Informations de persistance Version",
+        "XCat_PowerStatusPowerOutage.Label": "État d’alimentation Coupure de courant",
+        "XCat_TimeZoneId.Label": "Identifiant de fuseau horaire",
+        "XCat_Trid.Label": "Trid",
+        "XCat_TridResult.Label": "Résultat Trid",
+        "XCat_UtcOffset.Label": "Décalage UTC",
+        "XCat_WifiSetDeprovisionWifiCommModule.Label": "Réglage Wi-Fi Désactiver le module de communication Wi-Fi",
+        "XCat_WifiSetPublishApplianceState.Label": "Réglage Wi-Fi Publier l’état de l’appareil",
+        "XCat_WifiSetRebootWifiCommModule.Label": "Réglage Wi-Fi Redémarrer le module de communication Wi-Fi",
+        "XCat_WifiStatusRssiAntennaDiversity.Label": "État Wi-Fi Diversité d’antenne RSSI",
+        "XCat_WifiStatusRssiDisplay.Label": "État Wi-Fi Affichage RSSI",
+        "RefrigeratorCavity.Label" : "Réfrigérateur",
+        "DeliDrawerCavity.Label" : "Tiroir pour spécialités alimentaires",
+        "CrisperDrawerCavity.Label" : "Bac à légumes",
+        "ControlLock.Label" : "Control lock",
+        "SabbathMode.Label" : "Sabbath Mode",
+        "Notifications.Label" : "Notifications",
+        "ApplianceDocuments" : "Documents",
+        "ControlLock.Description": "Lock the controls to prevent unintended use of the appliance",
+        "Notifications.Description" : "Start or stop notifications for individual notifications at any time",
+        "SabbathMode.Description" : "Set your dishwasher to act in accordance with religious guidelines for use during the Sabbath and religious holidays",
+        "MaxCool.Label" : "Max cool",
+        "MaxCool.Description" : "Accelerates the cooling process for your refrigerator"
+        "CavityBrightness.Label" : "Cavity Brightness"
+    },
+    "AFCSelfHelpPack": {},
+    "MobileLiterals": {
+        "Manuals": {
+            "FccInformationForm": {
+                "Title": "Fiche informative de la CFC",
+                "FilePath": "NAR/WHIRLPOOL/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/fre/Freezer_FCC.pdf"
+            },
+            "UseCareGuide": {
+                "Title": "Guide d’utilisation et d’entretien",
+                "FilePath": "NAR/WHIRLPOOL/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/fre/Freezer_Use_and_Care_Guide.pdf"
+            },
+            "Warranty": {
+                "Title": "Garantie",
+                "FilePath": "NAR/WHIRLPOOL/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/fre/Freezer_Warranty.pdf"
+            },
+            "InstallationInstructions": {
+                "Title": "Instructions d’installation",
+                "FilePath": "NAR/WHIRLPOOL/DDM_REFRIGERATOR_OBERON_FRIDGE_V1/Docs/fre/Freezer_Installation_Instructions.pdf"
+            }
+        },
+        "NestSettings": {},
+        "SpecialtyCycles": {},
+        "Notifications": {
+            "DoorOpenAlert": {
+                "Name": "Porte ouverte",
+                "Description": "Recevez une notification lorsque la porte a été ouverte pendant plus de 5 minutes"
+            },
+            "DoorCloseAlert": {
+                "Name": "Porte fermée",
+                "Description": "Recevez une notification lorsque la porte a été fermée après avoir été ouverte pendant plus de 5 minutes."
+            },
+            "PowerOutAlert": {
+                "Name": "Panne de courant",
+                "Description": "Recevez une notification pour toute panne d’électricité et de restauration."
+            },
+            "WaterFilter": {
+                "Name": "Commandez un filtre à eau",
+                "Description": "Recevez une notification lorsque vient le temps de commander un filtre à eau pour votre réfrigérateur."
+            },
+            "OverTemp": {
+                "Name": "Alerte de température élevée",
+                "Description": "Recevez une notification si la température de votre réfrigérateur dépasse 50 °F."
+            }
+        },
+        "SupplyItem": {
+            "EveryDropWaterFilter": {
+                "Name": "Filtre à eau et glaçons pour réfrigérateur",
+                "Description": "Votre famille et vous pourrez maintenant profiter des bienfaits vivifiants d’une eau et de glaçons propres et fraîchement filtrés. Pas seulement pour boire, mais aussi pour préparer les repas. Notre génération de filtres à glaçons et eau de pointe pour réfrigérateur d’EveryDrop™ est certifiée pour réduire un maximum de contaminants grâce à la technologie Triple Filtration™. Le filtre 2 réduit 24 contaminants, vous pouvez donc être assuré que votre famille et vous tirerez le maximum de votre eau. N’oubliez pas de remplacer le filtre du réfrigérateur tous les 6 mois pour maximiser la réduction des contaminants. (Remplace W10413645A)",
+                "Disclaimer": "",
+                "Model": "EDR2RXD1",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "États-Unis",
+                        "url": "https://jennair.com/accessories/details/EDR2RXD1"
+                    },
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "Canada",
+                        "url": "https://everydropwater.ca/fr/filter2-filtre-%C3%A0-eau-pour-r%C3%A9frig%C3%A9rateur-mod%C3%A8le-%C3%A0-rotation-edr2rxd1b"
+                    }
+                ]
+            },
+            "HerbTender": {
+                "Description": "Crée une zone de rangement spécialisée pour aider à optimiser la fraîcheur des herbes. Ce compartiment autonome est munie d’un dessus avec fente, permettant de maintenir pendant de longues périodes la fraîcheur des herbes comme la menthe, le thym, l’origan et l’aneth. Ce contenant sans BPA peut être utilisé dans tous les réfrigérateurs, ce qui le rend parfait pour toutes les maisons.",
+                "Disclaimer": "",
+                "Model": "W10882409",
+                "Name": "Boîte à herbes Herb Tender™",
+                "SupplyLocations": [
+                    {
+                        "Country": "États-Unis",
+                        "Merchant": "JennAir",
+                        "url": "https://jennair.com/accessories/details/W10882409"
+                    },
+                    {
+                        "Country": "Canada",
+                        "Merchant": "JennAir",
+                        "url": "https://whirlpoolparts.ca/POL/partssearch?partsId=W10882409"
+                    }
+                ]
+            },
+            "ProducePreserverRefill": {
+                "Description": "Les fruits et légumes produisent naturellement de l’éthylène lorsqu’ils mûrissent. L’absorption de ce gaz les fait mûrir trop vite. Ce conservateur aide à absorber l’éthylène pour que ces aliments restent frais très longtemps!",
+                "Disclaimer": "",
+                "Model": "P1FB6S1",
+                "Name": "Trousse de démarrage pour conservateur FreshFlow",
+                "SupplyLocations": [
+                    {
+                        "Country": "États-Unis",
+                        "Merchant": "JennAir",
+                        "url": "https://jennair.com/accessories/details/P1FB6S1"
+                    },
+                    {
+                        "Country": "Canada",
+                        "Merchant": "JennAir",
+                        "url": "https://whirlpoolparts.ca/POL/partssearch?partsId=P1FB6S1"
+                    }
+                ]
+            },
+            "AdditionalRefrigeratorAccessories ": {
+                "Name": "Accessoires supplémentaires pour réfrigérateur",
+                "Description": "Les trousses de poignée, bacs à glaçons et autres pièces et accessoires ajouteront des fonctionnalités à votre réfrigérateur. ",
+                "Disclaimer": "",
+                "Model": "N.D",
+                "SupplyLocations": [
+                    {
+                        "Country": "États-Unis",
+                        "Merchant": "JennAir",
+                        "url": "https://jennair.com/accessories/refrigerators"
+                    },
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "Canada",
+                        "url": "https://www.jennair.ca/fr/electromenager/accessoires-pour-refrigerateurs/"
+                    }
+                ]
+            },
+            "ScheduleService": {
+                "Name": "Prendre rendez-vous",
+                "Description": "Prendre rendez-vous",
+                "Disclaimer": "Prendre rendez-vous",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "États-Unis",
+                        "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2E6Mjc&cparam="
+                    },
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "Canada",
+                        "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2s6V0M7c2E6NDA&cparam"
+                    }
+                ]
+            }
+        },
+        "smartTip": [],
+        "Replenishment": {}
+    },
+    "NotificationMessages": {
+        "NotificationContents": [
+            {
+                "TemplateId": "FrigDoorCloseAlert1",
+                "SmsText": "La porte du réfrigérateur a été fermée.",
+                "EmailText": "La porte du réfrigérateur a été fermée.",
+                "PushText": "La porte du réfrigérateur a été fermée.",
+                "AlertTitle": "Porte fermée",
+                "Type": "maxIceDoor"
+            },
+            {
+                "TemplateId": "FrigDoorOpenAlert1",
+                "SmsText": "L’alarme de porte de réfrigérateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+                "EmailText": "L’alarme de porte de réfrigérateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+                "PushText": "L’alarme de porte de réfrigérateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+                "AlertTitle": "Avertissement de porte ouverte",
+                "Type": "maxIceDoor"
+            },
+            {
+                "TemplateId": "FrigPowerOutAlert",
+                "SmsText": "Perte de courant du réfrigérateur.",
+                "EmailText": "Perte de courant du réfrigérateur.",
+                "PushText": "Perte de courant du réfrigérateur.",
+                "AlertTitle": "Alertes de coupure de courant",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "FrigOverTemp1",
+                "SmsText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+                "EmailText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+                "PushText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+                "AlertTitle": "Alerte de température élevée",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "FrigOverTemp2",
+                "SmsText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+                "EmailText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+                "PushText": "Vérifiez le contenu de votre réfrigérateur – la température est élevée",
+                "AlertTitle": "Alerte de température élevée",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "FrigWaterFilter0",
+                "SmsText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+                "EmailText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+                "PushText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+                "AlertTitle": "Commandez un filtre à eau",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "FrigWaterFilter1",
+                "SmsText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur, commandez maintenant.",
+                "EmailText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur, commandez maintenant.",
+                "PushText": "Il est temps de remplacer le filtre à eau de votre réfrigérateur, commandez maintenant.",
+                "AlertTitle": "Commandez un filtre à eau",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "FrigWaterFilter2",
+                "SmsText": "remplacer le filtre à eau de votre réfrigérateur.",
+                "EmailText": "remplacer le filtre à eau de votre réfrigérateur.",
+                "PushText": "remplacer le filtre à eau de votre réfrigérateur.",
+                "AlertTitle": "Commandez un filtre à eau",
+                "Type": "system"
+            }
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "RefrigeratorCavity.Label" : "Refrigerator",
+  "FreezerCavity.Label" : "Freezer",
+  "PantryCavity.Label" :"Drawer",
+   "Pantry_OpSetTargetTemp.EnumValues.Meat.Label" : "Meat",
+   "Pantry_OpSetTargetTemp.EnumValues.Beverage.Label" : "Beverage",
+   "Pantry_OpSetTargetTemp.EnumValues.Assorted.Label" : "Assorted",
+   "Pantry_OpSetTargetTemp.EnumValues.Deli.Label" : "Deli",
+   "ControlLock.Label" : "Control lock",
+   "ControlLock.Description": "Lock the controls to prevent unintended use of the appliance",
+   "Notifications.Label" : "Notifications",
+   "Notifications.Description" : "Start or stop notifications for individual notifications at any time",
+   "SabbathMode.Label" : "Sabbath mode",
+   "SabbathMode.Description" : "Set your dishwasher to act in accordance with religious guidelines for use during the Sabbath and religious holidays",
+   "MaxCool.Label" : "Max cool",
+   "MaxCool.Description" : "Accelerates the cooling process for your refrigerator",
+   "MaxIce.Label" : "Max ice",
+   "MaxIce.Description" : "Accelerates the ice making production for your refrigerator. This setting will not operate until the Ice Maker is turned on",
+   "AutoNightLight.Label" : "Auto Night Light"
+
+
+
+}

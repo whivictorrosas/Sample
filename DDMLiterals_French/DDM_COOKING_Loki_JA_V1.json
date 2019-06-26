@@ -1,0 +1,499 @@
+{
+    "DDMLiterals": {
+        "XCat_PersistentInfoVersion.Label": "Données de la version du modèle",
+        "XCat_PersistentInfoSaid.Label": "ID Smart Appliance",
+        "XCat_PersistentInfoMacAddress.Label": "Adresse MAC",
+        "XCat_WifiStatusRssiAntennaDiversity.Label": "Diversité Antenne Force du signal",
+        "XCat_PowerStatusEnergyConsumption.Label": "Consommation d’énergie",
+        "XCat_PowerStatusEnergyMeasurementResults.Label": "Résultats de la mesure de consommation d’énergie",
+        "XCat_PowerStatusRealTimePower.Label": "Puissance en temps réel",
+        "XCat_PowerStatusRealTimeVoltage.Label": "Tension en temps réel",
+        "XCat_PowerStatusPowerOutage.Label": "Panne de courant",
+        "XCat_OdometerStatusRunningHours.Label": "Heures de fonctionnement",
+        "XCat_OdometerStatusTotalHours.Label": "Total d’heures",
+        "XCat_OdometerStatusCycleCount.Label": "Nombre de programmes",
+        "XCat_ApplianceInfoSetModelNumber.Label": "Numéro de modèle",
+        "XCat_ApplianceInfoSetSerialNumber.Label": "Numéro de série",
+        "XCat_WifiSetPublishApplianceState.Label": "Publier l’état de l’appareil",
+        "XCat_WifiSetRebootWifiCommModule.Label": "Redémarrer le module de communication Wi-Fi",
+        "XCat_WifiSetDeprovisionWifiCommModule.Label": "Déactiver le module de communication Wi-Fi",
+        "XCat_WifiSetDisableWifiCommModule.Label": "Désactiver le module de communication Wi-Fi",
+        "XCat_WifiSetIspAuthorized.Label": "Autorisation isp",
+        "XCat_WifiSetIspFirmwareDescriptionUrl.Label": "URL de description du micrologiciel ISP",
+        "XCat_PowerSetEnergyMeasurementStart.Label": "Démarrer la mesure de consommation d’énergie",
+        "XCat_PowerSetRealTimePowerPublishTiming.Label": "Publication de puissance en temps réel",
+        "XCat_PowerSetRealTimePowerPublishStart.Label": "Publication de puissance en temps réel activée",
+        "Sys_AlertStatusCustomerFaultCode.Label": "Code d’anomalie – Client",
+        "Sys_OperationSetControlLock.Label": "Verr commandes",
+        "Sys_OperationSetQuietModeEnabled.Label": "Mode silence activé",
+        "Cooktop_OperationStatusState.Label": "État",
+        "Cooktop_OperationStatusCooktopOn.Label": "Table de cuisson ouverte",
+        "Cooktop_CycleStatusOdometer.Label": "Odomètre",
+        "Cooktop_CycleStatusCookElementState.Label": "État de l’élément de cuisson",
+        "Cooktop_AlertStatusHotSurface.Label": "Surface chaude",
+        "Cooktop_OperationSetWarmingZoneOn.Label": "Zone de maintien au chaud en marche",
+        "Cooktop_CycleSetCookElementPower.Label": "Puissance de l’élément de cuisson",
+        "Cooktop_CycleSetCookElementSize.Label": "Taille de l’élément de cuisson",
+        "PushTrigger.Label": "Commande poussée utilisée par WISE pour envoyer des notifications",
+        "Relational_to_Appliance.Label": "Attribut utilisé pour envoyer les données de relation à l’appareil",
+        "GetSubscribeListVersion.Label": "Réglé à 1 pour obtenir la version de la liste d’enregistrement de l’appareil",
+        "M2MSubList.Label": "Sous liste M2M",
+        "M2MSubscribeListVersion.Label": "Version de liste d’enregistrement M2M",
+        "SetDNSNames.Label": "Règle les noms DNS – défini à quel environnement l’appareil est connecté",
+        "sys-parser-type.Label": "Les définitions à ceci sont de purs analyseurs API144",
+        "MAC_Address.Label": "Adresse MAC",
+        "uid.Label": "No SAID uid",
+        "ModelNumber.Label": "Numéro de modèle",
+        "SerialNumber.Label": "Numéro de série",
+        "ISPReasonCode.Label": "Code de raison ISP",
+        "GetApplianceVersionNumber.Label": "Obtenir le numéro de version de l’appareil",
+        "ProjectReleaseNumber.Label": "Numéro de pièce de la trousse du logiciel",
+        "ISPStep.Label": "Étape ISP",
+        "Sys_AlertStatusCustomerFaultCodeNotification.Label": "Notification de code d’anomalie – Client",
+        "Sys_AlertStatusControlLockChangedByAppliance.Label": "Verr commandes modifié par l’appareil",
+        "Generic_ApplianceVersionNumber.Label": "Numéro de version de l’appareil",
+        "Generic_EnergyProfileSetting.Label": "Réglage de profil d’énergie de l’appareil 0 = fermé 1 = ouvert",
+        "Generic_ISPBundleAttributes.Label": "Charge utilise de mise à jour ISP",
+        "Generic_RatePlanID.Label": "ID du taux du plan",
+        "Generic_UtilityID.Label": "ID de service Entreprise de service",
+        "Generic_SmartID.Label": "ID intelligent d’appareil",
+        "Generic_Zip.Label": "Zip/Code postal",
+        "Generic_cc_uri.Label": "cc_uri",
+        "XCat_InServiceDate.Label": "Données en service",
+        "XCat_trid_result.Label": "Résultat ID de réponse de transaction",
+        "XCat_trid.Label": "ID de réponse de transaction",
+        "XCat_online.Label": "État en ligne de l’appareil",
+        "XCat_UtcOffset.Label": "Écart UTC (en secondes)",
+        "XCat_DstOffset.Label": "Écart DST (en secondes)",
+        "XCat_TimeZoneId.Label": "Identifiant de fuseau horaire",
+        "XCat_DateTimeMode.label": "Mode date et heure",
+        "Cooktop_CycleStatusCookElementState.EnumValues.CookTimeStateIdle.Label": "Inactif",
+        "Cooktop_CycleStatusCookElementState.EnumValues.CookTimeStateRunning.Label": "Fonctionnement",
+        "Cooktop_OperationStatus.State.EnumValues.SimpleStateOff.Label": "Arrêt",
+        "Cooktop_OperationStatus.State.EnumValues.SimpleStateProgramming.Label": "Programmation",
+        "Cooktop_OperationStatus.State.EnumValues.SimpleStateRunning.Label": "Fonctionnement",
+        "ControlLock.Label" : "Control lock",
+        "ControlLock.Description": "Permet de verrouiller les commandes pour éviter une utilisation involontaire de l'appareil.",
+        "Notifications.Label" : "Notifications",
+        "Notifications.Description" : "Start or stop notifications for individual notifications at any time"
+    },
+    "AFCSelfHelpPack": {
+        "F1E0": {
+            "ErrorCode": "F1E0",
+            "Name": "Carte de l’interface utilisateur.",
+            "Type": "Carte de l’interface utilisateur.",
+            "Description": "Il peut y avoir un problème avec la commande de la table de cuisson, la carte de l’interface utilisateur ou leur câblage.",
+            "StepsToRepair": [
+                "Si le problème persiste, réinitialiser l’alimentation du produit.",
+                "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+                "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
+                "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+                "Vérifier le fonctionnement de la table de cuisson.",
+                "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            ],
+            "HelpPath": "À déterminer"
+        },
+        "F1E1": {
+            "ErrorCode": "F1E1",
+            "Name": "Contrôler le tableau de relais.",
+            "Type": "Contrôler le tableau de relais.",
+            "Description": "Il peut y avoir un problème avec la commande de la table de cuisson ou son câblage.",
+            "StepsToRepair": [
+                "Si le problème persiste, réinitialiser l’alimentation du produit.",
+                "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+                "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
+                "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+                "Vérifier le fonctionnement de la table de cuisson.",
+                "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            ],
+            "HelpPath": "À déterminer"
+        },
+        "F2E1": {
+            "ErrorCode": "F2E1",
+            "Name": "Touche bloquée.",
+            "Type": "Touche bloquée.",
+            "Description": "Il peut y avoir un problème avec la carte de l’interface utilisateur.",
+            "StepsToRepair": [
+                "Si le problème persiste, réinitialiser l’alimentation du produit.",
+                "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+                "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
+                "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+                "Vérifier le fonctionnement de la table de cuisson.",
+                "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            ],
+            "HelpPath": "À déterminer"
+        },
+        "F6E0": {
+            "ErrorCode": "F6E0",
+            "Name": "Connexion de l’interface utilisateur.",
+            "Type": "Connexion de l’interface utilisateur.",
+            "Description": "Il peut y avoir un problème avec la commande, la carte de l’interface utilisateur ou leur câblage.",
+            "StepsToRepair": [
+                "Si le problème persiste, réinitialiser l’alimentation du produit.",
+                "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+                "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
+                "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+                "Vérifier le fonctionnement de la table de cuisson.",
+                "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            ],
+            "HelpPath": "À déterminer"
+        },
+        "F6E4": {
+            "ErrorCode": "F6E4",
+            "Name": "État des commandes.",
+            "Type": "État des commandes.",
+            "Description": "Il peut y avoir un problème avec la commande principale.",
+            "StepsToRepair": [
+                "Si le problème persiste, réinitialiser l’alimentation du produit.",
+                "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+                "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
+                "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+                "Vérifier le fonctionnement de la table de cuisson.",
+                "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            ],
+            "HelpPath": "À déterminer"
+        },
+        "F6E6": {
+            "ErrorCode": "F6E6",
+            "Name": "Connexion de la commande principale.",
+            "Type": "Connexion de la commande principale.",
+            "Description": "Il peut y avoir un problème avec la commande principale ou son câblage.",
+            "StepsToRepair": [
+                "Si le problème persiste, réinitialiser l’alimentation du produit.",
+                "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+                "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
+                "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+                "Vérifier le fonctionnement de la table de cuisson.",
+                "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            ],
+            "HelpPath": "À déterminer"
+        },
+        "F6E9": {
+            "ErrorCode": "F6E9",
+            "Name": "Connexion de la commande secondaire.",
+            "Type": "Connexion de la commande secondaire.",
+            "Description": "Il peut y avoir un problème avec la commande secondaire ou son câblage.",
+            "StepsToRepair": [
+                "Si le problème persiste, réinitialiser l’alimentation du produit.",
+                "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+                "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
+                "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+                "Vérifier le fonctionnement de la table de cuisson.",
+                "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            ],
+            "HelpPath": "À déterminer"
+        },
+        "F6EA": {
+            "ErrorCode": "F6EA",
+            "Name": "Dépassement de température – Interface utilisateur.",
+            "Type": "Dépassement de température – Interface utilisateur.",
+            "Description": "Il peut y avoir un problème avec la carte de l’interface utilisateur.",
+            "StepsToRepair": [
+                "Si le problème persiste, réinitialiser l’alimentation du produit.",
+                "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+                "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
+                "Remettre en marche le programme et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+                "Vérifier le fonctionnement de la table de cuisson.",
+                "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            ],
+            "HelpPath": "À déterminer"
+        },
+        "F9E0": {
+            "ErrorCode": "F9E0",
+            "Name": "Entrée d’alimentation.",
+            "Type": "Entrée d’alimentation.",
+            "Description": "Il peut y avoir un problème avec le câblage d’alimentation de l’appareil.",
+            "StepsToRepair": [
+                "Si le problème persiste, réinitialiser l’alimentation du produit.",
+                "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+                "Alimenter de nouveau l’appareil en réarmant le disjoncteur.",
+                "Remettre en marche l’appareil et surveiller la table de cuisson pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+                "Vérifier le fonctionnement de la table de cuisson.",
+                "Si le problème continu, composer le 1 800 JENN-AIR pour obtenir de l’aide."
+            ],
+            "HelpPath": "À déterminer"
+        }
+    },
+    "MobileLiterals": {
+        "Manuals": {
+            "UseCareGuide": {
+                "Title": "Guide d’utilisation et d’entretien",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/fre/UserCareGuide.pdf"
+            },
+            "InstallationInstructions": {
+                "Title": "Instructions d’installation",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/fre/InstallationInstruction.pdf"
+            },
+            "Warranty": {
+                "Title": "Garantie",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/fre/Warranty.pdf"
+            },
+            "FccInformationForm": {
+                "Title": "Fiche informative de la CFC",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/fre/FccInformation.pdf"
+            }
+        },
+        "Notifications": {
+            "ControlLockOn": {
+                "Name": "Control Lock (verrouillage des commandes)",
+                "Description": "Recevez une notification lorsque les commandes à distance sont activées ou désactivées."
+            },
+            "CookTopTurnedOn": {
+                "Name": "Table de cuisson ouverte",
+                "Description": "Recevez une notification lorsque votre table de cuisson est mise en marche"
+            },
+            "CooktopLeftOn": {
+                "Name": "Table de cuisson laissée en marche",
+                "Description": "Recevez une notification lorsque la table de cuisson est laissée en marche pendant une durée de temps réglée que vous avez sélectionnée"
+            }
+        },
+        "SpecialtyCycles": {
+            
+        },
+        "SupplyItem": {
+            "ExtendedWarranty": {
+                
+            },
+            "ScheduleService": {
+                "Name": "Programme d’entretien",
+                "Description": "Programme d’entretien",
+                "Disclaimer": "Programme d’entretien",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "United States",
+                        "url": "https://jennair.com/customer-care/schedule-repair"
+                    },
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "Canada",
+                        "url": "http://www.jennair.ca/customer-care/schedule-service/"
+                    }
+                ]
+            }
+        },
+        "Parts & Accessories": {
+            "Griddle": {
+                "Name": "Plaque à frire",
+                "Description": "Une plaque à frire en acier inoxydable avec un fond en aluminium qui peut être utilisée sur les tables de cuisson modulaires à induction ou à gaz sélectionnées.",
+                "Disclaimer": "",
+                "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W11035422_Original.tif",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "Canada",
+                        "url": "https://www.whirlpoolparts.ca/POL/partssearch?partsId=W11035422"
+                    },
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "United States",
+                        "url": "https://jennair.com/accessories/details/W11035422"
+                    }
+                ]
+            },
+            "Flat Bottom Wok": {
+                "Name": "Wok à fond plat",
+                "Description": "Le wok à fond plat d’un grand raffinement est conçu pour être utilisé avec une grande variété de techniques de cuisson comme la cuisson à la vapeur, les sautés à feu vif, le braisage, le pochage et plus. Ce pratique ustensile à technologie par induction est essentiel dans la cuisine de tout amateur.",
+                "Disclaimer": "",
+                "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W11035423_Original.tif",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "Canada",
+                        "url": "https://www.whirlpoolparts.ca/POL/partssearch?partsId=W11035423"
+                    },
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "United States",
+                        "url": "https://jennair.com/accessories/details/W11035423"
+                    }
+                ]
+            },
+            "Cooktop Cleaner": {
+                "Name": "Nettoyant pour table de cuisson affresh®",
+                "Description": "Le nettoyant pour table de cuisson affresh® est spécialement conçu pour nettoyer les taches tenaces cuites sur la surface de la table de cuisson. Utiliser tous les mois ou au besoin pour polir la table de cuisson et lui procurer un lustre éclatant.",
+                "Disclaimer": "",
+                "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W10355051_Original.jpg",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "Canada",
+                        "url": "https://affresh.ca/collections/frontpage/products/affresh-cooktop-cleaner"
+                    },
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "United States",
+                        "url": "https://www.affresh.com/product/cooktop-cleaner/"
+                    }
+                ]
+            }
+        },
+        "MobileKeys": {
+            "infoIcon.key": "Peu importe où vous êtes, désactivez à distance le panneau de commande pour éviter une utilisation involontaire.",
+            "infoUntreated.key": "Laisser la table de cuisson sans surveillance pendant son utilisation n’est pas recommandé.",
+            "infoKitchenTimer.key": "",
+            "infoSetKitchenTimer.key": "Régler une minuterie vous rappelle quand vérifier vos aliments, l’élément ne s’éteint pas à la fin de la minuterie.",
+            "infoCooktopOnNotify.key": "Cette notification apparaît lorsque la table de cuisson est laissée en marche pour la durée de temps réglée ci-dessous. L’utilisateur est responsable de tous les réglages, KitchenAid ne prend aucune responsabilité."
+        },
+        "JEC4536H": {
+            "Burner-1": {
+                "Name": "Élément-1",
+                "Description": "Élément rond de 6 po à 1 200 W – Cet élément est parfait pour la cuisson à basse température (faire mijoter des sauces et réchauffer des aliments) dans un ustensile d’un diamètre allant jusqu’à 6 po.",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4536H.Burner-1.jpg"
+            },
+            "Burner-2": {
+                "Name": "Élément-2",
+                "Description": "Élément Triple-Choice™ de 12 po/9 po/6 po – Ce pratique élément est parfait pour cuir à température élevée (faire bouillir un liquide ou une sauce), faire griller ou brunir des viandes et frire. Il est aussi parfait pour les techniques à basse température comme pour laisser mijoter des sauces ou garder les aliments au chaud.  La conception à trois éléments comprend un élément externe de 12 po, un élément central de 9 po et un élément interne de 6 po qui permettent d’utiliser une grande variété d’ustensiles de différentes tailles, des petites casseroles aux grandes marmites.",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4536H.Burner-2.jpg"
+            },
+            "Burner-3": {
+                "Name": "Élément-3",
+                "Description": "Élément rond de 6 po à 1 200 W – Cet élément est parfait pour la cuisson à basse température (faire mijoter des sauces et réchauffer des aliments) dans un ustensile d’un diamètre allant jusqu’à 6 po",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4536H.Burner-3.jpg"
+            },
+            "Burner-4": {
+                "Name": "Élément-4",
+                "Description": "Élément Dual-Choice™ de 10 po/6 po – Ce pratique élément est parfait pour cuir à température élevée (faire bouillir un liquide ou une sauce), faire griller ou brunir des viandes et frire. Il est aussi parfait pour les techniques à basse température comme pour laisser mijoter des sauces ou garder les aliments au chaud. La conception à deux éléments comprend un élément externe de 10 po et un élément interne de 6 po qui permettent d’utiliser des ustensiles de différentes tailles, des petites casseroles aux grandes marmites",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4536H.Burner-4.jpg"
+            },
+            "Burner-6": {
+                "Name": "Élément-6",
+                "Description": "Élément Dual-Choice™ de 10 po/6 po – Ce pratique élément est parfait pour cuir à température élevée (faire bouillir un liquide ou une sauce), faire griller ou brunir des viandes et frire. Il est aussi parfait pour les techniques à basse température comme pour laisser mijoter des sauces ou garder les aliments au chaud. La conception à deux éléments comprend un élément externe de 10 po et un élément interne de 6 po qui permettent d’utiliser des ustensiles de différentes tailles, des petites casseroles aux grandes marmites.",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4536H.Burner-6.jpg"
+            }
+        },
+        "JEC4430H": {
+            "Burner-2": {
+                "Name": "Élément-2",
+                "Description": "Élément pour faire mijoter/fondre de 6 po – Cet élément de grande précision permet d’utiliser une grande variété de puissances, il peut faire fondre du chocolat ou du beurre et peut faire cuire à basse température (laisser mijoter des sauces, pocher et réchauffer des aliments) dans un ustensile d’un diamètre allant jusqu’à 6 po de diamètre.",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4430H.Burner-2.jpg"
+            },
+            "Burner-3": {
+                "Name": "Élément-3",
+                "Description": "Élément Dual-Choice™ à grande puissance et réglage pour faire mijoter de 10 po/6 po – Ce pratique élément est parfait pour cuir à température élevée (faire bouillir un liquide ou une sauce), faire griller ou brunir des viandes et frire. Il est aussi parfait pour les techniques à basse température comme pour laisser mijoter des sauces ou garder les aliments au chaud. La conception à deux éléments comprend un élément externe de 10 po et un élément interne de 6 po qui permettent d’utiliser des ustensiles de différentes tailles, des petites casseroles aux grandes marmites.",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4430H.Burner-3.jpg"
+            },
+            "Burner-5": {
+                "Name": "Élément-5",
+                "Description": "Élément Triple-Choice™ de 12 po/9 po/6 po – Ce pratique élément est parfait pour cuir à température élevée (faire bouillir un liquide ou une sauce), faire griller ou brunir des viandes et frire. Il est aussi parfait pour les techniques à basse température comme pour laisser mijoter des sauces ou garder les aliments au chaud.  La conception à trois éléments comprend un élément externe de 12 po, un élément central de 9 po et un élément interne de 6 po qui permettent d’utiliser une grande variété d’ustensiles de différentes tailles, des petites casseroles aux grandes marmites.",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4430H.Burner-5.jpg"
+            },
+            "Burner-6": {
+                "Name": "Élément-6",
+                "Description": "Élément pour faire mijoter/fondre de 6 po – Cet élément de grande précision permet d’utiliser une grande variété de puissances, il peut faire fondre du chocolat ou du beurre et peut faire cuire à basse température (laisser mijoter des sauces, pocher et réchauffer des aliments) dans un ustensile d’un diamètre allant jusqu’à 6 po de diamètre.",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4430H.Burner-6.jpg"
+            }
+        },
+        "JEC4424H": {
+            "Burner-2": {
+                "Name": "Élément-2",
+                "Description": "Élément rond de 8 po à 1 800 W – Cet élément est parfait pour faire bouillir une petite quantité de soupe ou de sauce, ainsi que pour faire mijoter et réchauffer des aliments dans un ustensile d’un diamètre allant jusqu’à 8 po.",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4424H.Burner-2.jpg"
+            },
+            "Burner-3": {
+                "Name": "Élément-3",
+                "Description": "Élément Dual-Choice™ de 10 po/6 po – Ce pratique élément est parfait pour la cuisson à température élevée (faire bouillir des liquides et des sauces, griller ou brunir des viandes et faire frire) comme pour les techniques à basse température (laisser mijoter des sauces ou garder des aliments au chaud). La conception à deux éléments comprend un élément externe de 10 po et un élément interne de 6 po qui permettent d’utiliser une variété d’ustensiles de différentes tailles, des petites casseroles aux grandes marmites.",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4424H.Burner-3.jpg"
+            },
+            "Burner-5": {
+                "Name": "Élément-5",
+                "Description": "Élément rond de 6 po à 1 200 W – Cet élément est parfait pour la cuisson à basse température (faire mijoter des sauces et réchauffer des aliments) dans un ustensile d’un diamètre allant jusqu’à 6 po. ",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4424H.Burner-5.jpg"
+            },
+            "Burner-6": {
+                "Name": "Élément-6",
+                "Description": "Élément pour faire mijoter/fondre de 6 po – Cet élément de grande précision permet d’utiliser une grande variété de puissances, il peut faire fondre du chocolat ou du beurre et peut faire cuire à basse température (laisser mijoter des sauces, pocher et réchauffer des aliments) dans un ustensile d’un diamètre allant jusqu’à 6 po de diamètre ",
+                "Image Url": "NAR/JENNAIR/DDM_Dishwasher_CleanConnect_V1/Docs/en/JEC4424H.Burner-6.jpg"
+            }
+        },
+        "cxcDetail": {
+            "US": {
+                "Country": "United States",
+                "cxcEmail": {
+                    "Development": "wcloud@mailinator.com",
+                    "Test": "wcloud@mailinator.com",
+                    "Staging": "wcloud@mailinator.com",
+                    "Cuft": "Connected_Appliances@Whirlpool.com",
+                    "Production": "Connected_Appliances@Whirlpool.com"
+                },
+                "cxcPhone": {
+                    "Development": "1 800 536-6247",
+                    "Test": "1 800 536-6247",
+                    "Staging": "1 800 536-6247",
+                    "Cuft": "1 800 536-6247",
+                    "Production": "1 800 536-6247"
+                },
+                "cxcHours": {
+                    "Development": "Du lundi au vendredi de 8 h à 20 h HNE",
+                    "Test": " Du lundi au vendredi de 8 h à 20 h HNE",
+                    "Staging": " Du lundi au vendredi de 8 h à 20 h HNE",
+                    "Cuft": " Du lundi au vendredi de 8 h à 20 h ",
+                    "Production": " Du lundi au vendredi de 8 h à 20 h HNE"
+                }
+            },
+            "CA": {
+                "Country": "Canada",
+                "cxcEmail": {
+                    "Development": "Connected_Appliances@Whirlpool.com",
+                    "Test": "Connected_Appliances@Whirlpool.com",
+                    "Staging": "Connected_Appliances@Whirlpool.com",
+                    "Cuft": "Connected_Appliances@Whirlpool.com",
+                    "Production": "Connected_Appliances@Whirlpool.com"
+                },
+                "cxcPhone": {
+                    "Development": "1 800 536-6247",
+                    "Test": "1 800 536-6247",
+                    "Staging": "1 800 536-6247",
+                    "Cuft": "1 800 536-6247",
+                    "Production": "1 800 536-6247"
+                },
+                "cxcHours": {
+                    "Development": "L-V 8 h – 20 h HNE",
+                    "Test": "L-V 8 h – 20 h HNE",
+                    "Staging": "L-V 8 h – 20 h HNE",
+                    "Cuft": "L-V 8 h – 20 h HNE",
+                    "Production": "L-V 8 h – 20 h HNE"
+                }
+            }
+        },
+        "smartTip": [
+            
+        ]
+    },
+    "NotificationMessages": {
+        "NotificationContents": [
+            {
+                "TemplateId": "ControlUnlocked",
+                "SmsText": "Le verrouillage des commandes de votre appareil est désactivé.",
+                "EmailText": "Le verrouillage des commandes de votre appareil est désactivé.",
+                "PushText": "Le verrouillage des commandes de votre appareil est désactivé.",
+                "AlertTitle": "Alerte de verrouillage des commandes",
+                "Type": "lock"
+            },
+            {
+                "TemplateId": "ControlLockOn",
+                "EmailText": "Le verrouillage des commandes de votre appareil est activé.",
+                "PushText": "Le verrouillage des commandes de votre appareil est activé.",
+                "SmsText": "Le verrouillage des commandes de votre appareil est activé.",
+                "AlertTitle": "Alerte de verrouillage des commandes",
+                "Type": "lock"
+            },
+            {
+                "TemplateId": "CooktopLeftOn",
+                "SmsText": "La table de cuisson est mise en marche pour la durée de temps que vous avez sélectionnée.",
+                "EmailText": "La table de cuisson est mise en marche pour la durée de temps que vous avez sélectionnée.",
+                "PushText": "La table de cuisson est mise en marche pour la durée de temps que vous avez sélectionnée.",
+                "AlertTitle": "Alerte de table de cuisson laissée en marche",
+                "Type": "cooktopalert"
+            },
+            {
+                "TemplateId": "CookTopTurnedOn",
+                "SmsText": "Table de cuisson mise en marche.",
+                "EmailText": "Table de cuisson mise en marche.",
+                "PushText": "Table de cuisson mise en marche.",
+                "AlertTitle": "Alerte de table de cuisson",
+                "Type": "cooktopalert"
+            }
+        ]
+    }
+}

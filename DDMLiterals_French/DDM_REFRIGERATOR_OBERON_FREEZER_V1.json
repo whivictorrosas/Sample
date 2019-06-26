@@ -1,0 +1,280 @@
+{
+    "DDMLiterals": {
+        "CapabilityCavity_SetCavitySelect.EnumValues.FreezerZone2.Label": "Zone 2 congélateur",
+        "CapabilityCavity_SetCavitySelect.EnumValues.PantryZone3.Label": "Zone 3 garde-manger",
+        "CapabilityCavity_SetCavitySelect.EnumValues.RefrigeratorZone1.Label": "Zone 1 réfrigérateur",
+        "CapabilityCavity_SetCavitySelect.Label": "Réglage de la cavité sélectionnée",
+        "CapabilityCavity_SetTempDefault.Label": "Réglage de la température par défaut",
+        "CapabilityCavity_SetTempMax.Label": "Réglage de la température maximale",
+        "CapabilityCavity_SetTempMin.Label": "Réglage de la température minimale",
+        "CapabilityCavity_SetTempPresetDefault.EnumValues.TempPresetAssorted.Label": "Assortiment",
+        "CapabilityCavity_SetTempPresetDefault.EnumValues.TempPresetDeepFreeze.Label": "Surgeler",
+        "CapabilityCavity_SetTempPresetDefault.EnumValues.TempPresetOff.Label": "Arrêt",
+        "CapabilityCavity_SetTempPresetDefault.EnumValues.TempPresetSpirits.Label": "Spiritueux",
+        "CapabilityCavity_SetTempPresetDefault.Label": "Réglage de la température Préréglage par défaut",
+        "Freezer_OpSetTempPreset.EnumValues.TempPresetAssorted.Label": "Assortiment",
+        "Freezer_OpSetTempPreset.EnumValues.TempPresetDeepFreeze.Label": "Très froid",
+        "Freezer_OpSetTempPreset.EnumValues.TempPresetOff.Label": "Arrêt",
+        "Freezer_OpSetTempPreset.EnumValues.TempPresetSpirits.Label": "Spiritueux",
+        "Freezer_OpSetTempPreset.Label": "Préréglage de la température",
+        "Freezer_OpStatusDoorOpen.Label": "Porte ouverte",
+        "Generic_EnergyProfileSetting.Label": "Réglage de profil de consommation",
+        "Generic_RatePlanId.Label": "ID du taux du plan",
+        "Generic_SmartId.Label": "ID Smart",
+        "Generic_UtilityId.Label": "ID de l’utilitaire",
+        "Generic_Zip.Label": "Code postal",
+        "online.Label": "En ligne",
+        "Refrigerator_OpSetTargetTemp.Label": "Temp cible",
+        "Refrigerator_OpStatusDoorOpen.Label": "État de de fonctionnement Porte ouverte",
+        "Refrigerator_OpStatusOverTemp.Label": "Température excessive",
+        "Relational_CapabilityFrigCavityTemp.Label": "Température de cavité du réfrigérateur",
+        "Relational_CapabilityFrigSettings.Label": "Capacité paramÃ¨tres de frig",
+        "Sys_AlertStatusControlLockChangedByAppliance.Label": "État d’alerte Verrouillage des commandes modifié par l’appareil",
+        "Sys_AlertStatusCustomerFaultCode.Label": "Code d’anomalie - Client",
+        "Sys_AlertStatusCustomerFaultCodeNotification.Label": "Notification de code d’anomalie - Client",
+        "Sys_AlertStatusDoorOpenAlarm.Label": "Alarme de porte ouverte",
+        "Sys_DisplaySetCavityBrightness.EnumValues.Low.Label": "Basse",
+        "Sys_DisplaySetCavityBrightness.EnumValues.Maximum.Label": "Maximum",
+        "Sys_DisplaySetCavityBrightness.EnumValues.Medium.Label": "Moyenne",
+        "Sys_DisplaySetCavityBrightness.Label": "Réglage de l’affichage Luminosité de la cavité",
+        "Sys_DisplaySetTempUnits.EnumValues.DegreesC.Label": "Degrés C",
+        "Sys_DisplaySetTempUnits.EnumValues.DegreesF.Label": "Degrés F",
+        "Sys_DisplaySetTempUnits.Label": "Unités de température",
+        "Sys_OpSetControlLock.Label": "Mode de verrouillage",
+        "Sys_OpSetIceMakerOn.Label": "Machine à glaçons",
+        "Sys_OpSetMaxCool.Label": "Refroidissement maximal",
+        "Sys_OpSetMaxIce.Label": "Production de glaçons maximale",
+        "Sys_OpSetPartyMode.Label": "Mode fête",
+        "Sys_OpSetSabbathModeEnabled.Label": "Mode Sabbat",
+        "Sys_OpSetVacationMode.Label": "Mode Vacances",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterGood.Label": "Bon",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterReorder.Label": "Commander de nouveau",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterReplace.Label": "Changer",
+        "Sys_OpSetWaterFilter.EnumValues.WaterFilterReplace.Description": "1. Pour ouvrir, pousser la porte du filtre à eau, située en haut à gauche, au-dessus du compartiment du réfrigérateur ou du congélateur.\n\n  2. Faire tourner le filtre à eau de 90° dans le sens antihoraire pour le déverrouiller.\n\n  3. Retirer le filtre du compartiment.\n\n  4. Retirer le capuchon du filtre à eau.\n\n  5. Installer le capuchon de filtre à eau sur le nouveau filtre.Aligner correctement les flèches pour que les rainures du filtre soient alignées avec les nervures du capuchon.\n\n  6. Placer le filtre dans le compartiment.\n\n  7. Tourner le filtre à eau de 90 degrés dans le sens horaire pour le verrouiller en place et aligner les flèches.\n\n  8. Refermer la porte du filtre à eau.",
+        "Sys_OpSetWaterFilter.Label": "Filtre à eau EveryDrop®",
+        "Sys_OpStatusIceMakerJam.Label": "Blocage de la machine à glaçons",
+        "Sys_OpStatusNoFreezerBurnActive.Label": "Pas de brûlure de congélation – activé",
+        "Sys_OpStatusState.EnumValues.CompressorOff.Label": "Compresseur fermé",
+        "Sys_OpStatusState.EnumValues.Defrosting.Label": "Décongélation",
+        "Sys_OpStatusState.EnumValues.NormalCooling.Label": "Refroidissement normal",
+        "Sys_OpStatusState.Label": "État",
+        "XCat_ApplianceInfoSetModelNumber.Label": "Informations de l’appareil Réglage du numéro de modèle",
+        "XCat_ApplianceInfoSetSerialNumber.Label": "Informations de l’appareil Réglage du numéro de série",
+        "XCat_ConfigSetApplianceCapability.Label": "Réglage de configuration Capacité de l’appareil",
+        "XCat_DateTimeMode.Label": "Mode date et heure",
+        "XCat_DstOffset.Label": "Décalage MMD",
+        "XCat_InServiceDate.Label": "Données en service",
+        "XCat_OdometerStatusRunningHours.Label": "État odomètre Heures de fonctionnement",
+        "XCat_OdometerStatusTotalHours.Label": "État odomètre Nombre total d’heures",
+        "XCat_PersistentInfoMacAddress.Label": "Informations de persistance Adresse Mac",
+        "XCat_PersistentInfoSaid.Label": "Informations de persistance SAID",
+        "XCat_PersistentInfoVersion.Label": "Informations de persistance Version",
+        "XCat_PowerStatusPowerOutage.Label": "Panne de courant",
+        "XCat_TimeZoneId.Label": "Identifiant de fuseau horaire",
+        "XCat_Trid.Label": "Trid",
+        "XCat_TridResult.Label": "Résultat Trid",
+        "XCat_UtcOffset.Label": "Décalage UTC",
+        "XCat_WifiSetDeprovisionWifiCommModule.Label": "Réglage Wi-Fi Désactiver le module de communication Wi-Fi",
+        "XCat_WifiSetPublishApplianceState.Label": "Réglage Wi-Fi Publier l’état de l’appareil",
+        "XCat_WifiSetRebootWifiCommModule.Label": "Réglage Wi-Fi Redémarrer le module de communication Wi-Fi",
+        "XCat_WifiStatusRssiAntennaDiversity.Label": "État Wi-Fi Diversité d’antenne RSSI",
+        "XCat_WifiStatusRssiDisplay.Label": "État Wi-Fi Affichage RSSI",
+        "UpperZone.Label" : "Zone supérieure",
+        "LowerZone.Label" : "Zone inférieure",
+        "ControlLock.Label" : "Control lock",
+        "MaxCool.Label" : "Max Ice",
+        "SabbathMode.Label" : "Sabbath Mode",
+        "Notifications.Label" : "Notifications",
+        "ApplianceDocuments" : "Documents",
+        "ControlLock.Description": "Lock the controls to prevent unintended use of the appliance",
+        "Notifications.Description" : "Start or stop notifications for individual notifications at any time",
+        "SabbathMode.Description" : "Set your dishwasher to act in accordance with religious guidelines for use during the Sabbath and religious holidays",
+        "MaxIce.Label" : "Max ice",
+        "MaxIce.Description" : "Accelerates the ice making production for your refrigerator. This setting will not operate until the Ice Maker is turned on",
+        "IceMaker.Label" : "Ice maker",
+        "IceMaker.Description" : "Turn your Ice Maker on/off at any time",
+        "CavityBrightness.Label" : "Cavity Brightness"
+
+    },
+    "AFCSelfHelpPack": {},
+    "MobileLiterals": {
+        "Manuals": {
+            "FccInformationForm": {
+                "Title": "Fiche informative de la CFC",
+                "FilePath": "NAR/WHIRLPOOL/DDM_REFRIGERATOR_OBERON_FREEZER_V1/Docs/fre/Freezer_FCC.pdf"
+            },
+            "UseCareGuide": {
+                "Title": "Guide d’utilisation et d’entretien",
+                "FilePath": "NAR/WHIRLPOOL/DDM_REFRIGERATOR_OBERON_FREEZER_V1/Docs/fre/Freezer_Use_and_Care_Guide.pdf"
+            },
+            "Warranty": {
+                "Title": "Garantie",
+                "FilePath": "NAR/WHIRLPOOL/DDM_REFRIGERATOR_OBERON_FREEZER_V1/Docs/fre/Freezer_Warranty.pdf"
+            },
+            "InstallationInstructions": {
+                "Title": "Instructions d’installation",
+                "FilePath": "NAR/WHIRLPOOL/DDM_REFRIGERATOR_OBERON_FREEZER_V1/Docs/fre/Freezer_Installation_Instructions.pdf"
+            }
+        },
+        "NestSettings": {},
+        "SpecialtyCycles": {},
+        "Notifications": {
+            "DoorOpenAlert": {
+                "Name": "Porte ouverte",
+                "Description": "Recevez une notification lorsque la porte du réfrigérateur a été ouverte pendant plus de 5 minutes."
+            },
+            "DoorCloseAlert": {
+                "Name": "Porte fermée",
+                "Description": "Recevez une notification lorsque la porte a été fermée après avoir été ouverte pendant plus de 5 minutes."
+            },
+            "PowerOutAlert": {
+                "Name": "Panne de courant",
+                "Description": "Recevez une notification pour toute panne d’électricité et de restauration."
+            },
+            "WaterFilter": {
+                "Name": "Commandez un filtre à eau",
+                "Description": "Recevez une notification lorsque vient le temps de commander un filtre à eau pour votre réfrigérateur."
+            }
+        },
+        "SupplyItem": {
+            "EveryDropWaterFilter": {
+                "Name": "Filtre à eau EveryDrop™",
+                "Description": "",
+                "Disclaimer": "",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "EveryDrop",
+                        "Country": "États-Unis",
+                        "url": "https://everydropwater.com/Filters/Item/EDR2RXD1"
+                    },
+                    {
+                        "Merchant": "EveryDrop",
+                        "Country": "Canada",
+                        "url": "https://everydropwater.ca/en/filter2-refrigerator-water-filter-turn-model-edr2rxd1b"
+                    }
+                ]
+            },
+            "ScheduleService": {
+                "Name": "Prendre rendez-vous",
+                "Description": "Prendre rendez-vous",
+                "Disclaimer": "Prendre rendez-vous",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "États-Unis",
+                        "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2E6Mjc&cparam="
+                    },
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "Canada",
+                        "url": "https://www.servicebench.com/servicebenchv5/consumerApp/consumerRequestForward.action?token=ZHU6Y29uc3VtZXJQb3J0YWxQcm9kdWN0RGVzY3JpcHRpb247c2s6V0M7c2E6NDA&cparam"
+                    }
+                ]
+            }
+        },
+        "smartTip": [],
+        "cxcDetail": {
+            "US": {
+                "Country": "United States",
+                "cxcEmail": {
+                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": "Mon–Fri 8am–8pm EST",
+                    "Test": "Mon–Fri 8am–8pm EST",
+                    "Staging": "Mon–Fri 8am–8pm EST",
+                    "Cuft": "Mon–Fri 8am–8pm EST",
+                    "Production": "Mon–Fri 8am–8pm EST"
+                }
+            },
+            "CA": {
+                "Country": "Canada",
+                "cxcEmail": {
+                    "Development": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Test": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Staging": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Cuft": "NAR_JennAirCustomerExperience@JennAir.com",
+                    "Production": "NAR_JennAirCustomerExperience@JennAir.com"
+                },
+                "cxcPhone": {
+                    "Development": "1-800-536-6247",
+                    "Test": "1-800-536-6247",
+                    "Staging": "1-800-536-6247",
+                    "Cuft": "1-800-536-6247",
+                    "Production": "1-800-536-6247"
+                },
+                "cxcHours": {
+                    "Development": "Mon–Fri 8am–8pm EST",
+                    "Test": "Mon–Fri 8am–8pm EST",
+                    "Staging": "Mon–Fri 8am–8pm EST",
+                    "Cuft": "Mon–Fri 8am–8pm EST",
+                    "Production": "Mon–Fri 8am–8pm EST"
+                }
+            }
+        },
+        "Replenishment": {}
+    },
+    "NotificationMessages": {
+        "NotificationContents": [
+            {
+                "TemplateId": "FreezerDoorCloseAlert1",
+                "SmsText": "La porte du congélateur a été fermée.",
+                "EmailText": "La porte du congélateur a été fermée.",
+                "PushText": "La porte du congélateur a été fermée.",
+                "AlertTitle": "Porte fermée",
+                "Type": "maxIceDoor"
+            },
+            {
+                "TemplateId": "FreezerDoorOpenAlert1",
+                "SmsText": "L’alarme de porte du congélateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+                "EmailText": "L’alarme de porte du congélateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+                "PushText": "L’alarme de porte du congélateur ouverte retentit. Vérifiez que la porte est fermée ou qu’aucun article n’entrave la porte.",
+                "AlertTitle": "Avertissement de porte ouverte",
+                "Type": "maxIceDoor"
+            },
+            {
+                "TemplateId": "FreezerPowerOutAlert",
+                "SmsText": "Perte de courant du congélateur.",
+                "EmailText": "Perte de courant du congélateur.",
+                "PushText": "Perte de courant du congélateur.",
+                "AlertTitle": "Alertes de coupure de courant",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "FreezerWaterFilter0",
+                "SmsText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+                "EmailText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+                "PushText": "le filtre à eau remplacé, drainez le système d’eau comme décrit dans le guide d’utilisation et d’entretien avant d’utiliser le distributeur. Vous devriez aussi jeter les trois (3) premiers lots de glaçons.",
+                "AlertTitle": "Commandez un filtre à eau",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "FreezerWaterFilter1",
+                "SmsText": "Il est temps de remplacer le filtre à eau de votre congélateur, commandez maintenant.",
+                "EmailText": "Il est temps de remplacer le filtre à eau de votre congélateur, commandez maintenant.",
+                "PushText": "Il est temps de remplacer le filtre à eau de votre congélateur, commandez maintenant.",
+                "AlertTitle": "Commandez un filtre à eau",
+                "Type": "system"
+            },
+            {
+                "TemplateId": "FreezerWaterFilter2",
+                "SmsText": "remplacer le filtre à eau de votre congélateur.",
+                "EmailText": "remplacer le filtre à eau de votre congélateur.",
+                "PushText": "remplacer le filtre à eau de votre congélateur.",
+                "AlertTitle": "Commandez un filtre à eau",
+                "Type": "system"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1174 @@
+{
+    "DDMLiterals": {
+        "XCat_PersistentInfoVersion.Label": "Données de la version du modèle",
+        "XCat_PersistentInfoSaid.Label": "ID Smart Appliance",
+        "XCat_PersistentInfoMacAddress.Label": "Adresse MAC",
+        "XCat_WifiStatusRssiAntennaDiversity.Label": "Diversité Antenne Force du signal",
+        "XCat_PowerStatusEnergyConsumption.Label": "Consommation d’énergie",
+        "XCat_PowerStatusEnergyMeasurementResults.Label": "Résultats de la mesure de consommation d’énergie",
+        "XCat_PowerStatusRealTimePower.Label": "Puissance en temps réel",
+        "XCat_PowerStatusRealTimeVoltage.Label": "Tension en temps réel",
+        "XCat_PowerStatusPowerOutage.Label": "Panne de courant",
+        "XCat_OdometerStatusRunningHours.Label": "Heures de fonctionnement",
+        "XCat_OdometerStatusTotalHours.Label": "Nombre total d’heures",
+        "XCat_OdometerStatusCycleCount.Label": "Nombre de programmes",
+        "XCat_ApplianceInfoSetModelNumber.Label": "Numéro de modèle",
+        "XCat_ApplianceInfoSetSerialNumber.Label": "Numéro de série",
+        "XCat_RemoteSetRemoteControlEnable.Label": "Commande à distance activée",
+        "XCat_RemoteSetRemoteDiagnosticsEnable.Label": "Diagnostic à distance activée",
+        "XCat_RemoteSetRebootAppliance.Label": "Redémarrer l’appareil",
+        "XCat_WifiSetPublishApplianceState.Label": "Publier l’état de l’appareil",
+        "XCat_WifiSetRebootWifiCommModule.Label": "Redémarrer le module de communication Wi-Fi",
+        "XCat_WifiSetDeprovisionWifiCommModule.Label": "Déactiver le module de communication Wi-Fi",
+        "XCat_WifiSetDisableWifiCommModule.Label": "Désactiver le module de communication Wi-Fi",
+        "XCat_PowerSetEnergyMeasurementStart.Label": "Démarrer la mesure de consommation d’énergie",
+        "XCat_PowerSetRealTimePowerPublishTiming.Label": "Publication de puissance en temps réel",
+        "XCat_PowerSetRealTimePowerPublishStart.Label": "Départ de la publication de l’alimentation en temps réel",
+        "XCat_ConfigSetMaxRelationalSteps.Label": "Étapes relationnelles maximales",
+        "XCat_ConfigSetMaxRelationalMemory.Label": "Mémoire relationnelle maximale",
+        "XCat_ConfigSetMaxCustomCycles.Label": "Programmes personnalisés maximum",
+        "Sys_DisplayStatusBroilDisplayType.Label": "Type d’affichage du gril",
+        "Sys_AlertStatusCustomerFaultCode.Label": "Code d’anomalie – Client",
+        "Sys_AlertStatusRemoteDiagnosticsResults.Label": "Résultats du diagnostic à distance",
+        "Sys_AlertStatusNotification.Label": "Notification",
+        "Sys_DisplaySetTempUnits.Label": "Unités de température",
+        "Sys_DisplaySetAutoShutOff.Label": "Arrêt automatique",
+        "Sys_OperationSetGlobalToneVolume.Label": "Volume sonore général",
+        "Sys_OperationSetKeyPressToneVolume.Label": "Volume sonore d’appui sur une touche",
+        "Sys_OperationSetEndOfCycleToneVolume.Label": "Volume sonore de fin de programme",
+        "Sys_OperationSetEndOfCycleReminderToneVolume.Label": "Volume sonore de rappel de fin de programme",
+        "Sys_OperationSetAlertToneVolume.Label": "Volume sonore d’alerte",
+        "Sys_OperationSetSabbathModeEnabled.Label": "Mode Sabbat activé",
+        "Sys_OperationSetSteamFilter.Label": "Filtre à vapeur",
+        "OvenUpperCavity_TimeStatusCookTimeRemaining.Label": "Rappel du temps de cuisson",
+        "OvenUpperCavity_TimeStatusCycleTimeElapsed.Label": "Expiration de la durée de programme",
+        "OvenUpperCavity_TimeStatusDelayTimeRemaining.Label": "Durée de délai restante",
+        "OvenUpperCavity_DisplStatusDisplayTemp.Label": "Température affichée",
+        "OvenUpperCavity_DisplStatusMeatProbeDisplayTemp.Label": "Température affichée de la sonde de cuisson",
+        "OvenUpperCavity_OpStatusCookTimeState.Label": "État du temps de cuisson",
+        "OvenUpperCavity_OpStatusDoorOpen.Label": "Porte ouverte",
+        "OvenUpperCavity_OpStatusState.Label": "État",
+        "OvenUpperCavity_OpStatusDoorLocked.Label": "Porte verrouillée",
+        "OvenUpperCavity_OpStatusFillValveOn.Label": "Vanne de remplissage en marche",
+        "OvenUpperCavity_OpStatusCleanOven.Label": "Nettoyage du four",
+        "OvenUpperCavity_CycleStatusOdometer.Label": "Odomètre",
+        "OvenUpperCavity_AlertStatusMeatProbePluggedIn.Label": "Sonde de cuisson connectée",
+        "OvenUpperCavity_TimeSetCookTimeSet.Label": "Réglage de la minuterie",
+        "OvenUpperCavity_TimeSetCookTimeOperations.Label": "Utilisation du temps de cuisson",
+        "OvenUpperCavity_TimeSetDelayTime.Label": "Délai de temporisation",
+        "OvenUpperCavity_DisplaySetLightOn.Label": "Lampe en marche",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.Label": "Action terminée du temps de cuisson terminé",
+        "OvenUpperCavity_OpSetOperations.Label": "Opérations",
+        "OvenUpperCavity_OpSetSabbathModeActive.Label": "Mode Sabbat actif",
+        "OvenUpperCavity_CycleSetTargetTemp.Label": "Temp cible",
+        "OvenUpperCavity_CycleSetMeatProbeTargetTemp.Label": "Température cible de la sonde de cuisson",
+        "OvenUpperCavity_CycleSetBrowning.Label": "Faire dorer",
+        "OvenUpperCavity_CycleSetCommonMode.Label": "Mode ordinaire",
+        "OvenUpperCavity_CycleSetConvectBakeFood.Label": "Aliment cuit par convection",
+        "OvenUpperCavity_CycleSetEasySteamFood.Label": "Aliment cuit par injection de vapeur",
+        "OvenUpperCavity_CycleSetEasyConvectFood.Label": "Aliment cuit par convection facile",
+        "OvenUpperCavity_CycleSetBreadProof.Label": "Levée du pain",
+        "OvenUpperCavity_CycleSetCleanOvenMode.Label": "Mode de nettoyage du four",
+        "OvenUpperCavity_CulinaryCtrSetId.Label": "ID",
+        "OvenUpperCavity_CulinaryCtrSetVersion.Label": "Version",
+        "OvenUpperCavity_CustomCycleSetId.Label": "ID",
+        "OvenUpperCavity_CustomCycleSetStep.Label": "Étape",
+        "Relational_CycleMyCreation.Label": "Ma création",
+        "Relational_CycleRecentCycles.Label": "Programmes récents",
+        "Relational_EnvelopeOpen.Label": "Ouvert",
+        "Relational_EnvelopeClose.Label": "Fermer",
+        "Relational_EnvelopeAction.Label": "Action",
+        "Relational_EntityOpen.Label": "Ouvert",
+        "Relational_EntityClose.Label": "Fermer",
+        "Relational_EntityName.Label": "Nom",
+        "Relational_EntityId.Label": "ID",
+        "Relational_ArrayOpen.Label": "Ouvert",
+        "Relational_ArrayClose.Label": "Fermer",
+        "XCat_RemoteSetRemoteDiagnosticsEnable.EnumValues.RemoteDiagDisableAutoTest.Label": "DiagnDistDésact\tTest auto",
+        "XCat_RemoteSetRemoteDiagnosticsEnable.EnumValues.RemoteDiagEnableAutoTest.Label": "DiagnDistAct\tTest auto",
+        "XCat_RemoteSetRebootAppliance.EnumValues.RebootApplianceCancelResetRequest.Label": "RedémAppAnnulDemRéini",
+        "XCat_RemoteSetRebootAppliance.EnumValues.RebootApplianceResetRequest.Label": "RedémAppDemRéini",
+        "XCat_RemoteSetRebootAppliance.EnumValues.RebootApplianceExecuteReset.Label": "RedemAppExeRéini",
+        "Sys_DisplayStatusBroilDisplayType.EnumValues.BroilDisplayHighLow.Label": "AffichChauffeHautBas",
+        "Sys_AlertStatusRemoteDiagnosticsResults.EnumValues.RemoteDiagResultsFail.Label": "RésultatsDiagnDist Échec",
+        "Sys_AlertStatusRemoteDiagnosticsResults.EnumValues.RemoteDiagResultsPass.Label": "RésultatsDiagnDist Bon",
+        "Sys_AlertStatusNotification.EnumValues.NotificationsNone.Label": "Aucune notification",
+        "Sys_AlertStatusNotification.EnumValues.NotificationsPreheatMinus25.Label": "Notifications Préchauffage moins 25",
+        "Sys_AlertStatusNotification.EnumValues.NotificationsPreheatComplete.Label": "Notifications Préchauffage terminé",
+        "Sys_AlertStatusNotification.EnumValues.NotificationsMeatProbeTemperatureReached.Label": "Notifications Température de sonde de cuisson atteinte",
+        "Sys_DisplaySetTempUnits.EnumValues.TempUnitsDegreesC.Label": "Unité de température degrés C",
+        "Sys_DisplaySetTempUnits.EnumValues.TempUnitsDegreesF.Label": "Unité de température degrés F",
+        "Sys_OperationSetGlobalToneVolume.EnumValues.VolumeOff.Label": "Volume fermé",
+        "Sys_OperationSetGlobalToneVolume.EnumValues.VolumeHigh.Label": "Volume élevé",
+        "Sys_OperationSetKeyPressToneVolume.EnumValues.VolumeOff.Label": "Volume fermé",
+        "Sys_OperationSetKeyPressToneVolume.EnumValues.VolumeHigh.Label": "Volume élevé",
+        "Sys_OperationSetEndOfCycleToneVolume.EnumValues.VolumeOff.Label": "Volume fermé",
+        "Sys_OperationSetEndOfCycleToneVolume.EnumValues.VolumeHigh.Label": "Volume élevé",
+        "Sys_OperationSetEndOfCycleReminderToneVolume.EnumValues.VolumeOff.Label": "Volume fermé",
+        "Sys_OperationSetEndOfCycleReminderToneVolume.EnumValues.VolumeHigh.Label": "Volume élevé",
+        "Sys_OperationSetAlertToneVolume.EnumValues.VolumeOff.Label": "Volume fermé",
+        "Sys_OperationSetAlertToneVolume.EnumValues.VolumeHigh.Label": "Volume élevé",
+        "Sys_OperationSetSteamFilter.EnumValues.FilterStatusOk.Label": "État du filtre OK",
+        "Sys_OperationSetSteamFilter.EnumValues.FilterStatusReplace.Label": "État du filtre Remplacer",
+        "Sys_OperationSetSteamFilter.EnumValues.FilterStatusReset.Label": "État du filtre Réinitialiser",
+        "OvenUpperCavity_OpStatusCookTimeState.EnumValues.CookTimeStateIdle.Label": "Inactif",
+        "OvenUpperCavity_OpStatusCookTimeState.EnumValues.CookTimeStateRunning.Label": "Fonctionnement",
+        "OvenUpperCavity_OpStatusCookTimeState.EnumValues.CookTimeStateComplete.Label": "Terminé",
+        "OvenUpperCavity_OpStatusState.EnumValues.StateIdle.Label": "État Attente",
+        "OvenUpperCavity_OpStatusState.EnumValues.StatePreheating.Label": "État Préchauffage",
+        "OvenUpperCavity_OpStatusState.EnumValues.StateSteady.Label": "État Prêt",
+        "OvenUpperCavity_OpStatusState.EnumValues.StateProgramming.Label": "État Programmation",
+        "OvenUpperCavity_OpStatusState.EnumValues.StateDelaying.Label": "État Délai",
+        "OvenUpperCavity_OpStatusState.EnumValues.StateCooling.Label": "Refroidissement",
+        "OvenUpperCavity_OpStatusCleanOven.EnumValues.CleanOvenNotRunning.Label": "Nettoyage du four Arrêt",
+        "OvenUpperCavity_OpStatusCleanOven.EnumValues.CleanOvenRunning.Label": "Nettoyage du four En marche",
+        "OvenUpperCavity_TimeSetCookTimeOperations.EnumValues.CookTimeOperationsNone.Label": "Aucun",
+        "OvenUpperCavity_TimeSetCookTimeOperations.EnumValues.CookTimeOperationsCancel.Label": "Annuler",
+        "OvenUpperCavity_TimeSetCookTimeOperations.EnumValues.CookTimeOperationsStart.Label": "Début",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionUnset.Label": "Indéfini",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionStayOn.Label": "Rester en marche",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionKeepWarm.Label": "Maintien au chaud",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionTurnOff.Label": "Éteindre",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionAutoAdvance.Label": "Avance automatique",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionWaitForNextCommand.Label": "Attente de la prochaine commande",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionWaitForTimeExpire.Label": "Attente de l’expiration du temps",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionWaitForDoor.Label": "Attente de la porte",
+        "OvenUpperCavity_OpSetCookTimeCompleteAction.EnumValues.ProcessCmpltActionWaitForEvent.Label": "Attente d’un événement",
+        "OvenUpperCavity_OpSetOperations.EnumValues.OperationsNone.Label": "Opérations Aucune",
+        "OvenUpperCavity_OpSetOperations.EnumValues.OperationsCancel.Label": "Opérations annulées",
+        "OvenUpperCavity_OpSetOperations.EnumValues.OperationsStart.Label": "Opérations Mises en marche",
+        "OvenUpperCavity_OpSetOperations.EnumValues.OperationsSetOnDisplay.Label": "Opérations Réglage de l’affichage en marche",
+        "OvenUpperCavity_OpSetOperations.EnumValues.OperationsModify.Label": "Opération modifiée",
+        "OvenUpperCavity_CycleSetBrowning.EnumValues.BrowningNone.Label": "Dorer Aucun",
+        "OvenUpperCavity_CycleSetBrowning.EnumValues.BrowningLow.Label": "Dorer Faible",
+        "OvenUpperCavity_CycleSetBrowning.EnumValues.BrowningMedium.Label": "Dorer Moyen",
+        "OvenUpperCavity_CycleSetBrowning.EnumValues.BrowningHigh.Label": "Dorer Élevé",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeIdle.Label": "Inactif",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeBake.Label": "Cuisson au four",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeSabbathBake.Label": "Cuisson au four Sabbat",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeConvectBake.Label": "Cuisson au four par convection",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeBroil.Label": "Cuisson au gril",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.ConvectBakeFoodPastry.Label": "Cuisson de pâtisseries par convection",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeConvectBroil.Label": "Cuisson au gril par convection",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeSteam.Label": "Vapeur",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeConvectRoast.Label": "Rôtissage par convection",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeConvectSlowRoast1.Label": "Rôtissage lent par convection BAS",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeKeepWarm.Label": "Maintenir au chaud",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeConvectSlowRoast2.Label": "Rôtissage lent par convection MOYEN",
+        "OvenUpperCavity_CycleSetCommonMode.EnumValues.CommonModeConvectSlowRoast3.Label": "Rôtissage lent par convection ÉLEVÉ",
+        "OvenUpperCavity_CycleSetConvectBakeFood.EnumValues.ConvectBakeFoodIdle.Label": "Aliment en attente",
+        "OvenUpperCavity_CycleSetConvectBakeFood.EnumValues.ConvectBakeFoodFrozenPizza.Label": "Cuisson par convection de pizza surgelée",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodIdle.Label": "Inactif",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodMeat.Label": "Viande",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodPoultry.Label": "Volaille",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodSeafood.Label": "Fruits de mer",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodVegetable.Label": "Légumes",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodBread.Label": "Pain",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodCasserole.Label": "Mets en sauce",
+        "OvenUpperCavity_CycleSetEasySteamFood.EnumValues.EasySteamFoodDessert.Label": "Dessert",
+        "OvenUpperCavity_CycleSetEasyConvectFood.EnumValues.EasyConvectFoodIdle.Label": "Inactif",
+        "OvenUpperCavity_CycleSetConvectBakeFood.EnumValues.ConvectBakeFoodPastry.Label": "Cuisson de pâtisseries par convection",
+        "OvenUpperCavity_CycleSetEasyConvectFood.EnumValues.EasyConvectFoodBakedGoods.Label": "Produits de boulangerie",
+        "OvenUpperCavity_CycleSetEasyConvectFood.EnumValues.EasyConvectFoodMeat.Label": "Viande",
+        "OvenUpperCavity_CycleSetBreadProof.EnumValues.BreadProofNone.Label": "Aucun",
+        "OvenUpperCavity_CycleSetBreadProof.EnumValues.BreadProofStandard.Label": "Levée",
+        "OvenUpperCavity_CycleSetBreadProof.EnumValues.BreadProofRapid.Label": "Levée rapide",
+        "OvenUpperCavity_CycleSetCleanOvenMode.EnumValues.CleanOvenIdle.Label": "Inactif",
+        "OvenUpperCavity_CycleSetCleanOvenMode.EnumValues.CleanOvenStandard.Label": "Autonettoyage",
+        "Relational_EnvelopeAction.EnumValues.ActionCreate.Label": "Action Créer",
+        "Relational_EnvelopeAction.EnumValues.ActionGet.Label": "Action Obtenir",
+        "Relational_EnvelopeAction.EnumValues.ActionUpdate.Label": "Action Mise à jour",
+        "Relational_EnvelopeAction.EnumValues.ActionDelete.Label": "Action Supprimer",
+        "Relational_EnvelopeAction.EnumValues.ActionPublish.Label": "Action Publier",
+        "Relational_EnvelopeAction.EnumValues.ActionStart.Label": "Action Démarrer",
+        "Relational_EnvelopeAction.EnumValues.ActionSetOnDisplay.Label": "Action Régler l’affichage",
+        "OvenUpperCavity.Label" : "Four",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeBake.Label": "Cuisson au four",
+        "ConvectBake.Label": "Cuisson au four par convection",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBake.Label": "Cuisson au four par convection",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodBakedGoods.Label": "Produits de boulangerie",
+        "ConvectRoast.Label": "Rôtissage par convection",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectRoast.Label": "Rôtissage par convection",
+        "OvenUpperCavity_CycleSetEasyConvectFoodEasyConvectFoodMeat.Label": "Meat",
+        "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodFrozenPizza.Label": "Cuisson par convection de pizza surgelée",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectBroil.Label": "Cuisson au gril par convection",
+        "OvenUpperCavity_CycleSetConvectBakeFoodConvectBakeFoodPastry.Label": "Cuisson de pâtisseries par convection",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeBroil.Label": "Cuisson au gril",
+        "OvenUpperCavity_CycleSetBreadProofBreadProofStandard.Label": "Levée",
+        "OvenUpperCavity_CycleSetBreadProofBreadProofRapid.Label": "Levée rapide",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeKeepWarm.Label": "Maintien au chaud",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast1.Label": "Rôtissage lent par convection BAS",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast2.Label": "Rôtissage lent par convection MOYEN",
+        "OvenUpperCavity_CycleSetCommonModeCommonModeConvectSlowRoast3.Label": "Rôtissage lent par convection ÉLEVÉ",
+        "ProbeCook.Label": "Probe Cook",
+        "Manual.Label": "Réglage manuel",
+        "Auto.Label":"Auto",
+        "Steam.Label" : "Vapeur",
+        "EasySteamFoodBread.Label": "Pain",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodBread.Label": "Pain",
+        "EasySteamFoodMeat.Label": "Viande",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodMeat.Label": "Viande",
+        "EasySteamFoodPoultry.Label": "Volaille",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodPoultry.Label": "Volaille",
+        "EasySteamFoodVegetable.Label": "Légumes",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodVegetable.Label": "Légumes",
+        "EasySteamFoodDessert.Label": "Dessert",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodDessert.Label": "Dessert",
+        "EasySteamFoodCasserole.Label": "Mets en sauce",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodCasserole.Label": "Mets en sauce",
+        "EasySteamFoodSeafood.Label": "Fruits de mer",
+        "OvenUpperCavity_CycleSetEasySteamFoodEasySteamFoodSeafood.Label": "Fruits de mer",
+        "ControlLock.Label" : "Control lock",
+        "ControlLock.Description": "Permet de verrouiller les commandes pour éviter une utilisation involontaire de l'appareil.",
+        "Notifications.Label" : "Notifications",
+        "Notifications.Description" : "Start or stop notifications for individual notifications at any time",
+        "KitchenTimer.Label" : "Kitchen timer",
+        "KitchenTimer.Description" : "Set a timer to measure specific time intervals during the cooking process",
+        "LightOnOff.Label" : "Cavity light",
+        "LightOnOff.Description" : "Turn your cavity light on/off any any time"
+    },
+    "AFCSelfHelpPack": {
+    "F1,E0": {
+      "ErrorCode": "F1E0",
+      "Name": "Carte de l’interface utilisateur",
+      "Description": "Il peut y avoir un problème avec la commande du four, la carte de l’interface utilisateur ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        " Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F1,E1": {
+      "ErrorCode": "F1E1",
+      "Name": "Contrôler le tableau de relais",
+      "Description": "Il peut y avoir un problème avec la commande du four ou son câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F2,E1": {
+      "ErrorCode": "F2E1",
+      "Name": "Touche bloquée",
+      "Description": "Il peut y avoir un problème avec la carte de l’interface utilisateur.",
+      "StepsToRepair": [
+        "ourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F2,E2": {
+      "ErrorCode": "F2E2",
+      "Name": "Bouton du four",
+      "Description": "Il peut y avoir un problème avec la carte de l’interface utilisateur.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F3,E0": {
+      "ErrorCode": "F3E0",
+      "Name": "Capteur du four principal",
+      "Description": "Il peut y avoir un problème avec le capteur de température du four principal, la commande ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        " Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F3,E1": {
+      "ErrorCode": "F3E1",
+      "Name": "Capteur du four de gauche",
+      "Description": "Il peut y avoir un problème avec le capteur de température du four de gauche, la commande ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F3,E3": {
+      "ErrorCode": "F3E3",
+      "Name": "Sonde de cuisson – pour le four principal seulement",
+      "Description": "Il peut y avoir un problème avec le capteur de la sonde de cuisson du four principal, la carte de l’interface utilisateur associée ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F3,E9": {
+      "ErrorCode": "F3E9",
+      "Name": "Capteur de la sonde de cuisson du four de gauche court-circuité",
+      "Description": "Il peut y avoir un problème avec le capteur de la sonde de cuisson du four de gauche, la carte de l’interface utilisateur associée ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F5,E0": {
+      "ErrorCode": "F5E0",
+      "Name": "Contacteur de loquet de la porte du four principal",
+      "Description": "Il peut y avoir un problème avec le loquet de porte, le commutateur de porte du four principal ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F5,E1": {
+      "ErrorCode": "F5E1",
+      "Name": "Moteur de loquet de la porte du four principal",
+      "Description": "Il peut y avoir un problème avec le loquet de porte ou son câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F5,E3": {
+      "ErrorCode": "F5E3",
+      "Name": "Contacteur de loquet de la porte du four de gauche ",
+      "Description": "Il peut y avoir un problème avec le loquet de porte, le commutateur de porte du four de gauche ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F5,E4": {
+      "ErrorCode": "F5E4",
+      "Name": "Moteur de loquet de la porte du four de gauche",
+      "Description": "Il peut y avoir un problème avec le loquet de porte du four de gauche ou son câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E0": {
+      "ErrorCode": "F6E0",
+      "Name": "Connexion de l’interface utilisateur",
+      "Description": "Il peut y avoir un problème avec la commande du four, la carte de l’interface utilisateur ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E1": {
+      "ErrorCode": "F6E1",
+      "Name": "Limite de température supérieure du four principal",
+      "Description": "Il peut y avoir un problème avec le capteur de température du four principal, la commande du four principal ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E3": {
+      "ErrorCode": "F6E3",
+      "Name": "Limite de température supérieure du four de gauche",
+      "Description": "Il peut y avoir un problème avec le capteur de température du four de gauche, la commande du four de gauche ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E4": {
+      "ErrorCode": "F6E4",
+      "Name": "État des commandes",
+      "Description": "Il peut y avoir un problème avec la commande du four principal.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E6": {
+      "ErrorCode": "F6E6",
+      "Name": "Connexion de la commande du four principal",
+      "Description": "Il peut y avoir un problème avec la commande principale ou son câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        " Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F6,E9": {
+      "ErrorCode": "F6E9",
+      "Name": "Connexion de la commande du four de gauche",
+      "Description": "Il peut y avoir un problème avec la commande du four de gauche ou son câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F7,E1": {
+      "ErrorCode": "F7E1",
+      "Name": "Température du chauffe-eau supérieure à limite",
+      "Description": "Il peut y avoir un problème avec le capteur de température d’ébullition, la commande du four principal ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F7,E2": {
+      "ErrorCode": "F7E2",
+      "Name": "Température de chauffe-eau hors plage",
+      "Description": "Il peut y avoir un problème avec le capteur de température d’ébullition, la commande du four principal ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F8,E0": {
+      "ErrorCode": "F8E0",
+      "Name": "Vitesse trop lente du ventilateur de refroidissement du four principal",
+      "Description": "Il peut y avoir un problème avec la restriction du débit d’air, le ventilateur de refroidissement du four principal, la commande du four principale ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        " Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F8,E1": {
+      "ErrorCode": "F8E1",
+      "Name": "Vitesse trop lente du ventilateur de refroidissement du four de gauche",
+      "Description": "Il peut y avoir un problème avec la restriction du débit d’air, le ventilateur de refroidissement du four de gauche, la commande du four de gauche ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F8,E2": {
+      "ErrorCode": "F8E2",
+      "Name": "Vitesse trop élevée du ventilateur de refroidissement du four principal",
+      "Description": "Il peut y avoir un problème avec la restriction du débit d’air, le ventilateur de refroidissement du four principal, la commande du four principale ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit.",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F8,E3": {
+      "ErrorCode": "F8E3",
+      "Name": "Vitesse trop élevée du ventilateur de refroidissement du four de gauche",
+      "Description": "Il peut y avoir un problème avec la restriction du débit d’air, le ventilateur de refroidissement du four de gauche, la commande du four de gauche ou leur câblage.",
+      "StepsToRepair": [
+        "Tourner le bouton de température à la position « arrêt » pour annuler l’erreur et reprendre l’utilisation du produit. ",
+        "Si le problème persiste, réinitialiser l’alimentation du produit :",
+        "Couper l’alimentation de l’appareil en fermant le disjoncteur pendant (1) minute.",
+        "Remettre en marche le programme et surveiller le four pendant (1) minute pour s’assurer que le code d’erreur ne s’affiche plus.",
+        "Vérifier le fonctionnement du four.",
+        "Si le problème continu, composer le 1 800 JENN-AIR (536-6247) pour obtenir de l’aide."
+      ],
+      "HelpPath": ""
+    },
+    "F9,E0": {
+      "ErrorCode": "F9E0",
+      "Name": "Entrée d’alimentation",
+      "Description": "Le câblage de la prise électrique du domicile est peut-être défectueux.",
+      "StepsToRepair": [
+        "Demander à un électricien qualifié d’inspecter le circuit d’alimentation électrique."
+      ],
+      "HelpPath": ""
+    }
+  },
+    "MobileLiterals": {
+        "Manuals": {
+            "UseCareGuide": {
+                "Title": "Guide d’utilisation et d’entretien",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleSteam_V1/Docs/eng/UserCareGuide.pdf"
+            },
+            "InstallationInstructions": {
+                "Title": "Instructions d’installation",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleSteam_V1/Docs/eng/InstallationInstruction.pdf"
+            },
+            "Warranty": {
+                "Title": "Garantie",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleSteam_V1/Docs/eng/Warranty.pdf"
+            },
+            "FccInformationForm": {
+                "Title": "Fiche informative du CFC",
+                "FilePath": "NAR/JENNAIR/DDM_COOKING_U2_JASingleSteam_V1/Docs/eng/FccInformation.pdf"
+            }
+        },
+        "NestSettings": {
+            "AwayOvenWarning.Name": "Fermer lorsqu’absent",
+            "AwayOvenWarning.Description": "Recevez une notification vous demandant si vous souhaitez que Nest™ ferme votre four s’il détecte que vous êtes absent, mais que votre four fonctionne toujours.   Veuillez noter qu’il faudra peut-être jusqu’à 2 heures à Nest™ pour envoyer le signal que vous n’êtes pas là."
+        },
+        "SpecialtyCycles": {},
+        "SupplyItem": {
+            "ExtendedWarranty": {},
+            "ScheduleService": {
+                "Name": "Prendre rendez-vous",
+                "Description": "Prendre rendez-vous",
+                "Disclaimer": "Prendre rendez-vous",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "États-Unis",
+                        "url": "https://jennair.com/customer-care/schedule-repair"
+                    },
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "Canada",
+                        "url": "http://www.jennair.ca/customer-care/schedule-service/"
+                    }
+                ]
+            }
+        },
+        "Parts & Accessories": {
+            "Griddle": {
+                "Name": "Plaque à frire",
+                "Description": "Une plaque à frire en acier inoxydable avec un fond en aluminium qui peut être utilisée sur les tables de cuisson modulaires à induction ou à gaz sélectionnées.",
+                "Disclaimer": "",
+                "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W11035422_Original.tif",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "États-Unis",
+                        "url": "https://jennair.com/accessories/details/W11035422"
+                    }
+                ]
+            },
+            "Flat Bottom Wok": {
+                "Name": "Wok à fond plat",
+                "Description": "Le wok à fond plat d’un grand raffinement est conçu pour être utilisé avec une grande variété de techniques de cuisson comme la cuisson à la vapeur, les sautés à feu vif, le braisage, le pochage et plus. Ce pratique ustensile à technologie par induction est essentiel dans la cuisine de tout amateur.",
+                "Disclaimer": "",
+                "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W11035423_Original.tif",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "États-Unis",
+                        "url": "https://jennair.com/accessories/details/W11035423"
+                    }
+                ]
+            },
+            "Cooktop Cleaner": {
+                "Name": "Nettoyant pour table de cuisson affresh®",
+                "Description": "Le nettoyant pour table de cuisson affresh® est spécialement conçu pour nettoyer les taches tenaces cuites sur la surface de la table de cuisson. Utiliser tous les mois ou au besoin pour polir la table de cuisson et lui procurer un lustre éclatant.",
+                "Disclaimer": "",
+                "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W10355051_Original.jpg",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "États-Unis",
+                        "url": "https://www.amazon.com/Whirlpool-W10355051-10-Ounce-Affresh-Cooktop/dp/B004VJSUM6/ref=sr_1_1?s=hi&ie=UTF8&qid=1517433369&sr=1-1&keywords=W10355051"
+                    }
+                ]
+            },
+            "Cooktop Cleaning Wipes": {
+                "Name": "Lingettes nettoyantes pour table de cuisson affresh®",
+                "Description": "Les lingettes nettoyantes pour table de cuisson affresh® sont spécialement conçues avec un côté pour frotter et enlever les résidus de tous les jours et l’autre côté pour lustrer la surface en céramique de votre table de cuisson et lui donner une apparence éclatante.",
+                "Disclaimer": "",
+                "Path": "NAR/JENNAIR/DDM_COOKING_Loki_JA_V1/Docs/W10539770_Original.tif",
+                "SupplyLocations": [
+                    {
+                        "Merchant": "JennAir",
+                        "Country": "États-Unis",
+                        "url": "https://www.amazon.com/Affresh-W10539770-Cooktop-Cleaning-Wipes/dp/B06VT232FH/ref=sr_1_1?s=hi&ie=UTF8&qid=1517433335&sr=8-1&keywords=W10539770"
+                    }
+                ]
+            }
+        },
+        "Set Oven": {
+            "MainMode": {
+                "OvenUpperCavity": {
+                    "Bake": {
+                        "Name": "Bake (cuisson au four)"
+                    },
+                    "Convect Bake": {
+                        "Name": "Cuisson au four par convection"
+                    },
+                    "Convect Roast": {
+                        "Name": "Rôtissage par convection"
+                    },
+                    "Convect Frozen Pizza": {
+                        "Name": "Cuisson par convection de pizza surgelée"
+                    },
+                    "Convect Broil": {
+                        "Name": "Cuisson au gril par convection"
+                    },
+                    "Convect Pastry": {
+                        "Name": "Cuisson de pâtisseries par convection"
+                    },
+                    "Broil": {
+                        "Name": "Cuisson au gril"
+                    },
+                    "Proof": {
+                        "Name": "Levée"
+                    },
+                    "Rapid Proof": {
+                        "Name": "Levée rapide"
+                    },
+                    "Keep Warm": {
+                        "Name": "Maintien au chaud"
+                    },
+                    "Self-Clean": {
+                        "Name": "Autonettoyage"
+                    },
+                    "Convect Slow Roast LO": {
+                        "Name": "Rôtissage lent par convection BAS"
+                    },
+                    "Convect Slow Roast MED": {
+                        "Name": "Rôtissage lent par convection MOYEN"
+                    },
+                    "Convect Slow Roast HI": {
+                        "Name": "Rôtissage lent par convection ÉLEVÉ"
+                    }
+                },
+                "OvenLowerCavity": {
+                    "Bake": {
+                        "Name": "Cuisson au four"
+                    },
+                    "Convect Bake": {
+                        "Name": "Cuisson au four par convection"
+                    },
+                    "Convect Roast": {
+                        "Name": "Rôtissage par convection"
+                    },
+                    "Convect Frozen Pizza": {
+                        "Name": "Cuisson par convection de pizza surgelée"
+                    },
+                    "Convect Broil": {
+                        "Name": "Cuisson au gril par convection"
+                    },
+                    "Convect Pastry": {
+                        "Name": "Cuisson de pâtisseries par convection"
+                    },
+                    "Broil": {
+                        "Name": "Cuisson au gril"
+                    },
+                    "Proof": {
+                        "Name": "Levée"
+                    },
+                    "Rapid Proof": {
+                        "Name": "Levée rapide"
+                    },
+                    "Keep Warm": {
+                        "Name": "Maintien au chaud"
+                    },
+                    "Self-Clean": {
+                        "Name": "Autonettoyage"
+                    },
+                    "Convect Slow Roast LO": {
+                        "Name": "Rôtissage lent par convection BAS"
+                    },
+                    "Convect Slow Roast MED": {
+                        "Name": "Rôtissage lent par convection MOYEN"
+                    },
+                    "Convect Slow Roast HI": {
+                        "Name": "Rôtissage lent par convection ÉLEVÉ"
+                    }
+                }
+            },
+            "CookingStyle": {
+                "Auto": {
+                    "Name": "Auto"
+                },
+                "Manual": {
+                    "Name": "Réglage manuel"
+                },
+                "Easy": {
+                    "Name": "Facile"
+                }
+            },
+            "CookingModeLabels": {
+                "Mode": {
+                    "Name": "Mode"
+                },
+                "CookingStyle": {
+                    "Name": "Style de cuisson"
+                },
+                "Food": {
+                    "Name": "Aliment"
+                },
+                "CookTime": {
+                    "Name": "Durée de cuisson"
+                },
+                "Temparature": {
+                    "Name": "Température"
+                },
+                "Delay": {
+                    "Name": "Ajouter un délai"
+                },
+                "CycleName": {
+                    "Name": "Nom du programme"
+                }
+            }
+        },
+        "Notifications": {
+            "OvenOnWhileAway": {
+                "Name": "Four en marche lorsqu’absent",
+                "Description": "Votre maison est en mode absent/absent automatique et votre four fonctionne toujours."
+            },
+            "CookCycleCanceled": {
+                "Name": "Programme de cuisson annulé",
+                "Description": "Recevez une notification si le programme de cuisson du four a été annulé."
+            },
+            "CookModeChanged": {
+                "Name": "Mode de cuisson modifiée",
+                "Description": "Recevez une notification lorsque le mode de cuisson a été modifié."
+            },
+            "CookTargetTempChanged": {
+                "Name": "Température du four modifiée",
+                "Description": "Recevez une notification lorsque la température du four a été modifiée."
+            },
+            "CookTimeComplete": {
+                "Name": "Fin de cuisson",
+                "Description": "Recevez une notification lorsque la minuterie de cuisson du four est terminée. "
+            },
+            "CookTimerChanged": {
+                "Name": "Temps de cuisson modifié",
+                "Description": "Recevez une notification lorsque le temps de cuisson a été modifié."
+            },
+            "MeatProbeTempAchieved": {
+                "Name": "Température de la sonde atteinte",
+                "Description": "Recevez une notification lorsque la sonde de cuisson atteint la température souhaitée."
+            },
+            "PreheatComplete": {
+                "Name": "Préchauffage terminé",
+                "Description": "Recevez une notification lorsque le préchauffage du four est terminé."
+            },
+            "RemoteStatus": {
+                "Name": "État de commande à distance",
+                "Description": "Recevez une notification lorsque les commandes à distance sont activées ou désactivées."
+            },
+            "ErrorNotification": {
+                "Name": "Notification d’erreur",
+                "Description": "Recevez une notification lorsqu’un code d’erreur se produit. "
+            }
+        },
+        "smartTip": [],
+        "cxcDetail": {
+            "US": {
+                "Country": "États-Unis",
+                "cxcEmail": {
+                    "Development": "wcloud@mailinator.com",
+                    "Test": "wcloud@mailinator.com",
+                    "Staging": "wcloud@mailinator.com",
+                    "Cuft": "Connected_Appliances@Whirlpool.com",
+                    "Production": "Connected_Appliances@Whirlpool.com"
+                },
+                "cxcPhone": {
+                    "Development": "1 800 536-6247",
+                    "Test": "1 800 536-6247",
+                    "Staging": "1 800 536-6247",
+                    "Cuft": "1 800 536-6247",
+                    "Production": "1 800 536-6247"
+                },
+                "cxcHours": {
+                    "Development": "Du lundi au vendredi de 8 h à 20 h HNE",
+                    "Test": " Du lundi au vendredi de 8 h à 20 h HNE",
+                    "Staging": " Du lundi au vendredi de 8 h à 20 h HNE",
+                    "Cuft": " Du lundi au vendredi de 8 h à 20 h ",
+                    "Production": " Du lundi au vendredi de 8 h à 20 h HNE"
+                }
+            },
+            "CA": {
+                "Country": "Canada",
+                "cxcEmail": {
+                    "Development": "Connected_Appliances@Whirlpool.com",
+                    "Test": "Connected_Appliances@Whirlpool.com",
+                    "Staging": "Connected_Appliances@Whirlpool.com",
+                    "Cuft": "Connected_Appliances@Whirlpool.com",
+                    "Production": "Connected_Appliances@Whirlpool.com"
+                },
+                "cxcPhone": {
+                    "Development": "1 800 536-6247",
+                    "Test": "1 800 536-6247",
+                    "Staging": "1 800 536-6247",
+                    "Cuft": "1 800 536-6247",
+                    "Production": "1 800 536-6247"
+                },
+                "cxcHours": {
+                    "Development": "M-F 8 h – 20 h HNE",
+                    "Test": "M-F 8 h – 20 h HNE",
+                    "Staging": "M-F 8 h – 20 h HNE",
+                    "Cuft": "M-F 8 h – 20 h HNE",
+                    "Production": "M-F 8 h – 20 h HNE"
+                }
+            }
+        }
+    },
+    "NotificationMessages": {
+        "NotificationContents": [
+            {
+                "TemplateId": "Four en mode absent",
+                "PushText": "Votre maison est en mode absent/absent automatique et votre four fonctionne toujours",
+                "AlertTitle": "Four en marche lorsqu’absent",
+                "Type": "en ligne"
+            },
+            {
+                "TemplateId": "Programme de cuisson annulé",
+                "EmailText": "Le mode de cuisson de votre four a été annulé.",
+                "PushText": "Le mode de cuisson de votre four a été annulé.",
+                "SmsText": "Le mode de cuisson de votre four a été annulé.",
+                "AlertTitle": "Mode de cuisson annulé",
+                "Type": "Mode de cuisson"
+            },
+            {
+                "TemplateId": "Mode de cuisson modifié",
+                "EmailText": "Le mode de cuisson de votre four a été modifié.",
+                "PushText": "Le mode de cuisson de votre four a été modifié.",
+                "AlertTitle": "Mode de cuisson modifiée",
+                "Type": "Mode de cuisson"
+            },
+            {
+                "TemplateId": "Température de cuisson cible modifiée",
+                "EmailText": "La température de votre four a été modifiée.",
+                "PushText": "La température de votre four a été modifiée.",
+                "SmsText": "La température de votre four a été modifiée.",
+                "AlertTitle": "Température du four modifiée",
+                "Type": "Mode de cuisson"
+            },
+            {
+                "TemplateId": "Minuterie de cuisson terminée",
+                "EmailText": "Le temps de cuisson de votre four est terminé.",
+                "PushText": "Le temps de cuisson de votre four est terminé.",
+                "AlertTitle": "Fin de cuisson",
+                "Type": "Minuterie de cuisson"
+            },
+            {
+                "TemplateId": "Minuterie de cuisson modifiée",
+                "EmailText": "Le temps de cuisson de votre four a été modifié.",
+                "PushText": "Le temps de cuisson de votre four a été modifié.",
+                "AlertTitle": "Temps de cuisson modifié",
+                "Type": "Minuterie de cuisson"
+            },
+            {
+                "TemplateId": "Température de sonde atteinte",
+                "EmailText": "La température cible de votre sonde est atteinte.",
+                "PushText": "La température cible de votre sonde est atteinte.",
+                "SmsText": "La température cible de votre sonde est atteinte.",
+                "AlertTitle": "Température de la sonde atteinte",
+                "Type": "Sonde de cuisson"
+            },
+            {
+                "TemplateId": "Préchauffage terminé",
+                "EmailText": "Préchauffage terminé. Appuyer sur START, COOK, TIMER (mise en marche, cuisson, minuterie) pour commencer et insérer les aliments.",
+                "PushText": "Préchauffage terminé. Appuyer sur START, COOK, TIMER (mise en marche, cuisson, minuterie) pour commencer et insérer les aliments.",
+                "SmsText": "Préchauffage terminé. Appuyer sur START, COOK, TIMER (mise en marche, cuisson, minuterie) pour commencer et insérer les aliments.",
+                "AlertTitle": "Préchauffage terminé",
+                "Type": "Préchauffage"
+            },
+            {
+                "TemplateId": "État de la commande à distance désactivée",
+                "EmailText": "La commande à distance de votre four a été désactivée.",
+                "PushText": "La commande à distance de votre four a été désactivée.",
+                "SmsText": "La commande à distance de votre four a été désactivée.",
+                "AlertTitle": "État de commande à distance",
+                "Type": "Commande à distance"
+            },
+            {
+                "TemplateId": "État de la commande à distance activée",
+                "EmailText": "La commande à distance de votre four a été activée.",
+                "PushText": "La commande à distance de votre four a été activée.",
+                "SmsText": "La commande à distance de votre four a été activée.",
+                "AlertTitle": "État de commande à distance",
+                "Type": "Commande à distance"
+            },
+            {
+                "TemplateId": "F1E0",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F1, E0).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F1, E0).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F1, E0).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F1E1",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F1, E1).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F1, E1).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F1, E1).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F2E1",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F2, E1).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F2, E1).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F2, E1).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F2E2",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F2, E2).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F2, E2).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F2, E2).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F3E0",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E0).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E0).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E0).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F3E1",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E1).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E1).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E1).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F3E3",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E3).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E3).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E3).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F3E9",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E9).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E9).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F3, E9).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F5E0",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E0).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E0).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E0).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F5E1",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E1).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E1).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E1).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F5E3",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E3).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E3).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E3).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F5E4",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E4).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E4).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F5, E4).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F6E0",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E0).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E0).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E0).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F6E1",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E1).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E1).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E1).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F6E3",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E3).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E3).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E3).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F6E4",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E4).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E4).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E4).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F6E6",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E6).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E6).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E6).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F6E9",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E9).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E9).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F6, E9).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F7E1",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F7, E1).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F7, E1).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F7, E1).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F7E2",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F7, E2).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F7, E2).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F7, E2).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F8E0",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E0).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E0).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E0).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F8E1",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E1).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E1).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E1).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F8E2",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E2).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E2).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E2).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F8E3",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E3).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E3).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F8, E3).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            },
+            {
+                "TemplateId": "F9E0",
+                "EmailText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F9, E0).",
+                "PushText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F9, E0).",
+                "SmsText": "Il semble y avoir un problème avec votre four. Consultez la section service et assistance de l’application pour obtenir des instructions supplémentaires sur le code de défaut (F9, E0).",
+                "AlertTitle": "Notification d’erreur",
+                "Type": "défaut"
+            }
+        ]
+    }
+}
